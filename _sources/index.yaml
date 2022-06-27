@@ -1,0 +1,34 @@
+courseId: courseID 
+lang: sr
+title: Дигитални свет за 3 разред
+description:
+  willLearn: 
+    - Preview of Petljadoc course
+  requirements:
+    - Petljadoc
+    - Runestone
+    - Sphinx
+  toc:
+    - Intro to Petljadoc INDEX.yaml
+  externalLinks:  
+    - text: Sphinx Docs
+      href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+    - text: Petljadoc
+      href: https://github.com/Petlja/PetljaDoc/blob/master/README.md
+    - text: Runestone Interactive
+      href: https://github.com/RunestoneInteractive/overview
+  longDescription: |
+    Дигитални свет
+  shortDescription: Дигитални свет за 3 разред
+
+
+lessons:
+  - title: Увод
+    guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
+    folder: 1_Lesson
+    activities:
+      - type: reading
+        title: Блокли
+        file: intro.rst 
+        description: #Optional
+        guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
