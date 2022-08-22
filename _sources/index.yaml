@@ -9,7 +9,15 @@ description:
     - Runestone
     - Sphinx
   toc:
-    - Intro to Petljadoc INDEX.yaml
+    - 0_Uvod
+    - 1_O Karelu
+    - 2_Linijski programi.rst 
+    - 3_Brojacke petlje.rst
+    - 4_Uslovne petlje.rst
+    - 5_Aritmeticke i logicke operacije
+    - 6_Grananje u programu.rst
+    - 7_Razni zadaci.rst
+    - 8_Programiranje fizickih uredjaja
   externalLinks:  
     - text: Sphinx Docs
       href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
@@ -23,12 +31,52 @@ description:
 
 
 lessons:
-  - title: Увод
+  - title: Алгоритамски начин размишљања
     guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
-    folder: 1_Lesson
+    folder: Algoritamski nacin razmisljanja
     activities:
       - type: reading
-        title: Блокли
-        file: intro.rst 
+        title: Алгоритам, да се подсетимо...
+        file: 0_Uvod.rst 
         description: #Optional
         guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
+      - type: reading
+        title: О Карелу
+        file: 1_O Karelu.rst 
+        description: #Optional
+        guid: Tf8F7ycN7kav06/sce7D0A==
+      - type: reading
+        title: Линијски програми
+        file: 2_Linijski programi.rst 
+        description: #Optional
+        guid: xDhNsXapEEGowEGSErZQQA==
+      - type: reading
+        title: Бројачке петље
+        file: 3_Brojacke petlje.rst 
+        description: #Optional
+        guid: 6eAlali6ZkqLNeKhQl1Ygg==
+      - type: reading
+        title: Условне петље
+        file: 4_Uslovne petlje.rst 
+        description: #Optional
+        guid: VAcYXlaPYEmIoOxtecpTfw==
+      - type: reading
+        title: Аритметичке и логичке операције
+        file: 5_Aritmeticke i logicke operacije.rst 
+        description: #Optional
+        guid: p5m+eeZzEUGLHnNdYSAsJQ==
+      - type: reading
+        title: Гранање у програму
+        file: 6_Grananje u programu.rst 
+        description: #Optional
+        guid: 6BrWmFWglEiLwMqtfwrYmg==
+      - type: reading
+        title: Разни задаци
+        file: 7_Razni zadaci.rst 
+        description: #Optional
+        guid: S0dnxjPNi0W0hyb0JO6vmQ==
+      - type: reading
+        title: Програмирање физичких уређаја
+        file: 8_Programiranje fizickih uredjaja.rst 
+        description: #Optional
+        guid: jvt1KCdzDk6SttWAhM4q7w==
