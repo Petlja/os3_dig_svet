@@ -114,7 +114,6 @@
 
 
 .. blockly-karel:: karel_p7 
-   
   :categories: KarelSays, Arithmetic, Logic
 
   {
@@ -142,7 +141,6 @@
 **Састави блокове за решавање следећег задатка:  140 : 10 - 2** 
 
 .. blockly-karel:: karel_z12 
-   
   :categories: KarelSays, Arithmetic, Logic
 
   {
@@ -169,7 +167,6 @@
 **Састави блокове за решавање следећег задатка:  140 : (10 - 3)** 
 
 .. blockly-karel:: karel_z13 
-   
   :categories: KarelSays, Arithmetic
 
   {
@@ -196,7 +193,6 @@
 **Састави блокове за решавање следећег задатка: Од збира бројева 47 и 93 одузми производ бројева 30 и 3.**
 
 .. blockly-karel:: karel_z14 
-   
   :categories: KarelSays, Arithmetic
 
   {
@@ -220,7 +216,6 @@
 **Састави блокове за решавање следећег задатка: Маја има 75 сличица, а Мирко за 19 више. Колико сличица заједно имају Маја и Мирко?**
 
 .. blockly-karel:: karel_z15 
-   
   :categories: KarelSays, Arithmetic
 
   {
@@ -243,8 +238,7 @@
 
 **Марко је за домаћи задатак да провери да ли је тачан следећи израз: (125 + 5) + 270 > 363. Марко је рекао да јесте. Састави програм за овај израз и питај Карела да ли је Марко у праву.**
 
-.. blockly-karel:: karel_z16 
-   
+.. blockly-karel:: karel_z16   
   :categories: KarelSays, Arithmetic, Logic
 
   {
