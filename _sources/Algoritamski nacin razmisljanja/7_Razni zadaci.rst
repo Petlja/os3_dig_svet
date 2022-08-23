@@ -369,7 +369,7 @@
 **Састави блокове за решавање следећег задатка: Од збира бројева 138 и 423 одузми производ бројева 36 и 4.**
 
 .. blockly-karel:: karel_rz11 
-  :exportmode: 
+   
   :categories: KarelSays, Arithmetic, Logic
 
   {

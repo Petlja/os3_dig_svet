@@ -94,7 +94,7 @@ Oсновни је ред да се јавиш ако сретнеш неког 
 
 .. blockly-karel:: karel_z17
   :categories: KarelCommands, Loops, Branching, KarelBrain
-  :exportmode:
+  
   
   {
       setup: function() {
@@ -209,7 +209,7 @@ Oсновни је ред да се јавиш ако сретнеш неког 
 
 .. blockly-karel:: karel_z18
   :categories: KarelCommands, Loops, Branching, KarelBrain, Logic, Arithmetic
-  :exportmode:
+  
   
   {
       setup: function() {

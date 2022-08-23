@@ -34,7 +34,7 @@
 Карел треба да сакупи све лоптице са гомиле!
  
 .. blockly-karel:: karel_p4
-  :exportmode:
+  
   :categories: KarelCommands,KarelBrain, Loops
   
   {
@@ -79,7 +79,7 @@
 **Карел треба да прави корак напред и узме лоптицу са поља све док не наиђе на зид! Сaстави блокове баш по овом упутству!**
 
 .. blockly-karel:: karel_z10
-  :exportmode:
+  
   :categories: KarelCommands,KarelBrain, Loops
   
   {
@@ -105,7 +105,7 @@
 **Карел треба да сакупи све лоптице и убаци их у рупу!**
 
 .. blockly-karel:: karel_z11
-  :exportmode:
+  
   :categories: KarelCommands,KarelBrain, Loops
   
   {

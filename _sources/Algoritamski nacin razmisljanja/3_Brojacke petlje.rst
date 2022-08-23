@@ -26,7 +26,7 @@
 
 .. blockly-karel:: karel_p3
   :flyouttoolbox:
-  :exportmode:
+  
   :categories: KarelCommands, Loops
   
   {
