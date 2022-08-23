@@ -1,0 +1,97 @@
+courseId: courseID
+description:
+  externalLinks:
+  - href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+    text: Sphinx Docs
+  - href: https://github.com/Petlja/PetljaDoc/blob/master/README.md
+    text: Petljadoc
+  - href: https://github.com/RunestoneInteractive/overview
+    text: Runestone Interactive
+  longDescription: '<div class="document">
+
+    <p>Дигитални свет</p>
+
+    </div>
+
+    '
+  requirements:
+  - Petljadoc
+  - Runestone
+  - Sphinx
+  shortDescription: Дигитални свет за 3 разред
+  toc:
+  - 0_Uvod
+  - 1_O Karelu
+  - 2_Linijski programi.rst
+  - 3_Brojacke petlje.rst
+  - 4_Uslovne petlje.rst
+  - 5_Aritmeticke i logicke operacije
+  - 6_Grananje u programu.rst
+  - 7_Razni zadaci.rst
+  - 8_Programiranje fizickih uredjaja
+  willLearn:
+  - Preview of Petljadoc course
+lang: sr
+lessons:
+- activities:
+  - description: ''
+    file: 0_Uvod.html
+    guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
+    src: 0_Uvod.rst
+    title: Алгоритам, да се подсетимо...
+    type: reading
+  - description: ''
+    file: 1_O Karelu.html
+    guid: Tf8F7ycN7kav06/sce7D0A==
+    src: 1_O Karelu.rst
+    title: О Карелу
+    type: reading
+  - description: ''
+    file: 2_Linijski programi.html
+    guid: xDhNsXapEEGowEGSErZQQA==
+    src: 2_Linijski programi.rst
+    title: Линијски програми
+    type: reading
+  - description: ''
+    file: 3_Brojacke petlje.html
+    guid: 6eAlali6ZkqLNeKhQl1Ygg==
+    src: 3_Brojacke petlje.rst
+    title: Бројачке петље
+    type: reading
+  - description: ''
+    file: 4_Uslovne petlje.html
+    guid: VAcYXlaPYEmIoOxtecpTfw==
+    src: 4_Uslovne petlje.rst
+    title: Условне петље
+    type: reading
+  - description: ''
+    file: 5_Aritmeticke i logicke operacije.html
+    guid: p5m+eeZzEUGLHnNdYSAsJQ==
+    src: 5_Aritmeticke i logicke operacije.rst
+    title: Аритметичке и логичке операције
+    type: reading
+  - description: ''
+    file: 6_Grananje u programu.html
+    guid: 6BrWmFWglEiLwMqtfwrYmg==
+    src: 6_Grananje u programu.rst
+    title: Гранање у програму
+    type: reading
+  - description: ''
+    file: 7_Razni zadaci.html
+    guid: S0dnxjPNi0W0hyb0JO6vmQ==
+    src: 7_Razni zadaci.rst
+    title: Разни задаци
+    type: reading
+  - description: ''
+    file: 8_Programiranje fizickih uredjaja.html
+    guid: jvt1KCdzDk6SttWAhM4q7w==
+    src: 8_Programiranje fizickih uredjaja.rst
+    title: Програмирање физичких уређаја
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: Algoritamski nacin razmisljanja
+  guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
+  normalized_title: Алгоритамски начин размишљања
+  title: Алгоритамски начин размишљања
+title: Дигитални свет за 3 разред
