@@ -9,15 +9,7 @@ description:
     - Runestone
     - Sphinx
   toc:
-    - 0_Uvod
-    - 1_O Karelu
-    - 2_Linijski programi.rst 
-    - 3_Brojacke petlje.rst
-    - 4_Uslovne petlje.rst
-    - 5_Aritmeticke i logicke operacije
-    - 6_Grananje u programu.rst
-    - 7_Razni zadaci.rst
-    - 8_Programiranje fizickih uredjaja
+   - Intro to Petljadoc INDEX.yaml
   externalLinks:  
     - text: Sphinx Docs
       href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
@@ -31,52 +23,104 @@ description:
 
 
 lessons:
+  - title: Увод
+    guid: 357c4b51-d39d-48b4-9ff2-9a2d1837c7b1
+    folder: 0_Uvod
+    activities:
+      - type: reading
+        title: Увод
+        file: Uvod.rst 
+        guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
+
+  - title: Рад са текстом
+    guid: 7c02ae23-fe80-4e70-9dc1-4fda6f7b2225
+    folder: 1_Rad sa tekstom
+    activities:
+      - type: reading
+        title: Покретање програма
+        file: 11_Pokretanje programa.rst
+        guid: 1d9d0716-4023-45a4-964b-7fa4adbfac3c
+      - type: reading
+        title: Први кораци
+        file: 12_Prvi koraci.rst
+        guid: 40bc28ca-d94e-4e70-a939-95385c8b79d0
+      - type: reading
+        title: Брисање текста
+        file: 13_Brisanje teksta.rst
+        guid: 7e0e057d-8d83-4656-9c08-5da7e88f240a
+      - type: reading
+        title: Тастатура и писмо
+        file: 14_Tastatura i pismo.rst
+        guid: 0bfb2424-edcf-4a37-b679-e9f91d316f3e       
+      - type: reading
+        title: Унос текста
+        file: 15_Unos teksta.rst
+        guid: df040747-b443-4060-b323-324293c595fb
+      - type: reading
+        title: Виртуелна тастатура
+        file: 16_Virtuelna tastatura.rst
+        guid: 50bd236b-8755-45bf-ba79-06e123956de1
+      - type: reading
+        title: Снимање (чување) документа 
+        file: 17_Snimanje dokumenta.rst
+        guid: 2b559c6f-39cf-4b16-8a46-6ff99f1d2528
+      - type: reading
+        title: Истицање текста
+        file: 18_Isticanje teksta.rst
+        guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
+      - type: reading
+        title: Отварање и затварање документа 
+        file: 19_Otvaranje i zatvaranje dokumenta.rst
+        guid: 7854ff03-a921-4d89-afe6-e7b4d58f50ed
+      - type: reading
+        title: Копирање и премештање текста 
+        file: 110_Kopiranje i premestanje teksta.rst
+        guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
+      - type: reading
+        title: Вежбе 
+        file: 111_Vezbe.rst
+        guid: 127d2e15-db1c-41ed-9354-d843436a386e
+      - type: quiz
+        title: Квиз 
+        file: 112_Kviz.rst
+        guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
   - title: Алгоритамски начин размишљања
-    guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
+    guid: 86146f06-88c7-4b4c-be22-acc5d0350392
     folder: Algoritamski nacin razmisljanja
     activities:
       - type: reading
         title: Алгоритам, да се подсетимо...
         file: 0_Uvod.rst 
-        description: #Optional
-        guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
+        guid: 6779aed4-ece5-435b-af9c-6e256e74e64e
       - type: reading
         title: О Карелу
         file: 1_O Karelu.rst 
-        description: #Optional
         guid: Tf8F7ycN7kav06/sce7D0A==
       - type: reading
         title: Линијски програми
         file: 2_Linijski programi.rst 
-        description: #Optional
         guid: xDhNsXapEEGowEGSErZQQA==
       - type: reading
         title: Бројачке петље
         file: 3_Brojacke petlje.rst 
-        description: #Optional
         guid: 6eAlali6ZkqLNeKhQl1Ygg==
       - type: reading
         title: Условне петље
         file: 4_Uslovne petlje.rst 
-        description: #Optional
         guid: VAcYXlaPYEmIoOxtecpTfw==
       - type: reading
         title: Аритметичке и логичке операције
         file: 5_Aritmeticke i logicke operacije.rst 
-        description: #Optional
         guid: p5m+eeZzEUGLHnNdYSAsJQ==
       - type: reading
         title: Гранање у програму
         file: 6_Grananje u programu.rst 
-        description: #Optional
         guid: 6BrWmFWglEiLwMqtfwrYmg==
       - type: reading
         title: Разни задаци
         file: 7_Razni zadaci.rst 
-        description: #Optional
         guid: S0dnxjPNi0W0hyb0JO6vmQ==
       - type: reading
         title: Програмирање физичких уређаја
         file: 8_Programiranje fizickih uredjaja.rst 
-        description: #Optional
         guid: jvt1KCdzDk6SttWAhM4q7w==
