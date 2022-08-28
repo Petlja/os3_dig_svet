@@ -130,7 +130,7 @@
     <script type="text/javascript" src="../_static/blockly_compressed.js"></script>
     <script type="text/javascript" src="../_static/msg/sr.js"></script>
     <script type="text/javascript" src="../_static/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/javascript_compressed.js."></script>
+    <script type="text/javascript" src="../_static/javascript_compressed.js"></script>
     <script type="text/javascript" src="../_static/karelBlockly.js"></script>
     <script type="text/javascript" src="../_static/karelBlocks.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
@@ -266,36 +266,27 @@
   <div class="section" id="id1">
 <h1>Аритметичке и логичке операције<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Које су основне аритметичке операције? Које су ознаке за њих у математици?
 Како су ове операције означене на калкулатору?</p>
 
-    </p></div></div>
+    </div></div>
 <p>Осим што сакупља и преноси лопте, Карел је и одличан математичар и може да ти помогне да провериш своја решења.
 Овако изгледа када он то ради. Покрени следећи програм!</p>
 
-<div class="course-box course-box-problem" style="padding-top: 15px;">
-<div class="karel_action_wrapper" style="margin-top: 30px;">
-        <div class="karel_actions col-md-12 mb-2"><button class="btn btn-success run-button">Покрени програм</button>
-        <button class="btn btn-default reset-button">Врати на почетак</button>
-        
-        </div>
-</div>
-<div id="blocklyKarelDiv" style="height: 500px;width: 780px;margin-top: 10px;" data-categories='["KarelSays", "Arithmetic"]' ></div>
-<div data-childcomponent="karel_p5" class="karel_section">
-    <div class="course-content">
-
-
-    <div data-component="blocklyKarel" id="karel_p5" class="karel_section" >
-        <div style="overflow: hidden;" class="karel_actions col-md-12" >
-            <section class="col-md-12">
-                <article>
-                    <textarea class="configArea" style="display:none"><!--x {
+<div  style="height: auto;display: flex;justify-content: center;">
+    <div class="course-box course-box-problem karel-blockly-wrapper">
+        <div class="karel-ui">
+            <div data-childcomponent="karel_p5" class="karel_section">
+                <div class="course-content">
+                    <div data-component="blocklyKarel" id="karel_p5" class="karel_section" >
+                        <div style="overflow: hidden;" class="karel_actions col-md-12">
+                            <section class="col-md-12">
+                                <article>
+                                    <textarea class="configArea" style="display:none"><!--x {
           setup:function() {
               var world = new World(3,3);
               world.setRobotStartAvenue(2);
@@ -311,47 +302,59 @@
              return robot.getLastMessage() == 99
           },
 } x--></textarea>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <article>
-                    <canvas class="world" style="border-style: solid; border-width: 2px; border-color: inherit; background: white;" width="300" height="300">
-                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest versions of famous browsers such as Internet explorer, Chrome, Firefox, Opera support HTML5.</p>
-                    </canvas>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <div class = "chat-window" style="display: none"> 
-                </div> 
-            </section>
+                                </article>
+                            </section>
+                            <section class="col-md-12">
+                                <article>
+                                    <canvas class="world"
+                                        style="border-style: solid; border-width: 2px; border-color: inherit; background: white;"
+                                        width="300" height="300">
+                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
+                                            versions
+                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
+                                            HTML5.
+                                        </p>
+                                    </canvas>
+                                </article>
+                            </section>
+                        </div>
+                        <div>
+                            <div class="karel_actions col-md-12 mb-2">
+                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
+                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
+                                
+                            </div>
+                        </div>
+                        <section class="col-md-12">
+                            <div class="chat-window" style="display: none">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+        <div class="blockly-ui">
+            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
+                data-categories='["KarelSays", "Arithmetic"]'></div>
+        </div>
     </div>
-    
-</div></div>
 </div>
+
 
 <div class="section" id="id2">
 <h2>Пример:<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p><strong>Састави блокове за израчунавање производа бројева 78 и 9</strong></p>
 
-<div class="course-box course-box-problem" style="padding-top: 15px;">
-<div class="karel_action_wrapper" style="margin-top: 30px;">
-        <div class="karel_actions col-md-12 mb-2"><button class="btn btn-success run-button">Покрени програм</button>
-        <button class="btn btn-default reset-button">Врати на почетак</button>
-        
-        </div>
-</div>
-<div id="blocklyKarelDiv" style="height: 500px;width: 780px;margin-top: 10px;" data-categories='["KarelSays", "Arithmetic"]' ></div>
-<div data-childcomponent="karel_p6" class="karel_section">
-    <div class="course-content">
-
-
-    <div data-component="blocklyKarel" id="karel_p6" class="karel_section" >
-        <div style="overflow: hidden;" class="karel_actions col-md-12" >
-            <section class="col-md-12">
-                <article>
-                    <textarea class="configArea" style="display:none"><!--x {
+<div  style="height: auto;display: flex;justify-content: center;">
+    <div class="course-box course-box-problem karel-blockly-wrapper">
+        <div class="karel-ui">
+            <div data-childcomponent="karel_p6" class="karel_section">
+                <div class="course-content">
+                    <div data-component="blocklyKarel" id="karel_p6" class="karel_section" >
+                        <div style="overflow: hidden;" class="karel_actions col-md-12">
+                            <section class="col-md-12">
+                                <article>
+                                    <textarea class="configArea" style="display:none"><!--x {
           setup:function() {
               var world = new World(3,3);
               world.setRobotStartAvenue(2);
@@ -366,25 +369,44 @@
             return robot.getLastMessage() == 702
           },
 } x--></textarea>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <article>
-                    <canvas class="world" style="border-style: solid; border-width: 2px; border-color: inherit; background: white;" width="300" height="300">
-                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest versions of famous browsers such as Internet explorer, Chrome, Firefox, Opera support HTML5.</p>
-                    </canvas>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <div class = "chat-window" style="display: none"> 
-                </div> 
-            </section>
+                                </article>
+                            </section>
+                            <section class="col-md-12">
+                                <article>
+                                    <canvas class="world"
+                                        style="border-style: solid; border-width: 2px; border-color: inherit; background: white;"
+                                        width="300" height="300">
+                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
+                                            versions
+                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
+                                            HTML5.
+                                        </p>
+                                    </canvas>
+                                </article>
+                            </section>
+                        </div>
+                        <div>
+                            <div class="karel_actions col-md-12 mb-2">
+                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
+                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
+                                
+                            </div>
+                        </div>
+                        <section class="col-md-12">
+                            <div class="chat-window" style="display: none">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+        <div class="blockly-ui">
+            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
+                data-categories='["KarelSays", "Arithmetic"]'></div>
+        </div>
     </div>
-    
-</div></div>
 </div>
+
 
 <p>Када треба да провери неки рачун, Карел користи блокове из групе <code class="docutils literal notranslate"><span class="pre">Аритметика</span></code>.</p>
 <p>У овој групи се налазе два блока – блок помоћу којег уносиш вредности (операнде, бројеве са којима рачунаш) и блок
@@ -405,15 +427,13 @@
 <p>Покрени програм!</p>
 <p>Појавиле су се две поруке - прва је резултат математичког израза који је састављен, а друга потврђује да је резултат који смо очекивали исправан.</p>
 
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Поред аритметичких операција, у математици се користе и операције поређења. Које су то операције?</p>
 
-    </p></div></div>
+    </div></div>
 <p>Операције поређења се у Кареловом свету налазе у групи <code class="docutils literal notranslate"><span class="pre">Логичке</span> <span class="pre">операције</span></code>. Помоћу њих се праве логички изрази,
 који као вредност могу да врате <code class="docutils literal notranslate"><span class="pre">Тачно</span></code> или <code class="docutils literal notranslate"><span class="pre">Нетачно</span></code>.</p>
 <p>Кликни на групу <code class="docutils literal notranslate"><span class="pre">Логички</span> <span class="pre">оператори</span></code> и превуци први блок (са ознаком <code class="docutils literal notranslate"><span class="pre">=</span></code> у средини) у простор за слагање. Кликни на
@@ -435,23 +455,16 @@
 <h2>Пример<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p><strong>Провери да ли је 325 веће од збира бројева 48 и 286</strong></p>
 
-<div class="course-box course-box-problem" style="padding-top: 15px;">
-<div class="karel_action_wrapper" style="margin-top: 30px;">
-        <div class="karel_actions col-md-12 mb-2"><button class="btn btn-success run-button">Покрени програм</button>
-        <button class="btn btn-default reset-button">Врати на почетак</button>
-        <button class="btn btn-default export-button">Сачувај стање</button>
-        </div>
-</div>
-<div id="blocklyKarelDiv" style="height: 500px;width: 780px;margin-top: 10px;" data-categories='["KarelSays", "Arithmetic", "Logic"]' ></div>
-<div data-childcomponent="karel_p7" class="karel_section">
-    <div class="course-content">
-
-
-    <div data-component="blocklyKarel" id="karel_p7" class="karel_section" >
-        <div style="overflow: hidden;" class="karel_actions col-md-12" >
-            <section class="col-md-12">
-                <article>
-                    <textarea class="configArea" style="display:none"><!--x {
+<div  style="height: auto;display: flex;justify-content: center;">
+    <div class="course-box course-box-problem karel-blockly-wrapper">
+        <div class="karel-ui">
+            <div data-childcomponent="karel_p7" class="karel_section">
+                <div class="course-content">
+                    <div data-component="blocklyKarel" id="karel_p7" class="karel_section" >
+                        <div style="overflow: hidden;" class="karel_actions col-md-12">
+                            <section class="col-md-12">
+                                <article>
+                                    <textarea class="configArea" style="display:none"><!--x {
           setup:function() {
               var world = new World(3,3);
               world.setRobotStartAvenue(2);
@@ -466,25 +479,44 @@
             return robot.getLastMessage() == false
           },
 } x--></textarea>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <article>
-                    <canvas class="world" style="border-style: solid; border-width: 2px; border-color: inherit; background: white;" width="300" height="300">
-                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest versions of famous browsers such as Internet explorer, Chrome, Firefox, Opera support HTML5.</p>
-                    </canvas>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <div class = "chat-window" style="display: none"> 
-                </div> 
-            </section>
+                                </article>
+                            </section>
+                            <section class="col-md-12">
+                                <article>
+                                    <canvas class="world"
+                                        style="border-style: solid; border-width: 2px; border-color: inherit; background: white;"
+                                        width="300" height="300">
+                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
+                                            versions
+                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
+                                            HTML5.
+                                        </p>
+                                    </canvas>
+                                </article>
+                            </section>
+                        </div>
+                        <div>
+                            <div class="karel_actions col-md-12 mb-2">
+                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
+                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
+                                
+                            </div>
+                        </div>
+                        <section class="col-md-12">
+                            <div class="chat-window" style="display: none">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+        <div class="blockly-ui">
+            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
+                data-categories='["KarelSays", "Arithmetic", "Logic"]'></div>
+        </div>
     </div>
-    
-</div></div>
 </div>
+
 
 <p>Прва порука <code class="docutils literal notranslate"><span class="pre">нетачно</span></code> даје резултат (325 није веће од 48 + 286), а друга друга значи да је добијени резултат у складу са текстом овог примера, да су блокови добро сложени.</p>
 </div>
@@ -492,23 +524,16 @@
 <h2>Задатак 12<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <p><strong>Састави блокове за решавање следећег задатка:  140 : 10 - 2</strong></p>
 
-<div class="course-box course-box-problem" style="padding-top: 15px;">
-<div class="karel_action_wrapper" style="margin-top: 30px;">
-        <div class="karel_actions col-md-12 mb-2"><button class="btn btn-success run-button">Покрени програм</button>
-        <button class="btn btn-default reset-button">Врати на почетак</button>
-        <button class="btn btn-default export-button">Сачувај стање</button>
-        </div>
-</div>
-<div id="blocklyKarelDiv" style="height: 500px;width: 780px;margin-top: 10px;" data-categories='["KarelSays", "Arithmetic", "Logic"]' ></div>
-<div data-childcomponent="karel_z12" class="karel_section">
-    <div class="course-content">
-
-
-    <div data-component="blocklyKarel" id="karel_z12" class="karel_section" >
-        <div style="overflow: hidden;" class="karel_actions col-md-12" >
-            <section class="col-md-12">
-                <article>
-                    <textarea class="configArea" style="display:none"><!--x {
+<div  style="height: auto;display: flex;justify-content: center;">
+    <div class="course-box course-box-problem karel-blockly-wrapper">
+        <div class="karel-ui">
+            <div data-childcomponent="karel_z12" class="karel_section">
+                <div class="course-content">
+                    <div data-component="blocklyKarel" id="karel_z12" class="karel_section" >
+                        <div style="overflow: hidden;" class="karel_actions col-md-12">
+                            <section class="col-md-12">
+                                <article>
+                                    <textarea class="configArea" style="display:none"><!--x {
           setup:function() {
               var world = new World(3,3);
               world.setRobotStartAvenue(2);
@@ -522,25 +547,44 @@
             return robot.getLastMessage() == 12
           },
 } x--></textarea>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <article>
-                    <canvas class="world" style="border-style: solid; border-width: 2px; border-color: inherit; background: white;" width="300" height="300">
-                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest versions of famous browsers such as Internet explorer, Chrome, Firefox, Opera support HTML5.</p>
-                    </canvas>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <div class = "chat-window" style="display: none"> 
-                </div> 
-            </section>
+                                </article>
+                            </section>
+                            <section class="col-md-12">
+                                <article>
+                                    <canvas class="world"
+                                        style="border-style: solid; border-width: 2px; border-color: inherit; background: white;"
+                                        width="300" height="300">
+                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
+                                            versions
+                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
+                                            HTML5.
+                                        </p>
+                                    </canvas>
+                                </article>
+                            </section>
+                        </div>
+                        <div>
+                            <div class="karel_actions col-md-12 mb-2">
+                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
+                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
+                                
+                            </div>
+                        </div>
+                        <section class="col-md-12">
+                            <div class="chat-window" style="display: none">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+        <div class="blockly-ui">
+            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
+                data-categories='["KarelSays", "Arithmetic", "Logic"]'></div>
+        </div>
     </div>
-    
-</div></div>
 </div>
+
 
 <p><strong>Помоћ</strong>: Обрати шажњу на приоритет операција. Прво стави у један блок 140 : 2. Затим узми нови блок и подеси операцију одузимање.
 Са леве стране убаци 130:2, а са десне 2</p>
@@ -549,23 +593,16 @@
 <h2>Задатак 13<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <p><strong>Састави блокове за решавање следећег задатка:  140 : (10 - 3)</strong></p>
 
-<div class="course-box course-box-problem" style="padding-top: 15px;">
-<div class="karel_action_wrapper" style="margin-top: 30px;">
-        <div class="karel_actions col-md-12 mb-2"><button class="btn btn-success run-button">Покрени програм</button>
-        <button class="btn btn-default reset-button">Врати на почетак</button>
-        <button class="btn btn-default export-button">Сачувај стање</button>
-        </div>
-</div>
-<div id="blocklyKarelDiv" style="height: 500px;width: 780px;margin-top: 10px;" data-categories='["KarelSays", "Arithmetic"]' ></div>
-<div data-childcomponent="karel_z13" class="karel_section">
-    <div class="course-content">
-
-
-    <div data-component="blocklyKarel" id="karel_z13" class="karel_section" >
-        <div style="overflow: hidden;" class="karel_actions col-md-12" >
-            <section class="col-md-12">
-                <article>
-                    <textarea class="configArea" style="display:none"><!--x {
+<div  style="height: auto;display: flex;justify-content: center;">
+    <div class="course-box course-box-problem karel-blockly-wrapper">
+        <div class="karel-ui">
+            <div data-childcomponent="karel_z13" class="karel_section">
+                <div class="course-content">
+                    <div data-component="blocklyKarel" id="karel_z13" class="karel_section" >
+                        <div style="overflow: hidden;" class="karel_actions col-md-12">
+                            <section class="col-md-12">
+                                <article>
+                                    <textarea class="configArea" style="display:none"><!--x {
           setup:function() {
               var world = new World(3,3);
               world.setRobotStartAvenue(2);
@@ -579,25 +616,44 @@
             return robot.getLastMessage() == 20
           },
 } x--></textarea>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <article>
-                    <canvas class="world" style="border-style: solid; border-width: 2px; border-color: inherit; background: white;" width="300" height="300">
-                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest versions of famous browsers such as Internet explorer, Chrome, Firefox, Opera support HTML5.</p>
-                    </canvas>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <div class = "chat-window" style="display: none"> 
-                </div> 
-            </section>
+                                </article>
+                            </section>
+                            <section class="col-md-12">
+                                <article>
+                                    <canvas class="world"
+                                        style="border-style: solid; border-width: 2px; border-color: inherit; background: white;"
+                                        width="300" height="300">
+                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
+                                            versions
+                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
+                                            HTML5.
+                                        </p>
+                                    </canvas>
+                                </article>
+                            </section>
+                        </div>
+                        <div>
+                            <div class="karel_actions col-md-12 mb-2">
+                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
+                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
+                                
+                            </div>
+                        </div>
+                        <section class="col-md-12">
+                            <div class="chat-window" style="display: none">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+        <div class="blockly-ui">
+            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
+                data-categories='["KarelSays", "Arithmetic"]'></div>
+        </div>
     </div>
-    
-</div></div>
 </div>
+
 
 <p><strong>Помоћ</strong>: Задатак је врло сличан претходном, али сада имаш заграду. У блоку за дељење са
 једне стране треба да стоји 140, а са друге израз који је написан у загради (састави га прво негде са стране).</p>
@@ -606,23 +662,16 @@
 <h2>Задатак 14<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
 <p><strong>Састави блокове за решавање следећег задатка: Од збира бројева 47 и 93 одузми производ бројева 30 и 3.</strong></p>
 
-<div class="course-box course-box-problem" style="padding-top: 15px;">
-<div class="karel_action_wrapper" style="margin-top: 30px;">
-        <div class="karel_actions col-md-12 mb-2"><button class="btn btn-success run-button">Покрени програм</button>
-        <button class="btn btn-default reset-button">Врати на почетак</button>
-        <button class="btn btn-default export-button">Сачувај стање</button>
-        </div>
-</div>
-<div id="blocklyKarelDiv" style="height: 500px;width: 780px;margin-top: 10px;" data-categories='["KarelSays", "Arithmetic"]' ></div>
-<div data-childcomponent="karel_z14" class="karel_section">
-    <div class="course-content">
-
-
-    <div data-component="blocklyKarel" id="karel_z14" class="karel_section" >
-        <div style="overflow: hidden;" class="karel_actions col-md-12" >
-            <section class="col-md-12">
-                <article>
-                    <textarea class="configArea" style="display:none"><!--x {
+<div  style="height: auto;display: flex;justify-content: center;">
+    <div class="course-box course-box-problem karel-blockly-wrapper">
+        <div class="karel-ui">
+            <div data-childcomponent="karel_z14" class="karel_section">
+                <div class="course-content">
+                    <div data-component="blocklyKarel" id="karel_z14" class="karel_section" >
+                        <div style="overflow: hidden;" class="karel_actions col-md-12">
+                            <section class="col-md-12">
+                                <article>
+                                    <textarea class="configArea" style="display:none"><!--x {
           setup:function() {
               var world = new World(3,3);
               world.setRobotStartAvenue(2);
@@ -636,48 +685,60 @@
             return robot.getLastMessage() == 50
           },
 } x--></textarea>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <article>
-                    <canvas class="world" style="border-style: solid; border-width: 2px; border-color: inherit; background: white;" width="300" height="300">
-                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest versions of famous browsers such as Internet explorer, Chrome, Firefox, Opera support HTML5.</p>
-                    </canvas>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <div class = "chat-window" style="display: none"> 
-                </div> 
-            </section>
+                                </article>
+                            </section>
+                            <section class="col-md-12">
+                                <article>
+                                    <canvas class="world"
+                                        style="border-style: solid; border-width: 2px; border-color: inherit; background: white;"
+                                        width="300" height="300">
+                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
+                                            versions
+                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
+                                            HTML5.
+                                        </p>
+                                    </canvas>
+                                </article>
+                            </section>
+                        </div>
+                        <div>
+                            <div class="karel_actions col-md-12 mb-2">
+                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
+                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
+                                
+                            </div>
+                        </div>
+                        <section class="col-md-12">
+                            <div class="chat-window" style="display: none">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+        <div class="blockly-ui">
+            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
+                data-categories='["KarelSays", "Arithmetic"]'></div>
+        </div>
     </div>
-    
-</div></div>
 </div>
+
 
 </div>
 <div class="section" id="id7">
 <h2>Задатак 15<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
 <p><strong>Састави блокове за решавање следећег задатка: Маја има 75 сличица, а Мирко за 19 више. Колико сличица заједно имају Маја и Мирко?</strong></p>
 
-<div class="course-box course-box-problem" style="padding-top: 15px;">
-<div class="karel_action_wrapper" style="margin-top: 30px;">
-        <div class="karel_actions col-md-12 mb-2"><button class="btn btn-success run-button">Покрени програм</button>
-        <button class="btn btn-default reset-button">Врати на почетак</button>
-        <button class="btn btn-default export-button">Сачувај стање</button>
-        </div>
-</div>
-<div id="blocklyKarelDiv" style="height: 500px;width: 780px;margin-top: 10px;" data-categories='["KarelSays", "Arithmetic"]' ></div>
-<div data-childcomponent="karel_z15" class="karel_section">
-    <div class="course-content">
-
-
-    <div data-component="blocklyKarel" id="karel_z15" class="karel_section" >
-        <div style="overflow: hidden;" class="karel_actions col-md-12" >
-            <section class="col-md-12">
-                <article>
-                    <textarea class="configArea" style="display:none"><!--x {
+<div  style="height: auto;display: flex;justify-content: center;">
+    <div class="course-box course-box-problem karel-blockly-wrapper">
+        <div class="karel-ui">
+            <div data-childcomponent="karel_z15" class="karel_section">
+                <div class="course-content">
+                    <div data-component="blocklyKarel" id="karel_z15" class="karel_section" >
+                        <div style="overflow: hidden;" class="karel_actions col-md-12">
+                            <section class="col-md-12">
+                                <article>
+                                    <textarea class="configArea" style="display:none"><!--x {
           setup:function() {
               var world = new World(3,3);
               world.setRobotStartAvenue(2);
@@ -691,48 +752,60 @@
             return robot.getLastMessage() == 169
           },
 } x--></textarea>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <article>
-                    <canvas class="world" style="border-style: solid; border-width: 2px; border-color: inherit; background: white;" width="300" height="300">
-                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest versions of famous browsers such as Internet explorer, Chrome, Firefox, Opera support HTML5.</p>
-                    </canvas>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <div class = "chat-window" style="display: none"> 
-                </div> 
-            </section>
+                                </article>
+                            </section>
+                            <section class="col-md-12">
+                                <article>
+                                    <canvas class="world"
+                                        style="border-style: solid; border-width: 2px; border-color: inherit; background: white;"
+                                        width="300" height="300">
+                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
+                                            versions
+                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
+                                            HTML5.
+                                        </p>
+                                    </canvas>
+                                </article>
+                            </section>
+                        </div>
+                        <div>
+                            <div class="karel_actions col-md-12 mb-2">
+                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
+                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
+                                
+                            </div>
+                        </div>
+                        <section class="col-md-12">
+                            <div class="chat-window" style="display: none">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+        <div class="blockly-ui">
+            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
+                data-categories='["KarelSays", "Arithmetic"]'></div>
+        </div>
     </div>
-    
-</div></div>
 </div>
+
 
 </div>
 <div class="section" id="id8">
 <h2>Задатак 16<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
 <p><strong>Марко је за домаћи задатак да провери да ли је тачан следећи израз: (125 + 5) + 270 &gt; 363. Марко је рекао да јесте. Састави програм за овај израз и питај Карела да ли је Марко у праву.</strong></p>
 
-<div class="course-box course-box-problem" style="padding-top: 15px;">
-<div class="karel_action_wrapper" style="margin-top: 30px;">
-        <div class="karel_actions col-md-12 mb-2"><button class="btn btn-success run-button">Покрени програм</button>
-        <button class="btn btn-default reset-button">Врати на почетак</button>
-        <button class="btn btn-default export-button">Сачувај стање</button>
-        </div>
-</div>
-<div id="blocklyKarelDiv" style="height: 500px;width: 780px;margin-top: 10px;" data-categories='["KarelSays", "Arithmetic", "Logic"]' ></div>
-<div data-childcomponent="karel_z16" class="karel_section">
-    <div class="course-content">
-
-
-    <div data-component="blocklyKarel" id="karel_z16" class="karel_section" >
-        <div style="overflow: hidden;" class="karel_actions col-md-12" >
-            <section class="col-md-12">
-                <article>
-                    <textarea class="configArea" style="display:none"><!--x {
+<div  style="height: auto;display: flex;justify-content: center;">
+    <div class="course-box course-box-problem karel-blockly-wrapper">
+        <div class="karel-ui">
+            <div data-childcomponent="karel_z16" class="karel_section">
+                <div class="course-content">
+                    <div data-component="blocklyKarel" id="karel_z16" class="karel_section" >
+                        <div style="overflow: hidden;" class="karel_actions col-md-12">
+                            <section class="col-md-12">
+                                <article>
+                                    <textarea class="configArea" style="display:none"><!--x {
           setup:function() {
               var world = new World(3,3);
               world.setRobotStartAvenue(2);
@@ -746,25 +819,44 @@
             return robot.getLastMessage() == true
           },
 } x--></textarea>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <article>
-                    <canvas class="world" style="border-style: solid; border-width: 2px; border-color: inherit; background: white;" width="300" height="300">
-                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest versions of famous browsers such as Internet explorer, Chrome, Firefox, Opera support HTML5.</p>
-                    </canvas>
-                </article>
-            </section>
-            <section class="col-md-12">
-                <div class = "chat-window" style="display: none"> 
-                </div> 
-            </section>
+                                </article>
+                            </section>
+                            <section class="col-md-12">
+                                <article>
+                                    <canvas class="world"
+                                        style="border-style: solid; border-width: 2px; border-color: inherit; background: white;"
+                                        width="300" height="300">
+                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
+                                            versions
+                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
+                                            HTML5.
+                                        </p>
+                                    </canvas>
+                                </article>
+                            </section>
+                        </div>
+                        <div>
+                            <div class="karel_actions col-md-12 mb-2">
+                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
+                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
+                                
+                            </div>
+                        </div>
+                        <section class="col-md-12">
+                            <div class="chat-window" style="display: none">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+        <div class="blockly-ui">
+            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
+                data-categories='["KarelSays", "Arithmetic", "Logic"]'></div>
+        </div>
     </div>
-    
-</div></div>
 </div>
+
 
 </div>
 </div>
