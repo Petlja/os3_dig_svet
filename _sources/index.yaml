@@ -84,6 +84,18 @@ lessons:
         title: Квиз 
         file: 112_Kviz.rst
         guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
+  - title: Дигитализација
+    guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
+    folder: 4_Primeri digitalizacije
+    activities:
+      - type: reading
+        title: Примери дигитализације
+        file: 41_Primeri digitalizacije.rst 
+        guid: 6643a44a-b454-49ba-a582-d709dc648522
+      - type: reading
+        title: Задатак
+        file: 42_Zadatak.rst 
+        guid: 8ae3bb00-058d-4f10-853e-f3a37400983f
   - title: Алгоритамски начин размишљања
     guid: 86146f06-88c7-4b4c-be22-acc5d0350392
     folder: Algoritamski nacin razmisljanja
