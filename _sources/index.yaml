@@ -92,6 +92,42 @@ lessons:
         title: Квиз 
         file: 114_Kviz.rst
         guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
+  - title: Слика и текст
+    guid: 1d158702-f3df-4be1-96be-8c99139363c6
+    folder: 2_Slika i tekst
+    activities:
+      - type: reading
+        title: Слика и текст - увод
+        file: 21_Slika i tekst_uvod.rst
+        guid: cc8e3f51-4a11-461e-8711-f0da956fddd6  
+      - type: reading
+        title: Додавање текста на слику
+        file: 22_Dodavanje teksta na sliku.rst
+        guid: c3c97471-2f73-4fb6-8115-1a5e42c76eb6  
+      - type: reading
+        title: Вежба 1 
+        file: 23_Vezba_1.rst
+        guid: 95569b75-5613-4e7d-8754-b1e7c64c8e06  
+      - type: reading
+        title: Вежба 2 
+        file: 24_Vezba_2.rst
+        guid: 9ea2ffda-a6db-43e7-b65d-c3381f12a745  
+      - type: reading
+        title: Вежба 3 
+        file: 25_Vezba_3.rst
+        guid: 977cd164-1657-43fa-9ae5-a766b52d2541
+      - type: quiz
+        title: Квиз
+        file: 26_Kviz.rst
+        guid: 01bbd2ee-8451-4780-a276-6a1cf0f1febf
+  - title: Претраживање интернета
+    guid: 1380350a-6914-48c7-bd8e-09f9efb071e9
+    folder: 3_Pretrazivanje interneta
+    activities:
+      - type: reading
+        title: Лекција 1, 2, 3...
+        file: 31_Pretrazivanje interneta.rst 
+        guid: b6e1bdb1-6693-4b67-8b8b-bb04367c3af1
   - title: Дигитализација
     guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
     folder: 4_Primeri digitalizacije
@@ -107,44 +143,65 @@ lessons:
       - type: reading
         title: Задатак
         file: 43_Zadatak.rst 
-        guid: 8ae3bb00-058d-4f10-853e-f3a37400983f
-  - title: Алгоритамски начин размишљања
+    folder: 5_Bezbedno koriscenje digitalnih uredjaja
+    activities:
+      - type: reading
+        title: Дигитални углед
+        file: 51_Digitalni ugled.rst 
+        guid: fd04fb80-8af9-47b1-b93b-0600363cc01c
+      - type: reading
+        title: Усклађеност дигиталних садржаја са узрастом корисника
+        file: 52_Uskladjenost sa uzrastom.rst 
+        guid: 93ce462d-dcb3-4fae-80ae-92f991e30cad
+      - type: reading
+        title: Дигитално насиље
+        file: 53_Digitalno nasilje.rst 
+        guid: 882b8702-b58c-469c-bb76-1bd71b751fd6        
+      - type: reading
+        title: Примерена комуникација у дигиталном окружењу
+        file: 54_Primerena komunikacija.rst 
+        guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
+      - type: reading
+        title: Израда личног плана коришћења дигиталних уређаја
+        file: 55_Izrada licnog plana.rst           
+        guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
+  - title: 6_Алгоритамски начин размишљања
     guid: 86146f06-88c7-4b4c-be22-acc5d0350392
-    folder: Algoritamski nacin razmisljanja
+    folder: 6_Algoritamski nacin razmisljanja
     activities:
       - type: reading
         title: Алгоритам, да се подсетимо...
-        file: 0_Uvod.rst 
+        file: 60_Uvod.rst 
         guid: 6779aed4-ece5-435b-af9c-6e256e74e64e
       - type: reading
         title: О Карелу
-        file: 1_O Karelu.rst 
+        file: 61_O Karelu.rst 
         guid: Tf8F7ycN7kav06/sce7D0A==
       - type: reading
         title: Линијски програми
-        file: 2_Linijski programi.rst 
+        file: 62_Linijski programi.rst 
         guid: xDhNsXapEEGowEGSErZQQA==
       - type: reading
         title: Бројачке петље
-        file: 3_Brojacke petlje.rst 
+        file: 63_Brojacke petlje.rst 
         guid: 6eAlali6ZkqLNeKhQl1Ygg==
       - type: reading
         title: Условне петље
-        file: 4_Uslovne petlje.rst 
+        file: 64_Uslovne petlje.rst 
         guid: VAcYXlaPYEmIoOxtecpTfw==
       - type: reading
         title: Аритметичке и логичке операције
-        file: 5_Aritmeticke i logicke operacije.rst 
+        file: 65_Aritmeticke i logicke operacije.rst 
         guid: p5m+eeZzEUGLHnNdYSAsJQ==
       - type: reading
         title: Гранање у програму
-        file: 6_Grananje u programu.rst 
+        file: 66_Grananje u programu.rst 
         guid: 6BrWmFWglEiLwMqtfwrYmg==
       - type: reading
         title: Разни задаци
-        file: 7_Razni zadaci.rst 
+        file: 67_Razni zadaci.rst 
         guid: S0dnxjPNi0W0hyb0JO6vmQ==
       - type: reading
         title: Програмирање физичких уређаја
-        file: 8_Programiranje fizickih uredjaja.rst 
+        file: 68_Programiranje fizickih uredjaja.rst 
         guid: jvt1KCdzDk6SttWAhM4q7w==

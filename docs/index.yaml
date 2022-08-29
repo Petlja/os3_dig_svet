@@ -131,88 +131,156 @@ lessons:
   title: Рад са текстом
 - activities:
   - description: ''
-    file: 41_Primeri digitalizacije.html
-    guid: 6643a44a-b454-49ba-a582-d709dc648522
-    src: 41_Primeri digitalizacije.rst
-    title: Примери дигитализације
+    file: 21_Slika i tekst_uvod.html
+    guid: cc8e3f51-4a11-461e-8711-f0da956fddd6
+    src: 21_Slika i tekst_uvod.rst
+    title: Слика и текст - увод
     type: reading
   - description: ''
-    file: 42_Vestacka inteligencija.html
-    guid: f071e648-9097-4a25-af75-55f9f0b09015
-    src: 42_Vestacka inteligencija.rst
-    title: Вештачка интелигенција
+    file: 22_Dodavanje teksta na sliku.html
+    guid: c3c97471-2f73-4fb6-8115-1a5e42c76eb6
+    src: 22_Dodavanje teksta na sliku.rst
+    title: Додавање текста на слику
     type: reading
   - description: ''
-    file: 43_Zadatak.html
-    guid: 8ae3bb00-058d-4f10-853e-f3a37400983f
-    src: 43_Zadatak.rst
-    title: Задатак
+    file: 23_Vezba_1.html
+    guid: 95569b75-5613-4e7d-8754-b1e7c64c8e06
+    src: 23_Vezba_1.rst
+    title: Вежба 1
+    type: reading
+  - description: ''
+    file: 24_Vezba_2.html
+    guid: 9ea2ffda-a6db-43e7-b65d-c3381f12a745
+    src: 24_Vezba_2.rst
+    title: Вежба 2
+    type: reading
+  - description: ''
+    file: 25_Vezba_3.html
+    guid: 977cd164-1657-43fa-9ae5-a766b52d2541
+    src: 25_Vezba_3.rst
+    title: Вежба 3
+    type: reading
+  - description: ''
+    file: 26_Kviz.html
+    guid: 01bbd2ee-8451-4780-a276-6a1cf0f1febf
+    src: 26_Kviz.rst
+    title: Квиз
+    type: quiz
+  archived-activities: []
+  description: ''
+  folder: 2_Slika i tekst
+  guid: 1d158702-f3df-4be1-96be-8c99139363c6
+  normalized_title: Слика и текст
+  title: Слика и текст
+- activities:
+  - description: ''
+    file: 31_Pretrazivanje interneta.html
+    guid: b6e1bdb1-6693-4b67-8b8b-bb04367c3af1
+    src: 31_Pretrazivanje interneta.rst
+    title: Лекција 1, 2, 3...
     type: reading
   archived-activities: []
   description: ''
-  folder: 4_Primeri digitalizacije
+  folder: 3_Pretrazivanje interneta
+  guid: 1380350a-6914-48c7-bd8e-09f9efb071e9
+  normalized_title: Претраживање интернета
+  title: Претраживање интернета
+- activities:
+  - description: ''
+    file: 51_Digitalni ugled.html
+    guid: fd04fb80-8af9-47b1-b93b-0600363cc01c
+    src: 51_Digitalni ugled.rst
+    title: Дигитални углед
+    type: reading
+  - description: ''
+    file: 52_Uskladjenost sa uzrastom.html
+    guid: 93ce462d-dcb3-4fae-80ae-92f991e30cad
+    src: 52_Uskladjenost sa uzrastom.rst
+    title: Усклађеност дигиталних садржаја са узрастом корисника
+    type: reading
+  - description: ''
+    file: 53_Digitalno nasilje.html
+    guid: 882b8702-b58c-469c-bb76-1bd71b751fd6
+    src: 53_Digitalno nasilje.rst
+    title: Дигитално насиље
+    type: reading
+  - description: ''
+    file: 54_Primerena komunikacija.html
+    guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
+    src: 54_Primerena komunikacija.rst
+    title: Примерена комуникација у дигиталном окружењу
+    type: reading
+  - description: ''
+    file: 55_Izrada licnog plana.html
+    guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
+    src: 55_Izrada licnog plana.rst
+    title: Израда личног плана коришћења дигиталних уређаја
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 5_Bezbedno koriscenje digitalnih uredjaja
   guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
   normalized_title: Дигитализација
   title: Дигитализација
 - activities:
   - description: ''
-    file: 0_Uvod.html
+    file: 60_Uvod.html
     guid: 6779aed4-ece5-435b-af9c-6e256e74e64e
-    src: 0_Uvod.rst
+    src: 60_Uvod.rst
     title: Алгоритам, да се подсетимо...
     type: reading
   - description: ''
-    file: 1_O Karelu.html
+    file: 61_O Karelu.html
     guid: Tf8F7ycN7kav06/sce7D0A==
-    src: 1_O Karelu.rst
+    src: 61_O Karelu.rst
     title: О Карелу
     type: reading
   - description: ''
-    file: 2_Linijski programi.html
+    file: 62_Linijski programi.html
     guid: xDhNsXapEEGowEGSErZQQA==
-    src: 2_Linijski programi.rst
+    src: 62_Linijski programi.rst
     title: Линијски програми
     type: reading
   - description: ''
-    file: 3_Brojacke petlje.html
+    file: 63_Brojacke petlje.html
     guid: 6eAlali6ZkqLNeKhQl1Ygg==
-    src: 3_Brojacke petlje.rst
+    src: 63_Brojacke petlje.rst
     title: Бројачке петље
     type: reading
   - description: ''
-    file: 4_Uslovne petlje.html
+    file: 64_Uslovne petlje.html
     guid: VAcYXlaPYEmIoOxtecpTfw==
-    src: 4_Uslovne petlje.rst
+    src: 64_Uslovne petlje.rst
     title: Условне петље
     type: reading
   - description: ''
-    file: 5_Aritmeticke i logicke operacije.html
+    file: 65_Aritmeticke i logicke operacije.html
     guid: p5m+eeZzEUGLHnNdYSAsJQ==
-    src: 5_Aritmeticke i logicke operacije.rst
+    src: 65_Aritmeticke i logicke operacije.rst
     title: Аритметичке и логичке операције
     type: reading
   - description: ''
-    file: 6_Grananje u programu.html
+    file: 66_Grananje u programu.html
     guid: 6BrWmFWglEiLwMqtfwrYmg==
-    src: 6_Grananje u programu.rst
+    src: 66_Grananje u programu.rst
     title: Гранање у програму
     type: reading
   - description: ''
-    file: 7_Razni zadaci.html
+    file: 67_Razni zadaci.html
     guid: S0dnxjPNi0W0hyb0JO6vmQ==
-    src: 7_Razni zadaci.rst
+    src: 67_Razni zadaci.rst
     title: Разни задаци
     type: reading
   - description: ''
-    file: 8_Programiranje fizickih uredjaja.html
+    file: 68_Programiranje fizickih uredjaja.html
     guid: jvt1KCdzDk6SttWAhM4q7w==
-    src: 8_Programiranje fizickih uredjaja.rst
+    src: 68_Programiranje fizickih uredjaja.rst
     title: Програмирање физичких уређаја
     type: reading
   archived-activities: []
   description: ''
-  folder: Algoritamski nacin razmisljanja
+  folder: 6_Algoritamski nacin razmisljanja
   guid: 86146f06-88c7-4b4c-be22-acc5d0350392
-  normalized_title: Алгоритамски начин размишљања
-  title: Алгоритамски начин размишљања
+  normalized_title: 6_Алгоритамски начин размишљања
+  title: 6_Алгоритамски начин размишљања
 title: Дигитални свет за 3 разред
