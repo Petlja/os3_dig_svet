@@ -258,9 +258,8 @@ $(document).ready(function () {
     var problemId = this.id;
     var configarea = $(this).find(".configArea")[0];
     var config = (new Function('return ' + configarea.value.replace('<!--x', '').replace('x-->', '')))();
-    var elementDiv = outerDiv.parentElement.parentElement.parentElement.parentElement
     var karelCongrolosDiv = outerDiv.parentElement.parentElement.parentElement.children[0];
-    var karelConfigDiv = elementDiv.querySelector("#blocklyKarelDiv");
+    var karelConfigDiv = outerDiv.parentElement.parentElement.parentElement.children[1];
     var categoriesFilter = JSON.parse(karelConfigDiv.getAttribute("data-categories"));
     if(toolboxType === "flyoutToolbox")
       for(var i= 0;i<categoriesFilter.length;i++){
@@ -276,7 +275,7 @@ $(document).ready(function () {
       for(var i= 0;i<categoriesFilter.length;i++)
       toolbox.contents.push(categories[categoriesFilter[i]]);
     }
-    var workspace = Blockly.inject(karelConfigDiv, { toolbox:  toolbox, trashcan: true});
+    var workspace = Blockly.inject(karelConfigDiv, { toolbox:  toolbox});
 
     var setup = config.setup();
     if(setup.hasOwnProperty('domXml')){

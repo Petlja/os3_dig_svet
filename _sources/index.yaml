@@ -65,24 +65,32 @@ lessons:
         file: 17_Snimanje dokumenta.rst
         guid: 2b559c6f-39cf-4b16-8a46-6ff99f1d2528
       - type: reading
-        title: Истицање текста
-        file: 18_Isticanje teksta.rst
-        guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
-      - type: reading
         title: Отварање и затварање документа 
-        file: 19_Otvaranje i zatvaranje dokumenta.rst
+        file: 18_Otvaranje i zatvaranje dokumenta.rst
         guid: 7854ff03-a921-4d89-afe6-e7b4d58f50ed
       - type: reading
-        title: Копирање и премештање текста 
+        title: Истицање текста
+        file: 19_Isticanje teksta.rst
+        guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
+      - type: reading
+        title: Копирање и премештање текста - увод 
         file: 110_Kopiranje i premestanje teksta.rst
         guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
       - type: reading
+        title: Копирање текста
+        file: 111_Kopiranje teksta.rst
+        guid: f969c055-8ad8-45b0-b3c1-b8ed4c8586d1
+      - type: reading
+        title: Премештање текста
+        file: 112_Premestanje teksta.rst
+        guid: d139c33e-83eb-4fc1-b567-bec424b3f952
+      - type: reading
         title: Вежбе 
-        file: 111_Vezbe.rst
+        file: 113_Vezbe.rst
         guid: 127d2e15-db1c-41ed-9354-d843436a386e
       - type: quiz
         title: Квиз 
-        file: 112_Kviz.rst
+        file: 114_Kviz.rst
         guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
   - title: Дигитализација
     guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
@@ -93,8 +101,12 @@ lessons:
         file: 41_Primeri digitalizacije.rst 
         guid: 6643a44a-b454-49ba-a582-d709dc648522
       - type: reading
+        title: Вештачка интелигенција
+        file: 42_Vestacka inteligencija.rst 
+        guid: f071e648-9097-4a25-af75-55f9f0b09015
+      - type: reading
         title: Задатак
-        file: 42_Zadatak.rst 
+        file: 43_Zadatak.rst 
         guid: 8ae3bb00-058d-4f10-853e-f3a37400983f
   - title: Алгоритамски начин размишљања
     guid: 86146f06-88c7-4b4c-be22-acc5d0350392

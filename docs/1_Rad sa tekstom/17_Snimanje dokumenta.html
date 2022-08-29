@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Снимање (чување) документа</title>
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karelBlockly.css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja-course.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nbstyle.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.sr.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.sr.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.sr.js"></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.sr.js"></script>
+    <script type="text/javascript" src="../_static/matrixeq.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.sr.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../_static/Blob.js"></script>
+    <script type="text/javascript" src="../_static/karelCorner.js"></script>
+    <script type="text/javascript" src="../_static/karelRobot.js"></script>
+    <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
+    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="../_static/karelUI.js"></script>
+    <script type="text/javascript" src="../_static/karel.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.sr.js"></script>
+    <script type="text/javascript" src="../_static/notes.js"></script>
+    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="../_static/gallery.js"></script>
+    <script type="text/javascript" src="../_static/associations.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.sr.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr.js"></script>
+    <script type="text/javascript" src="../_static/acorn_interpreter.js"></script>
+    <script type="text/javascript" src="../_static/blockly_compressed.js"></script>
+    <script type="text/javascript" src="../_static/msg/sr.js"></script>
+    <script type="text/javascript" src="../_static/blocks_compressed.js"></script>
+    <script type="text/javascript" src="../_static/javascript_compressed.js."></script>
+    <script type="text/javascript" src="../_static/karelBlockly.js"></script>
+    <script type="text/javascript" src="../_static/karelBlocks.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../_static/course-errors.js"></script>
+    <script type="text/javascript" src="../_static/petlja.js"></script>
+    <script type="text/javascript" src="../_static/require.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+    <script type="text/javascript">
+      eBookConfig = {};
+      eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+      eBookConfig.app = eBookConfig.host + '/runestone';
+      eBookConfig.ajaxURL = eBookConfig.app + '/ajax/';
+      eBookConfig.course = 'DigitalniSvet';
+      eBookConfig.logLevel = '0';
+      eBookConfig.loginRequired = 'false';
+      eBookConfig.build_info = "";
+      eBookConfig.isLoggedIn = false;
+      eBookConfig.useRunestoneServices = false;
+      eBookConfig.python3 = true;
+      eBookConfig.basecourse = 'DigitalniSvet';
+      eBookConfig.runestone_version = '';
+      eBookConfig.imagesDir = '../_images/';
+      eBookConfig.staticDir = '../_static/';
+      if (typeof (Sk) != "undefined")
+        Sk.imgPath = eBookConfig.imagesDir;
+    </script>
+
+  </head>
+
+  <body>
+
+
+
+<div id="navbar" class="content-header">
+  <div class="right-side-nav">
+    
+    <div id="usefulLinksToggle" class="useful-links-toggle">
+        <a class="dropdown-toggle dropdown-toggle-burger" role="button" href="#" id="usefulLinksDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <div class="dropdown-menu dropdown-nav-links shadow-lg" aria-labelledby="usefulLinksDropdown" x-placement="bottom-start" style="position: absolute; transform: translate3d(-55px, 32px, 0px); top: 0px; left: 0px; will-change: transform;">
+          <div class="links-title"> Корисни линкови</div>
+          <div class="useful-link">
+            <a href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html" target="_blank">Sphinx Docs</a></div>
+          <div class="useful-link">
+            <a href="https://github.com/Petlja/PetljaDoc/blob/master/README.md" target="_blank">Petljadoc</a></div>
+          <div class="useful-link">
+            <a href="https://github.com/RunestoneInteractive/overview" target="_blank">Runestone Interactive</a></div>
+          
+        </div>
+    </div>
+
+    
+</div>
+
+<div class="left-side-nav">
+  <div class="course-logo-nav">
+      <a target="_blank" href="https://petlja.org">
+          <img src="../_static/img/petlja-logo-wt.svg" alt="petlja.org" id="lightPetljaLogo">
+      </a>
+  </div>
+  <div class="course-logo-nav-kabinet">
+      <a target="_blank" href="https://petlja.org/net.kabinet">
+          <img src="../_static/img/netkabinet-logo-strelica-wt.svg" alt="petlja.org" id="lightNetKabinetLogo">
+      </a>
+  </div>
+</div>
+
+
+<div class="content-header-label" id = "content-header-label" href="../">Дигитални свет за 3 разред</div>
+
+</div>
+
+
+
+
+<div class="petljaCourseContainer">
+
+<div class="petljaCourseContent">
+  
+           <div class="tableOfContent">
+            <h5> Садржај </h5>
+            </div>
+           <div>
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-0_Uvod>
+                    <h5>Увод</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../0_Uvod/Uvod.html><div class="studioLecture" id=activity-Uvod><i class="fas fa-file-alt activity-icon"></i>Увод</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-1_Rad%20sa%20tekstom>
+                    <h5>Рад са текстом</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../1_Rad%20sa%20tekstom/11_Pokretanje%20programa.html><div class="studioLecture" id=activity-11_Pokretanje%20programa><i class="fas fa-file-alt activity-icon"></i>Покретање програма</div></a>
+                <a href=../1_Rad%20sa%20tekstom/12_Prvi%20koraci.html><div class="studioLecture" id=activity-12_Prvi%20koraci><i class="fas fa-file-alt activity-icon"></i>Први кораци</div></a>
+                <a href=../1_Rad%20sa%20tekstom/13_Brisanje%20teksta.html><div class="studioLecture" id=activity-13_Brisanje%20teksta><i class="fas fa-file-alt activity-icon"></i>Брисање текста</div></a>
+                <a href=../1_Rad%20sa%20tekstom/14_Tastatura%20i%20pismo.html><div class="studioLecture" id=activity-14_Tastatura%20i%20pismo><i class="fas fa-file-alt activity-icon"></i>Тастатура и писмо</div></a>
+                <a href=../1_Rad%20sa%20tekstom/15_Unos%20teksta.html><div class="studioLecture" id=activity-15_Unos%20teksta><i class="fas fa-file-alt activity-icon"></i>Унос текста</div></a>
+                <a href=../1_Rad%20sa%20tekstom/16_Virtuelna%20tastatura.html><div class="studioLecture" id=activity-16_Virtuelna%20tastatura><i class="fas fa-file-alt activity-icon"></i>Виртуелна тастатура</div></a>
+                <a href=../1_Rad%20sa%20tekstom/17_Snimanje%20dokumenta.html><div class="studioLecture" id=activity-17_Snimanje%20dokumenta><i class="fas fa-file-alt activity-icon"></i>Снимање (чување) документа</div></a>
+                <a href=../1_Rad%20sa%20tekstom/18_Otvaranje%20i%20zatvaranje%20dokumenta.html><div class="studioLecture" id=activity-18_Otvaranje%20i%20zatvaranje%20dokumenta><i class="fas fa-file-alt activity-icon"></i>Отварање и затварање документа</div></a>
+                <a href=../1_Rad%20sa%20tekstom/19_Isticanje%20teksta.html><div class="studioLecture" id=activity-19_Isticanje%20teksta><i class="fas fa-file-alt activity-icon"></i>Истицање текста</div></a>
+                <a href=../1_Rad%20sa%20tekstom/110_Kopiranje%20i%20premestanje%20teksta.html><div class="studioLecture" id=activity-110_Kopiranje%20i%20premestanje%20teksta><i class="fas fa-file-alt activity-icon"></i>Копирање и премештање текста - увод</div></a>
+                <a href=../1_Rad%20sa%20tekstom/111_Kopiranje%20teksta.html><div class="studioLecture" id=activity-111_Kopiranje%20teksta><i class="fas fa-file-alt activity-icon"></i>Копирање текста</div></a>
+                <a href=../1_Rad%20sa%20tekstom/112_Premestanje%20teksta.html><div class="studioLecture" id=activity-112_Premestanje%20teksta><i class="fas fa-file-alt activity-icon"></i>Премештање текста</div></a>
+                <a href=../1_Rad%20sa%20tekstom/113_Vezbe.html><div class="studioLecture" id=activity-113_Vezbe><i class="fas fa-file-alt activity-icon"></i>Вежбе</div></a>
+                <a href=../1_Rad%20sa%20tekstom/114_Kviz.html><div class="studioLecture" id=activity-114_Kviz><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-4_Primeri%20digitalizacije>
+                    <h5>Дигитализација</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../4_Primeri%20digitalizacije/41_Primeri%20digitalizacije.html><div class="studioLecture" id=activity-41_Primeri%20digitalizacije><i class="fas fa-file-alt activity-icon"></i>Примери дигитализације</div></a>
+                <a href=../4_Primeri%20digitalizacije/42_Vestacka%20inteligencija.html><div class="studioLecture" id=activity-42_Vestacka%20inteligencija><i class="fas fa-file-alt activity-icon"></i>Вештачка интелигенција</div></a>
+                <a href=../4_Primeri%20digitalizacije/43_Zadatak.html><div class="studioLecture" id=activity-43_Zadatak><i class="fas fa-file-alt activity-icon"></i>Задатак</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Algoritamski%20nacin%20razmisljanja>
+                    <h5>Алгоритамски начин размишљања</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Algoritamski%20nacin%20razmisljanja/0_Uvod.html><div class="studioLecture" id=activity-0_Uvod><i class="fas fa-file-alt activity-icon"></i>Алгоритам, да се подсетимо...</div></a>
+                <a href=../Algoritamski%20nacin%20razmisljanja/1_O%20Karelu.html><div class="studioLecture" id=activity-1_O%20Karelu><i class="fas fa-file-alt activity-icon"></i>О Карелу</div></a>
+                <a href=../Algoritamski%20nacin%20razmisljanja/2_Linijski%20programi.html><div class="studioLecture" id=activity-2_Linijski%20programi><i class="fas fa-file-alt activity-icon"></i>Линијски програми</div></a>
+                <a href=../Algoritamski%20nacin%20razmisljanja/3_Brojacke%20petlje.html><div class="studioLecture" id=activity-3_Brojacke%20petlje><i class="fas fa-file-alt activity-icon"></i>Бројачке петље</div></a>
+                <a href=../Algoritamski%20nacin%20razmisljanja/4_Uslovne%20petlje.html><div class="studioLecture" id=activity-4_Uslovne%20petlje><i class="fas fa-file-alt activity-icon"></i>Условне петље</div></a>
+                <a href=../Algoritamski%20nacin%20razmisljanja/5_Aritmeticke%20i%20logicke%20operacije.html><div class="studioLecture" id=activity-5_Aritmeticke%20i%20logicke%20operacije><i class="fas fa-file-alt activity-icon"></i>Аритметичке и логичке операције</div></a>
+                <a href=../Algoritamski%20nacin%20razmisljanja/6_Grananje%20u%20programu.html><div class="studioLecture" id=activity-6_Grananje%20u%20programu><i class="fas fa-file-alt activity-icon"></i>Гранање у програму</div></a>
+                <a href=../Algoritamski%20nacin%20razmisljanja/7_Razni%20zadaci.html><div class="studioLecture" id=activity-7_Razni%20zadaci><i class="fas fa-file-alt activity-icon"></i>Разни задаци</div></a>
+                <a href=../Algoritamski%20nacin%20razmisljanja/8_Programiranje%20fizickih%20uredjaja.html><div class="studioLecture" id=activity-8_Programiranje%20fizickih%20uredjaja><i class="fas fa-file-alt activity-icon"></i>Програмирање физичких уређаја</div></a>
+                </div>
+            </div>
+                </div>
+</div>
+
+
+
+<div class="lectureContent">
+
+  <div id="errors">
+  </div>
+  
+  <div class="lectureContentMaterial">
+  
+    <div id="main-content">
+    
+  <div class="section" id="id1">
+<h1>Снимање (чување) документа<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>У овој лекцији научићеш како да сачуваш свој рад (укуцани текст). Да би могао да снимиш документ, потребно је бар да почнеш
+да га правиш. Следећа вежба ће послужити за три ствари - да поновиш и увежбаш како се уноси текст, успут научиш
+пар нових и корисних техника и на крају научиш како да сачуваш свој рад да би могао поново да му приступиш.</p>
+<p>Пажљиво прати упутства!</p>
+</div>
+<div class="section" id="id2">
+<h1>Вежба 1<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h1>
+<p>Отвори нови документ, подеси тастатуру на ћириличко писмо и укуцај <strong>први пасус</strong> (одељак) текста са слике.</p>
+<p>Пре него што почнеш да укуцаваш текст, застани мало и размисли…</p>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Покушај да замислиш свет пре него што су се појавили први записи. Како се тада преносило знање?</p>
+<p>Да ли је то било поуздано и да ли је уопште било могуће?</p>
+<p>Да ли знаш како се играју „Глуви телефони“? Ако не, питај родитеље, верујемо да ће ти бити занимљиво!</p>
+
+    </p></div></div>
+<a class="reference internal image-reference" href="../_images/tekst_11.png"><img alt="../_images/tekst_11.png" class="align-center" src="../_images/tekst_11.png" style="width: 780px;" /></a>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Пажљиво погледај текст. Да ли примећујеш неке грешке у куцању? Како си их приметио?</p>
+
+    </p></div></div>
+
+    <div class="note-wrapper suggestionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/suggestionnote-img.svg" class="note-image suggestionnote-image" /> 
+        <div class="course-content">
+            
+<p>У Ворду постоји могућност да се провери да ли је текст исправно унесен. Ако је подешен одговарајући језик, речи које
+нису исправно написане или нису препознате биће подвучене црвеном таласастом линијом, тако да можеш лакше да их
+приметиш и измениш.</p>
+<p>Ако кликнеш на подвучену реч десним тастером миша, појавиће се предлози за њену измену (1).
+Можеш да изабереш неки од предлога (кликнеш на њега) или, ако мислиш да програм није добро проценио, кликнеш
+на <em>Ignore All</em> (2) и оставиш реч непромењену.</p>
+<p><strong>Имај у виду да и Ворд може да погреши или не препозна неку реч.</strong> Свакако и сам размисли да ли је реч исправно написана.
+<strong>Прихвати црвену линију само као помоћно упозорење!</strong></p>
+
+    </div></div>
+<a class="reference internal image-reference" href="../_images/tekst_12.png"><img alt="../_images/tekst_12.png" class="align-center" src="../_images/tekst_12.png" style="width: 780px;" /></a>
+<p>Наравно, исправи грешке које смо намерно направили!</p>
+
+    <div class="note-wrapper suggestionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/suggestionnote-img.svg" class="note-image suggestionnote-image" /> 
+        <div class="course-content">
+            
+<p>Као што можеш да погрешиш током куцања, тако можеш нешто погрешно и да избришеш. Шта ако избришеш целу страну текста,
+случајно?</p>
+<p>Добра ствар је што скоро увек можеш да одеш један корак уназад и вратиш текст у првобитно стање.</p>
+
+    </div></div>
+
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
+        <div class="course-content">
+            
+<p>Кораке које си направио у већини програма за обраду текста можеш да вратиш уназад комбинацијом тастера <strong>Ctrl</strong> и
+слова <strong>Z</strong>.</p>
+<p>Када се бар једном вратиш корак уназад, можеш да се крећеш и ка последњем направљеном кораку комбинацијом тастера <strong>Ctrl</strong> и слова <strong>Y</strong>.</p>
+
+    </div></div>
+<p>Покушај ово да урадиш! Да ли је успело?</p>
+<p>Ако није, због чега? Погледај које је писмо изабрано на твом рачунару и који распоред тастера му одговара. Провери где се у твом случају налази слово <strong>Z</strong>, а где <strong>Y</strong>?</p>
+
+    <div class="note-wrapper learnmorenote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/learnmorenote-img.svg" class="note-image learnmorenote-image" /> 
+        <div class="course-content">
+            
+<p><strong>Враћање корака</strong></p>
+<p>У Ворду можеш да вратиш кораке и помоћу стрелице <a class="reference internal" href="../_images/undo.png"><img alt="undo" src="../_images/undo.png" style="width: 30px;" /></a> у горњем левом углу прозора. Можеш да се враћаш и више корака
+уназад, али и да се враћаш ка последњем направљеном кораку кликтањем на другу стрелицу <a class="reference internal" href="../_images/redo.png"><img alt="redo" src="../_images/redo.png" style="width: 30px;" /></a> (појавиће се кад се вратиш бар један корак
+уназад).</p>
+
+    </div></div>
+<p>Десиће се да ће ти за укуцавање неког текста бити потребно више времена него што у том тренутку имаш на располагању.</p>
+<p>Можда и ову вежба није још завршена, а приближава се крај часа или негде журиш</p>
+<p>Добра ствар је што све што урадиш можеш да сачуваш и, када ти буде потребно, поново отвориш и наставиш са радом…</p>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Да ли водиш свој дневник? Како се то ради?</p>
+
+    </p></div></div>
+<p>У једну свеску повремено запишеш шта радиш, шта ти се дешава, шта те је обрадовало или насмејало, да ли те је нешто,
+можда, растужило.</p>
+<p>Када запишеш своје мисли, оставиш свеску на полицу. После неког времена опет нешто допишеш, а с времена на време
+прелисташ и прочиташ шта је све записано.</p>
+<p>Слично је и са школским свескама. Док си у школи, записујеш реченице, белешке, како би могао касније опет да их прочиташ.</p>
+<p><strong>У свесци остаје записана свака реч, али не и на рачунару.</strong></p>
+<p>Ако желиш поново да приступиш документу који правиш, потребно је да га сачуваш, односно <strong>снимиш</strong>.</p>
+<p>Сачувај свој досадашњи рад (први пасус текста који је требало да укуцаш или део текста који је до сада укуцан). Како се то ради?</p>
+<p>Када први пут снимаш документ, потребно је да урадиш следеће:
+Кликни на <em>File</em> у горњем левом углу и  изабери опцију <em>Save as</em> (Сними као…).</p>
+<a class="reference internal image-reference" href="../_images/tekst_13.png"><img alt="../_images/tekst_13.png" class="align-center" src="../_images/tekst_13.png" style="width: 780px;" /></a>
+<p>Ове жуте иконице које су се појавиле  (1) представљају фасцикле (енг. <em>Folders</em>). У њима се чувају документа. Када кликнеш на неку од њих,
+можеш да видиш шта је све у њој до сада сачувано.</p>
+
+    <div class="note-wrapper suggestionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/suggestionnote-img.svg" class="note-image suggestionnote-image" /> 
+        <div class="course-content">
+            
+<p>Током рада направићеш много различитих докумената. Као што је добро да књиге на полици буду лепо разврстане
+(како би се лакше пронашла она која ти је потребна) и да за сваки предмет у школи имаш посебну свеску, тако би добро
+било да већ на самом почетку рада са рачунаром навикнеш да уредно организујеш своје радове!</p>
+
+    </div></div>
+<p>Захваљујући фасциклама много брже можеш да пронађеш своје радове када желиш поново да им приступиш. На пример,
+сва документа можеш да чуваш у фасцикли <em>Documents</em> (Документа), цртеже у фасцикли <em>Pictures</em> (Слике)…</p>
+
+    <div class="note-wrapper suggestionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/suggestionnote-img.svg" class="note-image suggestionnote-image" /> 
+        <div class="course-content">
+            
+<p>У свакој фасцикли можеш да направиш и додатне фасцикле. Као што користиш одвојене свеске за различите предмете
+у школи, тако и фасциклу можеш да назовеш по предмету из којих су радови
+које желиш у њих да снимиш (Математика, Српски, Дигитални свет, Природа и друштво…) О томе ћеш учити у старијим
+разредима.</p>
+
+    </div></div>
+<p>Пошто у Ворду куцаш документа, за сада ћеш све радове чувати у фасцикли <em>Documents</em>.</p>
+<p>Потребно је да објасниш рачунару две ствари – да изабереш фасциклу и да унесеш име које желиш да доделиш свом документу.
+По томе се ово прво снимање разликује од свих наредних.</p>
+<p>Са десне стране програм ти нуди неке од фасцикли за које претпоставља да ти могу бити од користи (1)
+(<em>Current Folder</em> – тренутна, <em>Today</em> – коришћена данас, <em>Last Week</em> – коришћена прошле недеље, <em>Older</em> – још раније коришћена).
+Ако видиш своју фасциклу (2), можеш одмах да кликнеш на њу. Ако не, кликни на <em>Browse</em> да је потражиш!</p>
+<p>У оба случаја отвориће се прозор за снимање (слика испод). На левој страни овог прозора налази се списак фасцикли (1).
+Ако већ није изабрана, пронађи и кликни на фасциклу <em>Documents</em> (2). У левом делу прозора појавиће се документа или
+неке друге фасцикле које су у њој сачуване (3). У нашем случају их још нема, празна је.</p>
+<p>Укуцај име за свој документ <em>Vezba1</em> (попуни прозор поред <em>File name</em>) (4) и потврди снимање кликом на <em>Save</em> (5).</p>
+<p>Документ је сачуван!</p>
+<a class="reference internal image-reference" href="../_images/save.png"><img alt="../_images/save.png" class="align-center" src="../_images/save.png" style="width: 780px;" /></a>
+<p><strong>Свако следеће снимање</strong> је много једноставније. Када желиш да сачуваш измене, довољно је да кликнеш на сличицу
+дискете <a class="reference internal" href="../_images/save_icon.png"><img alt="save" src="../_images/save_icon.png" style="width: 30px;" /></a> (уређаја који се раније користио за чување и пренос докумената и програма), која се налази у горњем
+левом углу прозора. Исто ово можеш да урадиш тако што ћеш кликнути на <em>File</em>, па изабрати <em>Save</em>.</p>
+
+    <div class="note-wrapper suggestionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/suggestionnote-img.svg" class="note-image suggestionnote-image" /> 
+        <div class="course-content">
+            
+<p>Ако ти је лакше да све урадиш само преко тастатуре, можеш то да урадиш <strong>Crtl + S</strong> комбинацијом (притиснеш тастер <strong>Ctrl</strong> и
+истовремено кликнеш на слово <em>S</em> на тастатури).</p>
+
+    </div></div>
+
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
+        <div class="course-content">
+            
+<p>Сваки пут када у упутству напишемо комбинацију два тастера са знаком плус између,
+подразумева се да држиш притиснут први тастер и док га држиш притиснутог, кликнеш на други.</p>
+
+    </div></div>
+<p>Када желиш да сачуваш документ који је већ снимљен, али под неким другим именом и на другом месту (у другој фасцикли),
+опет то можеш да урадиш тако што ћеш кликнути на <em>File</em>, а затим на <em>Save as</em>.</p>
+
+    <div class="note-wrapper suggestionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/suggestionnote-img.svg" class="note-image suggestionnote-image" /> 
+        <div class="course-content">
+            
+<p>Док пишеш неки документ, труди се да га што чешће снимаш (сваких неколико минута), како се због нечег
+непредвиђеног не би десило да изгубиш свој рад.</p>
+
+    </div></div>
+</div>
+
+
+    </div>
+    
+    <div>
+<div class="lecture-prev-next-toggle">
+  <a  href="16_Virtuelna tastatura.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  
+  <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
+</div>
+
+<script type="text/javascript">
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+</script>
+</div>
+
+    
+  </div>
+</div>
+
+<div class="petljadoc-resources">
+  <span class="pull-left">(Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>) <br> © 2022 Petlja</span>
+</div>
+
+
+<div class="lectureToolbox">
+
+  <label class="font-size-toggle" id="fontSizeToggle">
+
+      <i class="fas fa-font"></i><label>Слова</label>
+  </label>
+  <div class="font-change d-none" id="fontChangeModal">
+      <span class="dec-letter-icon" id="decLetterIcon">A-</span>
+      <label id="currentFontSize">16</label>
+      <span class="inc-letter-icon" id="incLetterIcon">A+</span>
+  </div>
+</div>
+
+</div>
+
+  </body>
+</html>

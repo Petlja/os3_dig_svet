@@ -20,23 +20,144 @@ description:
   - Sphinx
   shortDescription: Дигитални свет за 3 разред
   toc:
-  - 0_Uvod
-  - 1_O Karelu
-  - 2_Linijski programi.rst
-  - 3_Brojacke petlje.rst
-  - 4_Uslovne petlje.rst
-  - 5_Aritmeticke i logicke operacije
-  - 6_Grananje u programu.rst
-  - 7_Razni zadaci.rst
-  - 8_Programiranje fizickih uredjaja
+  - Intro to Petljadoc INDEX.yaml
   willLearn:
   - Preview of Petljadoc course
 lang: sr
 lessons:
 - activities:
   - description: ''
-    file: 0_Uvod.html
+    file: Uvod.html
     guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
+    src: Uvod.rst
+    title: Увод
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 0_Uvod
+  guid: 357c4b51-d39d-48b4-9ff2-9a2d1837c7b1
+  normalized_title: Увод
+  title: Увод
+- activities:
+  - description: ''
+    file: 11_Pokretanje programa.html
+    guid: 1d9d0716-4023-45a4-964b-7fa4adbfac3c
+    src: 11_Pokretanje programa.rst
+    title: Покретање програма
+    type: reading
+  - description: ''
+    file: 12_Prvi koraci.html
+    guid: 40bc28ca-d94e-4e70-a939-95385c8b79d0
+    src: 12_Prvi koraci.rst
+    title: Први кораци
+    type: reading
+  - description: ''
+    file: 13_Brisanje teksta.html
+    guid: 7e0e057d-8d83-4656-9c08-5da7e88f240a
+    src: 13_Brisanje teksta.rst
+    title: Брисање текста
+    type: reading
+  - description: ''
+    file: 14_Tastatura i pismo.html
+    guid: 0bfb2424-edcf-4a37-b679-e9f91d316f3e
+    src: 14_Tastatura i pismo.rst
+    title: Тастатура и писмо
+    type: reading
+  - description: ''
+    file: 15_Unos teksta.html
+    guid: df040747-b443-4060-b323-324293c595fb
+    src: 15_Unos teksta.rst
+    title: Унос текста
+    type: reading
+  - description: ''
+    file: 16_Virtuelna tastatura.html
+    guid: 50bd236b-8755-45bf-ba79-06e123956de1
+    src: 16_Virtuelna tastatura.rst
+    title: Виртуелна тастатура
+    type: reading
+  - description: ''
+    file: 17_Snimanje dokumenta.html
+    guid: 2b559c6f-39cf-4b16-8a46-6ff99f1d2528
+    src: 17_Snimanje dokumenta.rst
+    title: Снимање (чување) документа
+    type: reading
+  - description: ''
+    file: 18_Otvaranje i zatvaranje dokumenta.html
+    guid: 7854ff03-a921-4d89-afe6-e7b4d58f50ed
+    src: 18_Otvaranje i zatvaranje dokumenta.rst
+    title: Отварање и затварање документа
+    type: reading
+  - description: ''
+    file: 19_Isticanje teksta.html
+    guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
+    src: 19_Isticanje teksta.rst
+    title: Истицање текста
+    type: reading
+  - description: ''
+    file: 110_Kopiranje i premestanje teksta.html
+    guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
+    src: 110_Kopiranje i premestanje teksta.rst
+    title: Копирање и премештање текста - увод
+    type: reading
+  - description: ''
+    file: 111_Kopiranje teksta.html
+    guid: f969c055-8ad8-45b0-b3c1-b8ed4c8586d1
+    src: 111_Kopiranje teksta.rst
+    title: Копирање текста
+    type: reading
+  - description: ''
+    file: 112_Premestanje teksta.html
+    guid: d139c33e-83eb-4fc1-b567-bec424b3f952
+    src: 112_Premestanje teksta.rst
+    title: Премештање текста
+    type: reading
+  - description: ''
+    file: 113_Vezbe.html
+    guid: 127d2e15-db1c-41ed-9354-d843436a386e
+    src: 113_Vezbe.rst
+    title: Вежбе
+    type: reading
+  - description: ''
+    file: 114_Kviz.html
+    guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
+    src: 114_Kviz.rst
+    title: Квиз
+    type: quiz
+  archived-activities: []
+  description: ''
+  folder: 1_Rad sa tekstom
+  guid: 7c02ae23-fe80-4e70-9dc1-4fda6f7b2225
+  normalized_title: Рад са текстом
+  title: Рад са текстом
+- activities:
+  - description: ''
+    file: 41_Primeri digitalizacije.html
+    guid: 6643a44a-b454-49ba-a582-d709dc648522
+    src: 41_Primeri digitalizacije.rst
+    title: Примери дигитализације
+    type: reading
+  - description: ''
+    file: 42_Vestacka inteligencija.html
+    guid: f071e648-9097-4a25-af75-55f9f0b09015
+    src: 42_Vestacka inteligencija.rst
+    title: Вештачка интелигенција
+    type: reading
+  - description: ''
+    file: 43_Zadatak.html
+    guid: 8ae3bb00-058d-4f10-853e-f3a37400983f
+    src: 43_Zadatak.rst
+    title: Задатак
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 4_Primeri digitalizacije
+  guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
+  normalized_title: Дигитализација
+  title: Дигитализација
+- activities:
+  - description: ''
+    file: 0_Uvod.html
+    guid: 6779aed4-ece5-435b-af9c-6e256e74e64e
     src: 0_Uvod.rst
     title: Алгоритам, да се подсетимо...
     type: reading
@@ -91,7 +212,7 @@ lessons:
   archived-activities: []
   description: ''
   folder: Algoritamski nacin razmisljanja
-  guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
+  guid: 86146f06-88c7-4b4c-be22-acc5d0350392
   normalized_title: Алгоритамски начин размишљања
   title: Алгоритамски начин размишљања
 title: Дигитални свет за 3 разред
