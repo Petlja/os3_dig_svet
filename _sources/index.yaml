@@ -105,20 +105,12 @@ lessons:
         file: 22_Dodavanje teksta na sliku.rst
         guid: c3c97471-2f73-4fb6-8115-1a5e42c76eb6  
       - type: reading
-        title: Вежба 1 
-        file: 23_Vezba_1.rst
+        title: Вежбе 
+        file: 23_Vezbe.rst
         guid: 95569b75-5613-4e7d-8754-b1e7c64c8e06  
-      - type: reading
-        title: Вежба 2 
-        file: 24_Vezba_2.rst
-        guid: 9ea2ffda-a6db-43e7-b65d-c3381f12a745  
-      - type: reading
-        title: Вежба 3 
-        file: 25_Vezba_3.rst
-        guid: 977cd164-1657-43fa-9ae5-a766b52d2541
       - type: quiz
         title: Квиз
-        file: 26_Kviz.rst
+        file: 24_Kviz.rst
         guid: 01bbd2ee-8451-4780-a276-6a1cf0f1febf
   - title: Претраживање интернета
     guid: 1380350a-6914-48c7-bd8e-09f9efb071e9
