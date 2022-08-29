@@ -177,7 +177,7 @@ lessons:
     file: 31_Pretrazivanje interneta.html
     guid: b6e1bdb1-6693-4b67-8b8b-bb04367c3af1
     src: 31_Pretrazivanje interneta.rst
-    title: Лекција 1, 2, 3...
+    title: Претраживање интернета - Лекције 1, 2, 3...
     type: reading
   archived-activities: []
   description: ''
@@ -185,6 +185,31 @@ lessons:
   guid: 1380350a-6914-48c7-bd8e-09f9efb071e9
   normalized_title: Претраживање интернета
   title: Претраживање интернета
+- activities:
+  - description: ''
+    file: 41_Primeri digitalizacije.html
+    guid: 6643a44a-b454-49ba-a582-d709dc648522
+    src: 41_Primeri digitalizacije.rst
+    title: Примери дигитализације
+    type: reading
+  - description: ''
+    file: 42_Vestacka inteligencija.html
+    guid: f071e648-9097-4a25-af75-55f9f0b09015
+    src: 42_Vestacka inteligencija.rst
+    title: Вештачка интелигенција
+    type: reading
+  - description: ''
+    file: 43_Zadatak.html
+    guid: 8cc0c6d2-70c5-4a54-800d-9b52671c360a
+    src: 43_Zadatak.rst
+    title: Задатак
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: 4_Primeri digitalizacije
+  guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
+  normalized_title: Дигитализација
+  title: Дигитализација
 - activities:
   - description: ''
     file: 51_Digitalni ugled.html
@@ -219,9 +244,9 @@ lessons:
   archived-activities: []
   description: ''
   folder: 5_Bezbedno koriscenje digitalnih uredjaja
-  guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
-  normalized_title: Дигитализација
-  title: Дигитализација
+  guid: 04a231c3-d772-46b0-b050-8053e99d6c1c
+  normalized_title: Безбедно коришћење интернета
+  title: Безбедно коришћење интернета
 - activities:
   - description: ''
     file: 60_Uvod.html

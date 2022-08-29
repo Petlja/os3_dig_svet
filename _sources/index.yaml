@@ -125,7 +125,7 @@ lessons:
     folder: 3_Pretrazivanje interneta
     activities:
       - type: reading
-        title: Лекција 1, 2, 3...
+        title: Претраживање интернета - Лекције 1, 2, 3...
         file: 31_Pretrazivanje interneta.rst 
         guid: b6e1bdb1-6693-4b67-8b8b-bb04367c3af1
   - title: Дигитализација
@@ -143,6 +143,9 @@ lessons:
       - type: reading
         title: Задатак
         file: 43_Zadatak.rst 
+        guid: 8cc0c6d2-70c5-4a54-800d-9b52671c360a
+  - title: Безбедно коришћење интернета
+    guid: 04a231c3-d772-46b0-b050-8053e99d6c1c
     folder: 5_Bezbedno koriscenje digitalnih uredjaja
     activities:
       - type: reading
