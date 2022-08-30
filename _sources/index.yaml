@@ -148,12 +148,8 @@ lessons:
         file: 41_Primeri digitalizacije.rst 
         guid: 6643a44a-b454-49ba-a582-d709dc648522
       - type: reading
-        title: Вештачка интелигенција
-        file: 42_Vestacka inteligencija.rst 
-        guid: f071e648-9097-4a25-af75-55f9f0b09015
-      - type: reading
         title: Задатак
-        file: 43_Zadatak.rst 
+        file: 42_Zadatak.rst 
         guid: 8cc0c6d2-70c5-4a54-800d-9b52671c360a
   - title: 5. Безбедно коришћење интернета
     guid: 04a231c3-d772-46b0-b050-8053e99d6c1c

@@ -210,15 +210,9 @@ lessons:
     title: Примери дигитализације
     type: reading
   - description: ''
-    file: 42_Vestacka inteligencija.html
-    guid: f071e648-9097-4a25-af75-55f9f0b09015
-    src: 42_Vestacka inteligencija.rst
-    title: Вештачка интелигенција
-    type: reading
-  - description: ''
-    file: 43_Zadatak.html
+    file: 42_Zadatak.html
     guid: 8cc0c6d2-70c5-4a54-800d-9b52671c360a
-    src: 43_Zadatak.rst
+    src: 42_Zadatak.rst
     title: Задатак
     type: reading
   archived-activities: []
