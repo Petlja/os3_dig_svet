@@ -123,14 +123,22 @@ lessons:
         title: Квиз
         file: 24_Kviz.rst
         guid: 01bbd2ee-8451-4780-a276-6a1cf0f1febf
-  - title: 3. Претраживање интернета
+  - title: 3. Садржаји на интернету
     guid: 1380350a-6914-48c7-bd8e-09f9efb071e9
-    folder: 3_Pretrazivanje interneta
+    folder: 3_Sadrzaji
     activities:
       - type: reading
-        title: Претраживање интернета - Лекције 1, 2, 3...
-        file: 31_Pretrazivanje interneta.rst 
+        title: Прегледач и претраживач
+        file: 31_Pregledac_i_pretrazivac.rst 
         guid: b6e1bdb1-6693-4b67-8b8b-bb04367c3af1
+      - type: reading
+        title: Како претраживати
+        file: 32_Pretrazivanje.rst 
+        guid: a803cd09-a794-4f9e-aeb2-7d787c40f903
+      - type: reading
+        title: Етичко коришћење туђих дигиталних материјала
+        file: 33_Eticko_koriscenje.rst
+        guid: 0704e496-d062-44ed-92b7-fbd1e1b3d574
   - title: 4. Дигитализација
     guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
     folder: 4_Primeri digitalizacije

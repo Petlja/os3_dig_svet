@@ -1,4 +1,4 @@
-courseId: courseID
+courseId: os3_dig_svet
 description:
   externalLinks:
   - href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
@@ -9,28 +9,45 @@ description:
     text: Runestone Interactive
   longDescription: '<div class="document">
 
-    <p>Дигитални свет</p>
+    <p>Овај курс је намењен ученицима трећег разреда основне школе за предмет Дигитални
+    свет.
+
+    У оквиру курса детаљно су обрађене наставне теме предвиђене програмом наставе
+    и учења за овај предмет.</p>
+
+    <p>Поред рада у школи, курс се може пролазити и самостално.</p>
+
+    <p>&lt;p&gt;
+
+    &lt;a rel=&quot;license&quot; href=&quot;<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">https://creativecommons.org/licenses/by/4.0/deed.sr_LATN</a>&quot;&gt;
+
+    &lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot;
+    src=&quot;https://i.creativecommons.org/l/by/4.0/88x31.png&quot; /&gt;&lt;/a&gt;
+
+    &lt;br /&gt;Овај курс Фондација Петља објавила je под лиценцом &lt;a rel=&quot;license&quot;
+    href=&quot;https://creativecommons.org/licenses/by/4.0/deed.sr_LATN&quot;&gt;Creative
+    Commons Autorstvo 4.0 Međunarodna Licenca (CC BY 4.0)&lt;/a&gt;.
+
+    &lt;/p&gt;</p>
 
     </div>
 
     '
   requirements:
-  - Petljadoc
-  - Runestone
-  - Sphinx
-  shortDescription: Дигитални свет за 3 разред
-  toc:
-  - Intro to Petljadoc INDEX.yaml
+  - Персонални рачунар са оперативним системом <i>Windows</i> и приступом интернету
+  - Инсталиран <i>Microsoft Word</i> на персоналном рачунару
+  shortDescription: Дигитални свет за трећи разред
+  toc: null
   willLearn:
   - Preview of Petljadoc course
-lang: sr
+lang: sr-Cyrl
 lessons:
 - activities:
   - description: ''
     file: Uvod.html
     guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
     src: Uvod.rst
-    title: Увод
+    title: Добродошао у дигитални свет
     type: reading
   archived-activities: []
   description: ''
@@ -127,8 +144,8 @@ lessons:
   description: ''
   folder: 1_Rad sa tekstom
   guid: 7c02ae23-fe80-4e70-9dc1-4fda6f7b2225
-  normalized_title: Рад са текстом
-  title: Рад са текстом
+  normalized_title: 1. Рад са текстом
+  title: 1. Рад са текстом
 - activities:
   - description: ''
     file: 21_Slika i tekst_uvod.html
@@ -158,21 +175,33 @@ lessons:
   description: ''
   folder: 2_Slika i tekst
   guid: 1d158702-f3df-4be1-96be-8c99139363c6
-  normalized_title: Слика и текст
-  title: Слика и текст
+  normalized_title: 2. Слика и текст
+  title: 2. Слика и текст
 - activities:
   - description: ''
-    file: 31_Pretrazivanje interneta.html
+    file: 31_Pregledac_i_pretrazivac.html
     guid: b6e1bdb1-6693-4b67-8b8b-bb04367c3af1
-    src: 31_Pretrazivanje interneta.rst
-    title: Претраживање интернета - Лекције 1, 2, 3...
+    src: 31_Pregledac_i_pretrazivac.rst
+    title: Прегледач и претраживач
+    type: reading
+  - description: ''
+    file: 32_Pretrazivanje.html
+    guid: a803cd09-a794-4f9e-aeb2-7d787c40f903
+    src: 32_Pretrazivanje.rst
+    title: Како претраживати
+    type: reading
+  - description: ''
+    file: 33_Eticko_koriscenje.html
+    guid: 0704e496-d062-44ed-92b7-fbd1e1b3d574
+    src: 33_Eticko_koriscenje.rst
+    title: Етичко коришћење туђих дигиталних материјала
     type: reading
   archived-activities: []
   description: ''
-  folder: 3_Pretrazivanje interneta
+  folder: 3_Sadrzaji
   guid: 1380350a-6914-48c7-bd8e-09f9efb071e9
-  normalized_title: Претраживање интернета
-  title: Претраживање интернета
+  normalized_title: 3. Садржаји на интернету
+  title: 3. Садржаји на интернету
 - activities:
   - description: ''
     file: 41_Primeri digitalizacije.html
@@ -196,8 +225,8 @@ lessons:
   description: ''
   folder: 4_Primeri digitalizacije
   guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
-  normalized_title: Дигитализација
-  title: Дигитализација
+  normalized_title: 4. Дигитализација
+  title: 4. Дигитализација
 - activities:
   - description: ''
     file: 51_Digitalni ugled.html
@@ -233,8 +262,8 @@ lessons:
   description: ''
   folder: 5_Bezbedno koriscenje digitalnih uredjaja
   guid: 04a231c3-d772-46b0-b050-8053e99d6c1c
-  normalized_title: Безбедно коришћење интернета
-  title: Безбедно коришћење интернета
+  normalized_title: 5. Безбедно коришћење интернета
+  title: 5. Безбедно коришћење интернета
 - activities:
   - description: ''
     file: 60_Uvod.html
@@ -244,49 +273,49 @@ lessons:
     type: reading
   - description: ''
     file: 61_O Karelu.html
-    guid: Tf8F7ycN7kav06/sce7D0A==
+    guid: 310d86f1-2348-46c3-8f4d-122a967a09b1
     src: 61_O Karelu.rst
     title: О Карелу
     type: reading
   - description: ''
     file: 62_Linijski programi.html
-    guid: xDhNsXapEEGowEGSErZQQA==
+    guid: 836d3d30-041e-443b-a209-9b57aadff45d
     src: 62_Linijski programi.rst
     title: Линијски програми
     type: reading
   - description: ''
     file: 63_Brojacke petlje.html
-    guid: 6eAlali6ZkqLNeKhQl1Ygg==
+    guid: 94579f01-ee20-4ced-874c-9181754411ee
     src: 63_Brojacke petlje.rst
     title: Бројачке петље
     type: reading
   - description: ''
     file: 64_Uslovne petlje.html
-    guid: VAcYXlaPYEmIoOxtecpTfw==
+    guid: 9ef6a846-82d0-4407-b541-5a5dbf55c3e8
     src: 64_Uslovne petlje.rst
     title: Условне петље
     type: reading
   - description: ''
     file: 65_Aritmeticke i logicke operacije.html
-    guid: p5m+eeZzEUGLHnNdYSAsJQ==
+    guid: 648332a5-2b89-457d-b0d7-1f135e2be81b
     src: 65_Aritmeticke i logicke operacije.rst
     title: Аритметичке и логичке операције
     type: reading
   - description: ''
     file: 66_Grananje u programu.html
-    guid: 6BrWmFWglEiLwMqtfwrYmg==
+    guid: 75a3dd8e-165a-4e73-a422-1d75ca61a11a
     src: 66_Grananje u programu.rst
     title: Гранање у програму
     type: reading
   - description: ''
     file: 67_Razni zadaci.html
-    guid: S0dnxjPNi0W0hyb0JO6vmQ==
+    guid: 2dead7dd-af98-4aa5-ab92-4d696838ad16
     src: 67_Razni zadaci.rst
     title: Разни задаци
     type: reading
   - description: ''
     file: 68_Programiranje fizickih uredjaja.html
-    guid: jvt1KCdzDk6SttWAhM4q7w==
+    guid: 01258ceb-a96d-4ced-af00-d903a73bf7ca
     src: 68_Programiranje fizickih uredjaja.rst
     title: Програмирање физичких уређаја
     type: reading
@@ -294,6 +323,6 @@ lessons:
   description: ''
   folder: 6_Algoritamski nacin razmisljanja
   guid: 86146f06-88c7-4b4c-be22-acc5d0350392
-  normalized_title: 6_Алгоритамски начин размишљања
-  title: 6_Алгоритамски начин размишљања
-title: Дигитални свет за 3 разред
+  normalized_title: 6. Алгоритамски начин размишљања
+  title: 6. Алгоритамски начин размишљања
+title: Дигитални свет за трећи разред
