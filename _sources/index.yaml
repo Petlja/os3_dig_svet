@@ -1,25 +1,36 @@
-courseId: courseID 
-lang: sr
-title: Дигитални свет за 3 разред
+courseId: os3_dig_svet
+lang: sr-Cyrl
+title: Дигитални свет за трећи разред
 description:
-  willLearn: 
+  willLearn: # ovo treba prilagoditi
     - Preview of Petljadoc course
-  requirements:
-    - Petljadoc
-    - Runestone
-    - Sphinx
-  toc:
-   - Intro to Petljadoc INDEX.yaml
-  externalLinks:  
+
+  requirements: # ovo treba pogledati da li je to to
+    - Персонални рачунар са оперативним системом <i>Windows</i> и приступом интернету
+    - Инсталиран <i>Microsoft Word</i> на персоналном рачунару
+
+  toc: # ovo može da ostane prazno
+
+  externalLinks: # ovo treba prilagoditi 
     - text: Sphinx Docs
       href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
     - text: Petljadoc
       href: https://github.com/Petlja/PetljaDoc/blob/master/README.md
     - text: Runestone Interactive
       href: https://github.com/RunestoneInteractive/overview
+
   longDescription: |
-    Дигитални свет
-  shortDescription: Дигитални свет за 3 разред
+    Овај курс је намењен ученицима трећег разреда основне школе за предмет Дигитални свет. 
+    У оквиру курса детаљно су обрађене наставне теме предвиђене програмом наставе и учења за овај предмет. 
+
+    Поред рада у школи, курс се може пролазити и самостално.
+
+    <p>
+    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">
+    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+    <br />Овај курс Фондација Петља објавила je под лиценцом <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">Creative Commons Autorstvo 4.0 Međunarodna Licenca (CC BY 4.0)</a>.
+    </p>  
+  shortDescription: Дигитални свет за трећи разред
 
 
 lessons:
@@ -28,11 +39,11 @@ lessons:
     folder: 0_Uvod
     activities:
       - type: reading
-        title: Увод
+        title: Добродошао у дигитални свет
         file: Uvod.rst 
         guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
 
-  - title: Рад са текстом
+  - title: 1. Рад са текстом
     guid: 7c02ae23-fe80-4e70-9dc1-4fda6f7b2225
     folder: 1_Rad sa tekstom
     activities:
@@ -92,7 +103,7 @@ lessons:
         title: Квиз 
         file: 114_Kviz.rst
         guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
-  - title: Слика и текст
+  - title: 2. Слика и текст
     guid: 1d158702-f3df-4be1-96be-8c99139363c6
     folder: 2_Slika i tekst
     activities:
@@ -112,7 +123,7 @@ lessons:
         title: Квиз
         file: 24_Kviz.rst
         guid: 01bbd2ee-8451-4780-a276-6a1cf0f1febf
-  - title: Претраживање интернета
+  - title: 3. Претраживање интернета
     guid: 1380350a-6914-48c7-bd8e-09f9efb071e9
     folder: 3_Pretrazivanje interneta
     activities:
@@ -120,7 +131,7 @@ lessons:
         title: Претраживање интернета - Лекције 1, 2, 3...
         file: 31_Pretrazivanje interneta.rst 
         guid: b6e1bdb1-6693-4b67-8b8b-bb04367c3af1
-  - title: Дигитализација
+  - title: 4. Дигитализација
     guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
     folder: 4_Primeri digitalizacije
     activities:
@@ -136,7 +147,7 @@ lessons:
         title: Задатак
         file: 43_Zadatak.rst 
         guid: 8cc0c6d2-70c5-4a54-800d-9b52671c360a
-  - title: Безбедно коришћење интернета
+  - title: 5. Безбедно коришћење интернета
     guid: 04a231c3-d772-46b0-b050-8053e99d6c1c
     folder: 5_Bezbedno koriscenje digitalnih uredjaja
     activities:
@@ -158,9 +169,9 @@ lessons:
         guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
       - type: reading
         title: Израда личног плана коришћења дигиталних уређаја
-        file: 55_Izrada licnog plana.rst           
+        file: 55_Izrada licnog plana.rst 
         guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
-  - title: 6_Алгоритамски начин размишљања
+  - title: 6. Алгоритамски начин размишљања
     guid: 86146f06-88c7-4b4c-be22-acc5d0350392
     folder: 6_Algoritamski nacin razmisljanja
     activities:
@@ -171,32 +182,32 @@ lessons:
       - type: reading
         title: О Карелу
         file: 61_O Karelu.rst 
-        guid: Tf8F7ycN7kav06/sce7D0A==
+        guid: 310d86f1-2348-46c3-8f4d-122a967a09b1
       - type: reading
         title: Линијски програми
         file: 62_Linijski programi.rst 
-        guid: xDhNsXapEEGowEGSErZQQA==
+        guid: 836d3d30-041e-443b-a209-9b57aadff45d
       - type: reading
         title: Бројачке петље
         file: 63_Brojacke petlje.rst 
-        guid: 6eAlali6ZkqLNeKhQl1Ygg==
+        guid: 94579f01-ee20-4ced-874c-9181754411ee
       - type: reading
         title: Условне петље
         file: 64_Uslovne petlje.rst 
-        guid: VAcYXlaPYEmIoOxtecpTfw==
+        guid: 9ef6a846-82d0-4407-b541-5a5dbf55c3e8
       - type: reading
         title: Аритметичке и логичке операције
         file: 65_Aritmeticke i logicke operacije.rst 
-        guid: p5m+eeZzEUGLHnNdYSAsJQ==
+        guid: 648332a5-2b89-457d-b0d7-1f135e2be81b
       - type: reading
         title: Гранање у програму
         file: 66_Grananje u programu.rst 
-        guid: 6BrWmFWglEiLwMqtfwrYmg==
+        guid: 75a3dd8e-165a-4e73-a422-1d75ca61a11a
       - type: reading
         title: Разни задаци
         file: 67_Razni zadaci.rst 
-        guid: S0dnxjPNi0W0hyb0JO6vmQ==
+        guid: 2dead7dd-af98-4aa5-ab92-4d696838ad16
       - type: reading
         title: Програмирање физичких уређаја
         file: 68_Programiranje fizickih uredjaja.rst 
-        guid: jvt1KCdzDk6SttWAhM4q7w==
+        guid: 01258ceb-a96d-4ced-af00-d903a73bf7ca
