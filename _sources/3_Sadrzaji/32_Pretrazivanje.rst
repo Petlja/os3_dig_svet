@@ -9,7 +9,7 @@
 Са радне површине свог рачунара мораш покренути веб прегледач (у овом случају Мајкрософт Еџ):
 
 .. image:: ../../_images/pi_3.png
-   :width: 80%
+   :width: 780
    :align: center
 
 .. |win| image:: ../../_images/windows.png
