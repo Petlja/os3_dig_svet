@@ -36,7 +36,7 @@
            world.setRobotStartDirection("W");
            world.putBalls(2, 1, 8);
            var robot = new Robot();
-		   var domXml = '<xml xmlns="https://developers.google.com/blockly/xml">\n  <block type="move" id="P:A@rh-yEri6hB{xdg%*" x="98" y="61">\n    <next>\n      <block type="pick_up" id=";JAex_)98[eDGkpG(8P*">\n        <next>\n          <block type="pick_up" id="Y]9=zS.P$?.ulkeWZOna">\n            <next>\n              <block type="pick_up" id="Hl^WZ[JwN?W~qwLo$(i+">\n                <next>\n                  <block type="pick_up" id="PSrYQpfO1_:sYiU-Z74C">\n                    <next>\n                      <block type="pick_up" id="r,CU6Gij:uOB?Rs*x|h?">\n                        <next>\n                          <block type="pick_up" id="%+#=HW53tdzO/mL{FJFB">\n                            <next>\n                              <block type="pick_up" id="A/(WFPG.M25!%i7K*HkN"></block>\n                            </next>\n                          </block>\n                        </next>\n                      </block>\n                    </next>\n                  </block>\n                </next>\n              </block>\n            </next>\n          </block>\n        </next>\n      </block>\n    </next>\n  </block>\n  <block type="controls_repeat" id="[3myH(#a:Mhy9XI0R1gw" x="325" y="59">\n    <field name="TIMES">8</field>\n    <statement name="DO">\n      <block type="pick_up" id="1oK]fLL/EC1g-+9YG#gL"></block>\n    </statement>\n  </block>\n</xml>';
+		   var domXml = '<xml xmlns="https://developers.google.com/blockly/xml">\n  <block type="move" id="P:A@rh-yEri6hB{xdg%*" x="48" y="144">\n    <next>\n      <block type="pick_up" id=";JAex_)98[eDGkpG(8P*">\n        <next>\n          <block type="pick_up" id="Y]9=zS.P$?.ulkeWZOna">\n            <next>\n              <block type="pick_up" id="Hl^WZ[JwN?W~qwLo$(i+">\n                <next>\n                  <block type="pick_up" id="PSrYQpfO1_:sYiU-Z74C">\n                    <next>\n                      <block type="pick_up" id="r,CU6Gij:uOB?Rs*x|h?">\n                        <next>\n                          <block type="pick_up" id="%+#=HW53tdzO/mL{FJFB">\n                            <next>\n                              <block type="pick_up" id="A/(WFPG.M25!%i7K*HkN">\n                                <next>\n                                  <block type="pick_up" id="j}6?R838*}OqcE%idBb."></block>\n                                </next>\n                              </block>\n                            </next>\n                          </block>\n                        </next>\n                      </block>\n                    </next>\n                  </block>\n                </next>\n              </block>\n            </next>\n          </block>\n        </next>\n      </block>\n    </next>\n  </block>\n  <block type="controls_repeat" id="[3myH(#a:Mhy9XI0R1gw" x="267" y="145">\n    <field name="TIMES">8</field>\n    <statement name="DO">\n      <block type="pick_up" id="1oK]fLL/EC1g-+9YG#gL"></block>\n    </statement>\n  </block>\n</xml>';
 		   return {world: world, robot: robot, domXml:domXml};
       },
 	  
@@ -172,11 +172,7 @@
       },
 	  
       isSuccess: function(robot, world) {
-	       for (var i = 1; i <= world.getAvenues(); i++)
-              for (var j = 1; j <= world.getStreets(); j++)
-                 if (robot.getBalls(i, j) == 0)
-                    return false;
-           return true;
+	        return robot.getAvenue() == 6 && robot.getStreet() == 6
       }
    }
  

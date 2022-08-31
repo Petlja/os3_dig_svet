@@ -34,7 +34,7 @@
       }
    }
    
-У претходна два програма блокови били поређани један испод другог, као да продужаваш линију док их слажеш. Овакви програми називају се **линијски**.
+У претходна два програма блокови су били поређани један испод другог, као да продужаваш линију док их слажеш. Овакви програми називају се **линијски**.
 
 .. infonote::
 
@@ -89,11 +89,10 @@
  Када кликнеш на било који (већ превучен) блок десним тастером миша, добићеш две опције: ``Дуплирај`` и ``Избриши блок``. 
  Прва опција ће направити још један такав блок, а друга ће га избрисати.
  
-Постоји још један начин да избришеш блок:
+Постоје још два начина да избришеш блок:
  
-Кликни на блок који желиш да избришеш. Постаће уоквирен жутом линијом. Када притиснеш тастер *Delete* на тастатури, 
-изабрани блок ће нестати.
-
+1. Кликни на блок који желиш да избришеш. Постаће уоквирен жутом линијом. Када притиснеш тастер *Delete* на тастатури, изабрани блок ће нестати.
+2. Кликни на блок и превуци га до сиве корпе која се налази у доњем десном углу простора за слагање блокова. Када га довучеш до корпе, она ће се отворити. Отпусти тастер миша и блок ће нестати. 
 
 Задатак 3
 --------- 
@@ -118,7 +117,7 @@
             world.addNSWall(3, 4, 1);
             world.addNSWall(1, 5, 1);
             var robot = new Robot();
-            var domXml = '<xml xmlns="https://developers.google.com/blockly/xml">\n  <block type="move" id="^c,s6?}@%hfN~%l{L^4]" x="437" y="88"></block>\n  <block type="move" id="v((;N^?~/DPk?PtcD!rH" x="63" y="123"></block>\n  <block type="turn_left" id="8ot[uBd,stAEC4|/E7}o" x="298" y="147"></block>\n  <block type="pick_up" id="u;=%D4uiqat3FDWes#=P" x="42" y="189"></block>\n  <block type="move" id="8jzM+{4K7b6%3,D_tpyl" x="181" y="203"></block>\n  <block type="turn_right" id="3QvO+QuL$beiAIhQN/Qg" x="479" y="198"></block>\n  <block type="move" id="[;1x]bR043wC(UJQ:[$6" x="283" y="299"></block>\n  <block type="turn_left" id="s3fOMprumtO,.x/?fyNO" x="61" y="313"></block>\n  <block type="move" id=":.jI_,|BH6syiWlrrUNe" x="393" y="375"></block>\n  <block type="move" id="=fvSp9pM2-te1KdOu3Rd" x="201" y="433"></block>\n</xml>';
+            var domXml = '<xml xmlns="https://developers.google.com/blockly/xml">\n  <block type="move" id="v((;N^?~/DPk?PtcD!rH" x="49" y="70"></block>\n  <block type="move" id="^c,s6?}@%hfN~%l{L^4]" x="288" y="62"></block>\n  <block type="turn_left" id="8ot[uBd,stAEC4|/E7}o" x="188" y="147"></block>\n  <block type="pick_up" id="u;=%D4uiqat3FDWes#=P" x="42" y="189"></block>\n  <block type="turn_right" id="3QvO+QuL$beiAIhQN/Qg" x="322" y="228"></block>\n  <block type="move" id="8jzM+{4K7b6%3,D_tpyl" x="147" y="240"></block>\n  <block type="turn_left" id="s3fOMprumtO,.x/?fyNO" x="34" y="311"></block>\n  <block type="move" id="[;1x]bR043wC(UJQ:[$6" x="321" y="313"></block>\n  <block type="move" id=":.jI_,|BH6syiWlrrUNe" x="162" y="367"></block>\n  <block type="move" id="=fvSp9pM2-te1KdOu3Rd" x="102" y="442"></block>\n</xml>';
             return {robot:robot, world:world, domXml:domXml};
         },
 
