@@ -144,7 +144,7 @@ lessons:
     folder: 4_Primeri digitalizacije
     activities:
       - type: reading
-        title: Примери дигитализације
+        title: Дигитализација и вештачка интелигенција
         file: 41_Primeri digitalizacije.rst 
         guid: 6643a44a-b454-49ba-a582-d709dc648522
       - type: reading
