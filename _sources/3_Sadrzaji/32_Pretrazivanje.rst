@@ -11,7 +11,7 @@
 следећој слици имаш радну површину са иконицом за Мајкрософтов Еџ (број 1 на слици):
 
 .. image:: ../../_images/pi_3.png
-   :width: 80%
+   :width: 780
    :align: center
 
 .. |win| image:: ../../_images/windows.png
