@@ -143,6 +143,10 @@ lessons:
         title: Како претраживати
         file: 32_Pretrazivanje.rst 
         guid: a803cd09-a794-4f9e-aeb2-7d787c40f903
+      - type: quiz
+        title: Квиз
+        file: 32k_Pitanja_o_pretrazi.rst
+        guid: 214e681f-56b1-4503-bad5-c65c6e66a157       
       - type: reading
         title: Етичко коришћење туђих дигиталних материјала
         file: 33_Eticko_koriscenje.rst

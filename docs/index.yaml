@@ -200,6 +200,12 @@ lessons:
     title: Како претраживати
     type: reading
   - description: ''
+    file: 32k_Pitanja_o_pretrazi.html
+    guid: 214e681f-56b1-4503-bad5-c65c6e66a157
+    src: 32k_Pitanja_o_pretrazi.rst
+    title: Квиз
+    type: quiz
+  - description: ''
     file: 33_Eticko_koriscenje.html
     guid: 0704e496-d062-44ed-92b7-fbd1e1b3d574
     src: 33_Eticko_koriscenje.rst
