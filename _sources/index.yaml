@@ -142,15 +142,15 @@ lessons:
       - type: reading
         title: Како претраживати
         file: 32_Pretrazivanje.rst 
-        guid: a803cd09-a794-4f9e-aeb2-7d787c40f903
+        guid: a803cd09-a794-4f9e-aeb2-7d787c40f903       
+      - type: reading
+        title: Није све што пронађеш твоје
+        file: 33_Eticko_koriscenje.rst
+        guid: 0704e496-d062-44ed-92b7-fbd1e1b3d574
       - type: quiz
         title: Квиз
         file: 32k_Pitanja_o_pretrazi.rst
-        guid: 214e681f-56b1-4503-bad5-c65c6e66a157       
-      - type: reading
-        title: Етичко коришћење туђих дигиталних материјала
-        file: 33_Eticko_koriscenje.rst
-        guid: 0704e496-d062-44ed-92b7-fbd1e1b3d574
+        guid: 214e681f-56b1-4503-bad5-c65c6e66a157
   - title: 4. Дигитализација
     guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
     folder: 4_Primeri digitalizacije
