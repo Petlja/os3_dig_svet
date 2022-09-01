@@ -473,7 +473,7 @@
                             <div class="karel_actions col-md-12 mb-2">
                                 <button class="btn btn-success run-button run-karel">Покрени програм</button>
                                 <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
-                                
+                                <button class="btn btn-default export-button">Сачувај стање</button>
                             </div>
                         </div>
                         <section class="col-md-12">
@@ -556,7 +556,7 @@
               world.setRobotStartStreet(2);
               world.setRobotStartDirection("S");;
               var robot = new Robot();
-              var domXml = '&lt;xml xmlns="https://developers.google.com/blockly/xml">\n  &lt;block type="text_print" id="./k=Op.P-]Of^K6^PNYn" x="103" y="132">\n    &lt;value name="TEXT">\n      &lt;block type="logic_compare" id="Az;KBd4,{p*H?.vtu)|Z">\n        &lt;field name="OP">GT&lt;/field>\n        &lt;value name="A">\n          &lt;block type="math_number" id="l^X,KI,q+D5yU5bRR;Yt">\n            &lt;field name="NUM">325&lt;/field>\n          &lt;/block>\n        &lt;/value>\n        &lt;value name="B">\n          &lt;block type="math_arithmetic" id="pOeI*XBU3FOq*ljILsOD">\n            &lt;field name="OP">ADD&lt;/field>\n            &lt;value name="A">\n              &lt;block type="math_number" id="GsZc9wXC|w;|8+Uy[23y">\n                &lt;field name="NUM">48&lt;/field>\n              &lt;/block>\n            &lt;/value>\n            &lt;value name="B">\n              &lt;block type="math_number" id="V7c,kPAKH=aQYCa?12_+">\n                &lt;field name="NUM">286&lt;/field>\n              &lt;/block>\n            &lt;/value>\n          &lt;/block>\n        &lt;/value>\n      &lt;/block>\n    &lt;/value>\n  &lt;/block>\n&lt;/xml>';
+              var domXml = '&lt;xml xmlns="https://developers.google.com/blockly/xml">\n  &lt;block type="text_print" id="./k=Op.P-]Of^K6^PNYn" x="33" y="141">\n    &lt;value name="TEXT">\n      &lt;block type="logic_compare" id="Az;KBd4,{p*H?.vtu)|Z">\n        &lt;field name="OP">GT&lt;/field>\n        &lt;value name="A">\n          &lt;block type="math_number" id="l^X,KI,q+D5yU5bRR;Yt">\n            &lt;field name="NUM">325&lt;/field>\n          &lt;/block>\n        &lt;/value>\n        &lt;value name="B">\n          &lt;block type="math_arithmetic" id="pOeI*XBU3FOq*ljILsOD">\n            &lt;field name="OP">ADD&lt;/field>\n            &lt;value name="A">\n              &lt;block type="math_number" id="GsZc9wXC|w;|8+Uy[23y">\n                &lt;field name="NUM">48&lt;/field>\n              &lt;/block>\n            &lt;/value>\n            &lt;value name="B">\n              &lt;block type="math_number" id="V7c,kPAKH=aQYCa?12_+">\n                &lt;field name="NUM">286&lt;/field>\n              &lt;/block>\n            &lt;/value>\n          &lt;/block>\n        &lt;/value>\n      &lt;/block>\n    &lt;/value>\n  &lt;/block>\n&lt;/xml>';
               return {robot:robot, world:world, domXml:domXml};
           },
 

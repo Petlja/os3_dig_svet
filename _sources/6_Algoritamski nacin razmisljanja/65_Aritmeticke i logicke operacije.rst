@@ -40,6 +40,7 @@
 **Састави блокове за израчунавање производа бројева 78 и 9**
 
 .. blockly-karel:: karel_p6  
+  :exportmode:
   :categories: KarelSays, Arithmetic
 
   {
@@ -124,7 +125,7 @@
                 world.setRobotStartStreet(2);
                 world.setRobotStartDirection("S");;
                 var robot = new Robot();
-                var domXml = '<xml xmlns="https://developers.google.com/blockly/xml">\n  <block type="text_print" id="./k=Op.P-]Of^K6^PNYn" x="103" y="132">\n    <value name="TEXT">\n      <block type="logic_compare" id="Az;KBd4,{p*H?.vtu)|Z">\n        <field name="OP">GT</field>\n        <value name="A">\n          <block type="math_number" id="l^X,KI,q+D5yU5bRR;Yt">\n            <field name="NUM">325</field>\n          </block>\n        </value>\n        <value name="B">\n          <block type="math_arithmetic" id="pOeI*XBU3FOq*ljILsOD">\n            <field name="OP">ADD</field>\n            <value name="A">\n              <block type="math_number" id="GsZc9wXC|w;|8+Uy[23y">\n                <field name="NUM">48</field>\n              </block>\n            </value>\n            <value name="B">\n              <block type="math_number" id="V7c,kPAKH=aQYCa?12_+">\n                <field name="NUM">286</field>\n              </block>\n            </value>\n          </block>\n        </value>\n      </block>\n    </value>\n  </block>\n</xml>';
+                var domXml = '<xml xmlns="https://developers.google.com/blockly/xml">\n  <block type="text_print" id="./k=Op.P-]Of^K6^PNYn" x="33" y="141">\n    <value name="TEXT">\n      <block type="logic_compare" id="Az;KBd4,{p*H?.vtu)|Z">\n        <field name="OP">GT</field>\n        <value name="A">\n          <block type="math_number" id="l^X,KI,q+D5yU5bRR;Yt">\n            <field name="NUM">325</field>\n          </block>\n        </value>\n        <value name="B">\n          <block type="math_arithmetic" id="pOeI*XBU3FOq*ljILsOD">\n            <field name="OP">ADD</field>\n            <value name="A">\n              <block type="math_number" id="GsZc9wXC|w;|8+Uy[23y">\n                <field name="NUM">48</field>\n              </block>\n            </value>\n            <value name="B">\n              <block type="math_number" id="V7c,kPAKH=aQYCa?12_+">\n                <field name="NUM">286</field>\n              </block>\n            </value>\n          </block>\n        </value>\n      </block>\n    </value>\n  </block>\n</xml>';
                 return {robot:robot, world:world, domXml:domXml};
             },
 			
