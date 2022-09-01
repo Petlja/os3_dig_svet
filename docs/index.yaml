@@ -39,16 +39,7 @@ description:
   shortDescription: Дигитални свет за трећи разред
   toc: null
   willLearn:
-  - како се уноси текст у рачунар
-  - како се именује, чува и поново отвара текстуална датотека
-  - како се додаје текст на слику
-  - како се именује, чува и поново отвара графичка датотека
-  - како се претражује интернет
-  - који су примери дигитализације у свакодневном животу
-  - шта је дигитални углед и како се он изграђује
-  - шта су ПЕГИ ознаке и чему служе
-  - шта је дигитално насиље и како да реагујеш
-  - како се решавају алгоритамски проблеми у визуелном програмском језику
+  - Preview of Petljadoc course
 lang: sr-Cyrl
 lessons:
 - activities:
@@ -199,12 +190,6 @@ lessons:
     src: 32_Pretrazivanje.rst
     title: Како претраживати
     type: reading
-  - description: ''
-    file: 32k_Pitanja_o_pretrazi.html
-    guid: 214e681f-56b1-4503-bad5-c65c6e66a157
-    src: 32k_Pitanja_o_pretrazi.rst
-    title: Квиз
-    type: quiz
   - description: ''
     file: 33_Eticko_koriscenje.html
     guid: 0704e496-d062-44ed-92b7-fbd1e1b3d574

@@ -286,7 +286,6 @@
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../3_Sadrzaji/31_Pregledac_i_pretrazivac.html><div class="studioLecture" id=activity-31_Pregledac_i_pretrazivac><i class="fas fa-file-alt activity-icon"></i>Прегледач и претраживач</div></a>
                 <a href=../3_Sadrzaji/32_Pretrazivanje.html><div class="studioLecture" id=activity-32_Pretrazivanje><i class="fas fa-file-alt activity-icon"></i>Како претраживати</div></a>
-                <a href=../3_Sadrzaji/32k_Pitanja_o_pretrazi.html><div class="studioLecture" id=activity-32k_Pitanja_o_pretrazi><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 <a href=../3_Sadrzaji/33_Eticko_koriscenje.html><div class="studioLecture" id=activity-33_Eticko_koriscenje><i class="fas fa-file-alt activity-icon"></i>Етичко коришћење туђих дигиталних материјала</div></a>
                 </div>
             </div>
@@ -473,7 +472,7 @@
                             <div class="karel_actions col-md-12 mb-2">
                                 <button class="btn btn-success run-button run-karel">Покрени програм</button>
                                 <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
-                                <button class="btn btn-default export-button">Сачувај стање</button>
+                                
                             </div>
                         </div>
                         <section class="col-md-12">
@@ -521,9 +520,8 @@
 <p>Операције поређења се у Кареловом свету налазе у групи <code class="docutils literal notranslate"><span class="pre">Логичке</span> <span class="pre">операције</span></code>. Помоћу њих се праве логички изрази,
 који као вредност могу да врате <code class="docutils literal notranslate"><span class="pre">Тачно</span></code> или <code class="docutils literal notranslate"><span class="pre">Нетачно</span></code>.</p>
 <p>Кликни на групу <code class="docutils literal notranslate"><span class="pre">Логички</span> <span class="pre">оператори</span></code> и превуци први блок (са ознаком <code class="docutils literal notranslate"><span class="pre">=</span></code> у средини) у простор за слагање. Кликни на
-стрелицу поред знака једнако и погледај које све операције можеш да користиш. Означене су исто као и у математици.
-(знак <code class="docutils literal notranslate"><span class="pre">≠</span></code> користиш када провераваш да ли је вредност са леве стране различита од вредности са десне стране овог знака).</p>
-<p>Са леве и десне стране знака поређења можеш да убацујеш вредности или целе изразе (као из претходног примера) и да их међусобно поредиш.</p>
+стрелицу поред знака једнако и погледај које све операције можеш да користиш. Означене су исто као и у математици.</p>
+<p>Са леве и десне стране можеш да убацујеш вредности или целе изразе (као из претходног примера) и да их међусобно поредиш.</p>
 
     <div class="note-wrapper suggestionnote-type">
         <div class="note-icon-holder"> </div>
@@ -531,7 +529,7 @@
         <div class="course-content">
             
 <p>Када желиш да упоредиш два израза, прво са стране састави блокове за њих, па их тек онда убаци у блок за поређење, у отворе са
-леве и десне стране знака. Рачунар ће прво израчунати једну вредност, затим другу и тек онда ће да упореди њихове резултате.</p>
+леве и десне стране знака.</p>
 
     </div></div>
 <p>Погледај следећи пример, покрени га и по узору на њега уради задатке који следе.</p>
@@ -556,7 +554,7 @@
               world.setRobotStartStreet(2);
               world.setRobotStartDirection("S");;
               var robot = new Robot();
-              var domXml = '&lt;xml xmlns="https://developers.google.com/blockly/xml">\n  &lt;block type="text_print" id="./k=Op.P-]Of^K6^PNYn" x="33" y="141">\n    &lt;value name="TEXT">\n      &lt;block type="logic_compare" id="Az;KBd4,{p*H?.vtu)|Z">\n        &lt;field name="OP">GT&lt;/field>\n        &lt;value name="A">\n          &lt;block type="math_number" id="l^X,KI,q+D5yU5bRR;Yt">\n            &lt;field name="NUM">325&lt;/field>\n          &lt;/block>\n        &lt;/value>\n        &lt;value name="B">\n          &lt;block type="math_arithmetic" id="pOeI*XBU3FOq*ljILsOD">\n            &lt;field name="OP">ADD&lt;/field>\n            &lt;value name="A">\n              &lt;block type="math_number" id="GsZc9wXC|w;|8+Uy[23y">\n                &lt;field name="NUM">48&lt;/field>\n              &lt;/block>\n            &lt;/value>\n            &lt;value name="B">\n              &lt;block type="math_number" id="V7c,kPAKH=aQYCa?12_+">\n                &lt;field name="NUM">286&lt;/field>\n              &lt;/block>\n            &lt;/value>\n          &lt;/block>\n        &lt;/value>\n      &lt;/block>\n    &lt;/value>\n  &lt;/block>\n&lt;/xml>';
+              var domXml = '&lt;xml xmlns="https://developers.google.com/blockly/xml">\n  &lt;block type="text_print" id="./k=Op.P-]Of^K6^PNYn" x="103" y="132">\n    &lt;value name="TEXT">\n      &lt;block type="logic_compare" id="Az;KBd4,{p*H?.vtu)|Z">\n        &lt;field name="OP">GT&lt;/field>\n        &lt;value name="A">\n          &lt;block type="math_number" id="l^X,KI,q+D5yU5bRR;Yt">\n            &lt;field name="NUM">325&lt;/field>\n          &lt;/block>\n        &lt;/value>\n        &lt;value name="B">\n          &lt;block type="math_arithmetic" id="pOeI*XBU3FOq*ljILsOD">\n            &lt;field name="OP">ADD&lt;/field>\n            &lt;value name="A">\n              &lt;block type="math_number" id="GsZc9wXC|w;|8+Uy[23y">\n                &lt;field name="NUM">48&lt;/field>\n              &lt;/block>\n            &lt;/value>\n            &lt;value name="B">\n              &lt;block type="math_number" id="V7c,kPAKH=aQYCa?12_+">\n                &lt;field name="NUM">286&lt;/field>\n              &lt;/block>\n            &lt;/value>\n          &lt;/block>\n        &lt;/value>\n      &lt;/block>\n    &lt;/value>\n  &lt;/block>\n&lt;/xml>';
               return {robot:robot, world:world, domXml:domXml};
           },
 
