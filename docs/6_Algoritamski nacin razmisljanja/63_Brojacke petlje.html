@@ -286,6 +286,7 @@
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../3_Sadrzaji/31_Pregledac_i_pretrazivac.html><div class="studioLecture" id=activity-31_Pregledac_i_pretrazivac><i class="fas fa-file-alt activity-icon"></i>Прегледач и претраживач</div></a>
                 <a href=../3_Sadrzaji/32_Pretrazivanje.html><div class="studioLecture" id=activity-32_Pretrazivanje><i class="fas fa-file-alt activity-icon"></i>Како претраживати</div></a>
+                <a href=../3_Sadrzaji/32k_Pitanja_o_pretrazi.html><div class="studioLecture" id=activity-32k_Pitanja_o_pretrazi><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 <a href=../3_Sadrzaji/33_Eticko_koriscenje.html><div class="studioLecture" id=activity-33_Eticko_koriscenje><i class="fas fa-file-alt activity-icon"></i>Етичко коришћење туђих дигиталних материјала</div></a>
                 </div>
             </div>
@@ -389,7 +390,7 @@
          world.setRobotStartDirection("W");
          world.putBalls(2, 1, 8);
          var robot = new Robot();
-                 var domXml = '&lt;xml xmlns="https://developers.google.com/blockly/xml">\n  &lt;block type="move" id="P:A@rh-yEri6hB{xdg%*" x="98" y="61">\n    &lt;next>\n      &lt;block type="pick_up" id=";JAex_)98[eDGkpG(8P*">\n        &lt;next>\n          &lt;block type="pick_up" id="Y]9=zS.P$?.ulkeWZOna">\n            &lt;next>\n              &lt;block type="pick_up" id="Hl^WZ[JwN?W~qwLo$(i+">\n                &lt;next>\n                  &lt;block type="pick_up" id="PSrYQpfO1_:sYiU-Z74C">\n                    &lt;next>\n                      &lt;block type="pick_up" id="r,CU6Gij:uOB?Rs*x|h?">\n                        &lt;next>\n                          &lt;block type="pick_up" id="%+#=HW53tdzO/mL{FJFB">\n                            &lt;next>\n                              &lt;block type="pick_up" id="A/(WFPG.M25!%i7K*HkN">&lt;/block>\n                            &lt;/next>\n                          &lt;/block>\n                        &lt;/next>\n                      &lt;/block>\n                    &lt;/next>\n                  &lt;/block>\n                &lt;/next>\n              &lt;/block>\n            &lt;/next>\n          &lt;/block>\n        &lt;/next>\n      &lt;/block>\n    &lt;/next>\n  &lt;/block>\n  &lt;block type="controls_repeat" id="[3myH(#a:Mhy9XI0R1gw" x="325" y="59">\n    &lt;field name="TIMES">8&lt;/field>\n    &lt;statement name="DO">\n      &lt;block type="pick_up" id="1oK]fLL/EC1g-+9YG#gL">&lt;/block>\n    &lt;/statement>\n  &lt;/block>\n&lt;/xml>';
+                 var domXml = '&lt;xml xmlns="https://developers.google.com/blockly/xml">\n  &lt;block type="move" id="P:A@rh-yEri6hB{xdg%*" x="48" y="144">\n    &lt;next>\n      &lt;block type="pick_up" id=";JAex_)98[eDGkpG(8P*">\n        &lt;next>\n          &lt;block type="pick_up" id="Y]9=zS.P$?.ulkeWZOna">\n            &lt;next>\n              &lt;block type="pick_up" id="Hl^WZ[JwN?W~qwLo$(i+">\n                &lt;next>\n                  &lt;block type="pick_up" id="PSrYQpfO1_:sYiU-Z74C">\n                    &lt;next>\n                      &lt;block type="pick_up" id="r,CU6Gij:uOB?Rs*x|h?">\n                        &lt;next>\n                          &lt;block type="pick_up" id="%+#=HW53tdzO/mL{FJFB">\n                            &lt;next>\n                              &lt;block type="pick_up" id="A/(WFPG.M25!%i7K*HkN">\n                                &lt;next>\n                                  &lt;block type="pick_up" id="j}6?R838*}OqcE%idBb.">&lt;/block>\n                                &lt;/next>\n                              &lt;/block>\n                            &lt;/next>\n                          &lt;/block>\n                        &lt;/next>\n                      &lt;/block>\n                    &lt;/next>\n                  &lt;/block>\n                &lt;/next>\n              &lt;/block>\n            &lt;/next>\n          &lt;/block>\n        &lt;/next>\n      &lt;/block>\n    &lt;/next>\n  &lt;/block>\n  &lt;block type="controls_repeat" id="[3myH(#a:Mhy9XI0R1gw" x="267" y="145">\n    &lt;field name="TIMES">8&lt;/field>\n    &lt;statement name="DO">\n      &lt;block type="pick_up" id="1oK]fLL/EC1g-+9YG#gL">&lt;/block>\n    &lt;/statement>\n  &lt;/block>\n&lt;/xml>';
                  return {world: world, robot: robot, domXml:domXml};
     },
 
@@ -659,11 +660,7 @@
     },
 
     isSuccess: function(robot, world) {
-             for (var i = 1; i &lt;= world.getAvenues(); i++)
-            for (var j = 1; j &lt;= world.getStreets(); j++)
-               if (robot.getBalls(i, j) == 0)
-                  return false;
-         return true;
+              return robot.getAvenue() == 6 && robot.getStreet() == 6
     }
  } x--></textarea>
                                 </article>

@@ -286,6 +286,7 @@
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../3_Sadrzaji/31_Pregledac_i_pretrazivac.html><div class="studioLecture" id=activity-31_Pregledac_i_pretrazivac><i class="fas fa-file-alt activity-icon"></i>Прегледач и претраживач</div></a>
                 <a href=../3_Sadrzaji/32_Pretrazivanje.html><div class="studioLecture" id=activity-32_Pretrazivanje><i class="fas fa-file-alt activity-icon"></i>Како претраживати</div></a>
+                <a href=../3_Sadrzaji/32k_Pitanja_o_pretrazi.html><div class="studioLecture" id=activity-32k_Pitanja_o_pretrazi><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 <a href=../3_Sadrzaji/33_Eticko_koriscenje.html><div class="studioLecture" id=activity-33_Eticko_koriscenje><i class="fas fa-file-alt activity-icon"></i>Етичко коришћење туђих дигиталних материјала</div></a>
                 </div>
             </div>
@@ -366,14 +367,17 @@
 <p>Када се у програму проверава неки услов и раде различите ствари у зависности да ли је он испуњен и не, говоримо о <strong>гранању</strong>.</p>
 
     </div></div>
+<div class="section" id="id2">
+<h2>Гранање <code class="docutils literal notranslate"><span class="pre">ако</span></code><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>За сваки од претходних случајева било је потребно да јасно кажеш шта треба да се уради <em>ако</em> је испуњен неки услов.
 У програму за овакве ситуације користиш блокове из групе <code class="docutils literal notranslate"><span class="pre">Гранање</span></code>.</p>
 <p>Превуци горњи блок у простор за слагање.</p>
 <p>Ови блокови се комбинују са различитим условима.</p>
 <p>Као што је код условних петљи већ поменуто, <strong>услови</strong> су <strong>изрази који могу бити тачни или нетачни</strong>.
 Да би боље разумео како се користи гранање у програму, и овде смо убацили групу блокова <code class="docutils literal notranslate"><span class="pre">Питај</span> <span class="pre">робота</span></code>.</p>
-<div class="section" id="id2">
-<h2>Пример<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id3">
+<h2>Пример<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p><strong>Карел треба да стигне на поље (7, 1). Ако на путу наиђе на лопту, треба да је узме. Састави решење тако да важи и ако је другачији распоред лоптица.</strong></p>
 
 <div  style="height: auto;display: flex;justify-content: center;">
@@ -458,12 +462,24 @@
 <p>У овом случају можемо да избројимо да је то шест пута. Из групе <code class="docutils literal notranslate"><span class="pre">Петље</span></code> превуци блок за бројачку петљу, укуцај број 6 уместо 10
 и претходно састављене блокове превуци у простор планиран за наредбе, поред речи <code class="docutils literal notranslate"><span class="pre">изврши</span></code> (како би истовремено превукао све блокове који су повезани,
 миша држи на горњем блоку). Покрени програм!</p>
-<p>Шта да радимо ако не знамо колика је дужина пута којим се Карел креће?
+
+    <div data-component="reveal" id="Пример 1"   data-showtitle="Решење 1" data-hidetitle="Затвори">
+    <p>Предлог решења 1</p>
+<a class="reference internal image-reference" href="../_images/primer_grananje1.png"><img alt="../_images/primer_grananje1.png" class="align-center" src="../_images/primer_grananje1.png" style="width: 780px;" /></a>
+
+    </div>
+    
+    <div data-component="reveal" id="Пример 2"   data-showtitle="Решење 2" data-hidetitle="Затвори">
+    <p>Предлог решења 2</p>
+<a class="reference internal image-reference" href="../_images/primer_grananje2.png"><img alt="../_images/primer_grananje2.png" class="align-center" src="../_images/primer_grananje2.png" style="width: 780px;" /></a>
+
+    </div>
+    <p>Шта да радимо ако не знамо колика је дужина пута којим се Карел креће?
 Наше решење је састављено применом бројачке петље. Сигурно је још универзалније ако кажеш „док Карел може напред“.</p>
 <p>Измени решење и тестирај тако састављен програм!</p>
 </div>
-<div class="section" id="id3">
-<h2>Задатак 17<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h2>Задатак 17<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <p><strong>Мирко је покушао да реши претходни пример тако што ће да примени условну петљу. Међутим, програм му стално одговара да је решење нетачно. Пронађи грешку!</strong></p>
 
 <div  style="height: auto;display: flex;justify-content: center;">
@@ -488,8 +504,8 @@
                  world.putBall(7, 1);
 
          var robot = new Robot();
-                 var domXml = '&lt;xml xmlns="https://developers.google.com/blockly/xml">\n  &lt;block type="controls_whileUntil" id="1)rOW#a/hEpZ/_Lv@b:U" x="131" y="109">\n    &lt;value name="BOOL">\n      &lt;block type="can_move" id="#.HC]U_!uKz|}Rk!JW{8">&lt;/block>\n    &lt;/value>\n    &lt;statement name="DO">\n      &lt;block type="controls_if" id="D=_vw:+~Le{?W1XM8KgJ">\n        &lt;value name="IF0">\n          &lt;block type="balls_present" id="eLjl8G|6y.qzS@9;sw;=">&lt;/block>\n        &lt;/value>\n        &lt;statement name="DO0">\n          &lt;block type="pick_up" id="qelo*@4{EL*7{WQfR1Ju">&lt;/block>\n        &lt;/statement>\n        &lt;next>\n          &lt;block type="move" id="*YYtqewNAE4HTI72M-0`">&lt;/block>\n        &lt;/next>\n      &lt;/block>\n    &lt;/statement>\n  &lt;/block>\n&lt;/xml>';
-         return {world: world, robot: robot, domXml:domXml};
+                 var domXml ='&lt;xml xmlns="https://developers.google.com/blockly/xml">\n  &lt;block type="controls_whileUntil" id="1)rOW#a/hEpZ/_Lv@b:U" x="48" y="141">\n    &lt;value name="BOOL">\n      &lt;block type="can_move" id="#.HC]U_!uKz|}Rk!JW{8">&lt;/block>\n    &lt;/value>\n    &lt;statement name="DO">\n      &lt;block type="controls_if" id="D=_vw:+~Le{?W1XM8KgJ">\n        &lt;value name="IF0">\n          &lt;block type="balls_present" id="eLjl8G|6y.qzS@9;sw;=">&lt;/block>\n        &lt;/value>\n        &lt;statement name="DO0">\n          &lt;block type="pick_up" id="qelo*@4{EL*7{WQfR1Ju">&lt;/block>\n        &lt;/statement>\n        &lt;next>\n          &lt;block type="move" id="*YYtqewNAE4HTI72M-0`">&lt;/block>\n        &lt;/next>\n      &lt;/block>\n    &lt;/statement>\n  &lt;/block>\n&lt;/xml>';
+                 return {world: world, robot: robot, domXml:domXml};
     },
 
         isSuccess: function(robot, world) {
@@ -540,6 +556,9 @@
 
 
 <p><strong>Помоћ</strong>: Провери редослед извршавања корака и, по потреби, измени!</p>
+</div>
+<div class="section" id="id5">
+<h2>Гранање <code class="docutils literal notranslate"><span class="pre">ако-иначе</span></code><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <p>Када је реч о гранању, постоје два различита случаја:</p>
 <p>Први је када треба само да кажеш шта да се уради ако је испуњен неки услов (поздрављање ако сретнеш неког познатог).</p>
 <p>Други случај је када је потребно да објасниш и шта треба да се уради ако није испуњен услов, „иначе”.</p>
@@ -550,8 +569,8 @@
 (иако и овај блок може да се прошири кликом на зупчаник у његовом горњем левом углу)</p>
 <p>Блок испод њега користиш када (у случају да није испуњен услов) треба да се изврши и нека друга наредба, односно неки други корак.</p>
 </div>
-<div class="section" id="id4">
-<h2>Пример<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id6">
+<h2>Пример<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
 <p><strong>Испред Карела се налазе рупе и лопте. Ако стане на поље на ком се налази лопта, треба да је узме. Иначе, треба да је остави у рупу.</strong></p>
 <p>Превуци доњи блок из групе <code class="docutils literal notranslate"><span class="pre">Гранање</span></code> у простор за слагање блокова и погледај како изгледа. Осим <code class="docutils literal notranslate"><span class="pre">ако</span></code> и <code class="docutils literal notranslate"><span class="pre">изврши</span></code>, појавило се и <code class="docutils literal notranslate"><span class="pre">иначе</span></code>.
 Поред ове речи повезујеш блок или групу блокова са наредбама које треба да се изврше ако услов није испуњен.</p>
@@ -638,8 +657,8 @@
 
     </div>
     </div>
-<div class="section" id="id5">
-<h2>Задатак 18<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id7">
+<h2>Задатак 18<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
 <p><strong>Карел не зна колико има лопти код себе. Јана je саставила мало сложенији програм. Шта је Јана рекла Карелу да треба да уради? Колико ће лоптица Карел имати код себе када изврши овај задатак?</strong></p>
 <p>Покушај да одговориш пратећи корак по корак, односно блок по блок који је Јана поставила.</p>
 <p>Већ се назире да постоје два различита случаја. Шта ће Карел да уради у првом, а шта у другом?
@@ -671,7 +690,7 @@
          world.putBalls(4, 1, 10);
                  world.putHoles(2, 1, 10);
          var robot = new Robot();
-                 var domXml = '&lt;xml xmlns="https://developers.google.com/blockly/xml">\n  &lt;block type="controls_whileUntil" id="|A1Ni,?T.k|=1l6t%{v4" x="46" y="43">\n    &lt;value name="BOOL">\n      &lt;block type="logic_compare" id="luDddc9w]PSm?cMd9Z@[">\n        &lt;field name="OP">NEQ&lt;/field>\n        &lt;value name="A">\n          &lt;block type="count_balls_on_hand" id="yfMESb/z206!0`LuyKyJ">&lt;/block>\n        &lt;/value>\n        &lt;value name="B">\n          &lt;block type="math_number" id="u46aX~Dwh=VJiPh[ElTE">\n            &lt;field name="NUM">5&lt;/field>\n          &lt;/block>\n        &lt;/value>\n      &lt;/block>\n    &lt;/value>\n    &lt;statement name="DO">\n      &lt;block type="controls_ifelse" id="3|s0)y.L/rVIKg=Z7+GD">\n        &lt;value name="IF0">\n          &lt;block type="logic_compare" id="CDwSJ_+83NW.#kk2H.0N">\n            &lt;field name="OP">GT&lt;/field>\n            &lt;value name="A">\n              &lt;block type="count_balls_on_hand" id="wFEzmOY2QD.)b5J.kNi/">&lt;/block>\n            &lt;/value>\n            &lt;value name="B">\n              &lt;block type="math_number" id="cc}fSormHlH733(49^e$">\n                &lt;field name="NUM">5&lt;/field>\n              &lt;/block>\n            &lt;/value>\n          &lt;/block>\n        &lt;/value>\n        &lt;statement name="DO0">\n          &lt;block type="turn_right" id="1^o!cNWs3xj}34SJ!$v:">\n            &lt;next>\n              &lt;block type="move" id="V%k:Os3w893Od.Qx?uUE">\n                &lt;next>\n                  &lt;block type="drop_off" id="F7S/{P*vv39]|XzRPb)}">\n                    &lt;next>\n                      &lt;block type="turn_around" id="s_4}H8C{laZfE`^{hlS(">\n                        &lt;next>\n                          &lt;block type="move" id="F%Ja}V4(fO}]GuUK$Gec">\n                            &lt;next>\n                              &lt;block type="turn_right" id="8JmC15I9{,s6j4(MGGUb">&lt;/block>\n                            &lt;/next>\n                          &lt;/block>\n                        &lt;/next>\n                      &lt;/block>\n                    &lt;/next>\n                  &lt;/block>\n                &lt;/next>\n              &lt;/block>\n            &lt;/next>\n          &lt;/block>\n        &lt;/statement>\n        &lt;statement name="ELSE">\n          &lt;block type="turn_left" id="*aVk_.+GHQW`[LMCO[;%">\n            &lt;next>\n              &lt;block type="move" id="E(Bp#ke8j-x6,.+UV:sd">\n                &lt;next>\n                  &lt;block type="pick_up" id="3Yi#br-`Y]4KYQ{[mMZe">\n                    &lt;next>\n                      &lt;block type="turn_around" id="R,cQ).OT*r/m%_EE6oz~">\n                        &lt;next>\n                          &lt;block type="move" id="{I__^jNv_XD!Q$ZZqt;@">\n                            &lt;next>\n                              &lt;block type="turn_left" id="f8n{dcd{]qNWvKG1BDe[">&lt;/block>\n                            &lt;/next>\n                          &lt;/block>\n                        &lt;/next>\n                      &lt;/block>\n                    &lt;/next>\n                  &lt;/block>\n                &lt;/next>\n              &lt;/block>\n            &lt;/next>\n          &lt;/block>\n        &lt;/statement>\n      &lt;/block>\n    &lt;/statement>\n  &lt;/block>\n&lt;/xml>';
+                 var domXml ='&lt;xml xmlns="https://developers.google.com/blockly/xml">\n  &lt;block type="controls_whileUntil" id="|A1Ni,?T.k|=1l6t%{v4" x="-4" y="32">\n    &lt;value name="BOOL">\n      &lt;block type="logic_compare" id="luDddc9w]PSm?cMd9Z@[">\n        &lt;field name="OP">NEQ&lt;/field>\n        &lt;value name="A">\n          &lt;block type="count_balls_on_hand" id="yfMESb/z206!0`LuyKyJ">&lt;/block>\n        &lt;/value>\n        &lt;value name="B">\n          &lt;block type="math_number" id="u46aX~Dwh=VJiPh[ElTE">\n            &lt;field name="NUM">5&lt;/field>\n          &lt;/block>\n        &lt;/value>\n      &lt;/block>\n    &lt;/value>\n    &lt;statement name="DO">\n      &lt;block type="controls_ifelse" id="3|s0)y.L/rVIKg=Z7+GD">\n        &lt;value name="IF0">\n          &lt;block type="logic_compare" id="CDwSJ_+83NW.#kk2H.0N">\n            &lt;field name="OP">GT&lt;/field>\n            &lt;value name="A">\n              &lt;block type="count_balls_on_hand" id="wFEzmOY2QD.)b5J.kNi/">&lt;/block>\n            &lt;/value>\n            &lt;value name="B">\n              &lt;block type="math_number" id="cc}fSormHlH733(49^e$">\n                &lt;field name="NUM">5&lt;/field>\n              &lt;/block>\n            &lt;/value>\n          &lt;/block>\n        &lt;/value>\n        &lt;statement name="DO0">\n          &lt;block type="turn_right" id="1^o!cNWs3xj}34SJ!$v:">\n            &lt;next>\n              &lt;block type="move" id="V%k:Os3w893Od.Qx?uUE">\n                &lt;next>\n                  &lt;block type="drop_off" id="F7S/{P*vv39]|XzRPb)}">\n                    &lt;next>\n                      &lt;block type="turn_around" id="s_4}H8C{laZfE`^{hlS(">\n                        &lt;next>\n                          &lt;block type="move" id="F%Ja}V4(fO}]GuUK$Gec">\n                            &lt;next>\n                              &lt;block type="turn_right" id="8JmC15I9{,s6j4(MGGUb">&lt;/block>\n                            &lt;/next>\n                          &lt;/block>\n                        &lt;/next>\n                      &lt;/block>\n                    &lt;/next>\n                  &lt;/block>\n                &lt;/next>\n              &lt;/block>\n            &lt;/next>\n          &lt;/block>\n        &lt;/statement>\n        &lt;statement name="ELSE">\n          &lt;block type="turn_left" id="*aVk_.+GHQW`[LMCO[;%">\n            &lt;next>\n              &lt;block type="move" id="E(Bp#ke8j-x6,.+UV:sd">\n                &lt;next>\n                  &lt;block type="pick_up" id="3Yi#br-`Y]4KYQ{[mMZe">\n                    &lt;next>\n                      &lt;block type="turn_around" id="R,cQ).OT*r/m%_EE6oz~">\n                        &lt;next>\n                          &lt;block type="move" id="{I__^jNv_XD!Q$ZZqt;@">\n                            &lt;next>\n                              &lt;block type="turn_left" id="f8n{dcd{]qNWvKG1BDe[">&lt;/block>\n                            &lt;/next>\n                          &lt;/block>\n                        &lt;/next>\n                      &lt;/block>\n                    &lt;/next>\n                  &lt;/block>\n                &lt;/next>\n              &lt;/block>\n            &lt;/next>\n          &lt;/block>\n        &lt;/statement>\n      &lt;/block>\n    &lt;/statement>\n  &lt;/block>\n&lt;/xml>';
                  var n = random(10)
          robot.setBalls(n);
 
