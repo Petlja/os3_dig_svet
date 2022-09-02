@@ -61,8 +61,7 @@ function WrappingAscorinaion(){
                     value: editor.data['html'].source,
                     mode:  "htmlmixed",
                     lineNumbers: true,
-                    id: 'codeMirror-' + editor.id + '-html',
-                    lineWrapping: true,
+                    id: 'codeMirror-' + editor.id + '-html'
                   });
                   htmlCodeMirror.setSize(null,275);
                   editor.htmlEditor  = htmlCodeMirror;
@@ -191,10 +190,9 @@ function WrappingAscorinaion(){
                 var editor = editorArray.find(e => e.id == editorsId);
 
                 var zip = new JSZip();
+
                 zip.file(editor.data["html"].name, editor.htmlEditor.getValue());
-                if (editor.data.js)
-                    zip.file(editor.data["js"].name, editor.jsEditor.getValue());
-                if (editor.data.css)
+                zip.file(editor.data["js"].name, editor.jsEditor.getValue());
                 zip.file(editor.data["css"].name , editor.cssEditor.getValue());
 
 

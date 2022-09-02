@@ -51,7 +51,7 @@
 Možeš i ćirilicom ako želiš. На слици испод видиш како изгледа тренутак када си укуцао `fondacija petlja` .
 
 
-.. image:: ../../_images/googe-petpja-upit.png
+.. image:: ../../_images/googe-petlja-upit.png
    :width: 780
    :align: center
 
