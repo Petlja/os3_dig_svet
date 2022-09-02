@@ -120,6 +120,12 @@ lessons:
     title: Истицање текста
     type: reading
   - description: ''
+    file: 19a_Font i boja.html
+    guid: c4364172-87e9-4c1b-b47e-406e8c9ca2b7
+    src: 19a_Font i boja.rst
+    title: Промена величине, облика и боје слова
+    type: reading
+  - description: ''
     file: 110_Kopiranje i premestanje teksta.html
     guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
     src: 110_Kopiranje i premestanje teksta.rst

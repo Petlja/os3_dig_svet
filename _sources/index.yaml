@@ -92,6 +92,10 @@ lessons:
         file: 19_Isticanje teksta.rst
         guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
       - type: reading
+        title: Промена величине, облика и боје слова
+        file: 19a_Font i boja.rst
+        guid: c4364172-87e9-4c1b-b47e-406e8c9ca2b7
+      - type: reading
         title: Копирање и премештање текста - увод 
         file: 110_Kopiranje i premestanje teksta.rst
         guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
