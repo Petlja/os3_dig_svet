@@ -211,12 +211,6 @@ lessons:
     src: 33_Eticko_koriscenje.rst
     title: Није све што пронађеш твоје
     type: reading
-  - description: ''
-    file: 32k_Pitanja_o_pretrazi.html
-    guid: 214e681f-56b1-4503-bad5-c65c6e66a157
-    src: 32k_Pitanja_o_pretrazi.rst
-    title: Квиз
-    type: quiz
   archived-activities: []
   description: ''
   folder: 3_Sadrzaji
@@ -244,34 +238,10 @@ lessons:
   title: 4. Дигитализација
 - activities:
   - description: ''
-    file: 51_Digitalni ugled.html
-    guid: fd04fb80-8af9-47b1-b93b-0600363cc01c
-    src: 51_Digitalni ugled.rst
-    title: Дигитални углед
-    type: reading
-  - description: ''
     file: 52_Uskladjenost sa uzrastom.html
     guid: 93ce462d-dcb3-4fae-80ae-92f991e30cad
     src: 52_Uskladjenost sa uzrastom.rst
     title: Усклађеност дигиталних садржаја са узрастом корисника
-    type: reading
-  - description: ''
-    file: 53_Digitalno nasilje.html
-    guid: 882b8702-b58c-469c-bb76-1bd71b751fd6
-    src: 53_Digitalno nasilje.rst
-    title: Дигитално насиље
-    type: reading
-  - description: ''
-    file: 54_Primerena komunikacija.html
-    guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
-    src: 54_Primerena komunikacija.rst
-    title: Примерена комуникација у дигиталном окружењу
-    type: reading
-  - description: ''
-    file: 55_Izrada licnog plana.html
-    guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
-    src: 55_Izrada licnog plana.rst
-    title: Израда личног плана коришћења дигиталних уређаја
     type: reading
   archived-activities: []
   description: ''

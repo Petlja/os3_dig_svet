@@ -151,10 +151,10 @@ lessons:
         title: Није све што пронађеш твоје
         file: 33_Eticko_koriscenje.rst
         guid: 0704e496-d062-44ed-92b7-fbd1e1b3d574
-      - type: quiz
-        title: Квиз
-        file: 32k_Pitanja_o_pretrazi.rst
-        guid: 214e681f-56b1-4503-bad5-c65c6e66a157
+#      - type: quiz
+#        title: Квиз
+#        file: 32k_Pitanja_o_pretrazi.rst
+#        guid: 214e681f-56b1-4503-bad5-c65c6e66a157
   - title: 4. Дигитализација
     guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
     folder: 4_Primeri digitalizacije
@@ -171,26 +171,26 @@ lessons:
     guid: 04a231c3-d772-46b0-b050-8053e99d6c1c
     folder: 5_Bezbedno koriscenje digitalnih uredjaja
     activities:
-      - type: reading
-        title: Дигитални углед
-        file: 51_Digitalni ugled.rst 
-        guid: fd04fb80-8af9-47b1-b93b-0600363cc01c
+#      - type: reading
+#        title: Дигитални углед
+#        file: 51_Digitalni ugled.rst 
+#        guid: fd04fb80-8af9-47b1-b93b-0600363cc01c
       - type: reading
         title: Усклађеност дигиталних садржаја са узрастом корисника
         file: 52_Uskladjenost sa uzrastom.rst 
         guid: 93ce462d-dcb3-4fae-80ae-92f991e30cad
-      - type: reading
-        title: Дигитално насиље
-        file: 53_Digitalno nasilje.rst 
-        guid: 882b8702-b58c-469c-bb76-1bd71b751fd6        
-      - type: reading
-        title: Примерена комуникација у дигиталном окружењу
-        file: 54_Primerena komunikacija.rst 
-        guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
-      - type: reading
-        title: Израда личног плана коришћења дигиталних уређаја
-        file: 55_Izrada licnog plana.rst 
-        guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
+#      - type: reading
+#        title: Дигитално насиље
+#        file: 53_Digitalno nasilje.rst 
+#        guid: 882b8702-b58c-469c-bb76-1bd71b751fd6        
+#      - type: reading
+#        title: Примерена комуникација у дигиталном окружењу
+#        file: 54_Primerena komunikacija.rst 
+#        guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
+#      - type: reading
+#        title: Израда личног плана коришћења дигиталних уређаја
+#        file: 55_Izrada licnog plana.rst 
+#        guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
   - title: 6. Алгоритамски начин размишљања
     guid: 86146f06-88c7-4b4c-be22-acc5d0350392
     folder: 6_Algoritamski nacin razmisljanja
