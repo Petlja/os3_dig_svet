@@ -118,7 +118,7 @@
       },
 	  
       isSuccess: function(robot, world) {
-       return (robot.getBalls() == 0 &&  world.getBalls(1, 1) == 0)
+       return (robot.getBalls() == 0 &&  world.getBalls(5, 1) == 0)
       }
    }
 

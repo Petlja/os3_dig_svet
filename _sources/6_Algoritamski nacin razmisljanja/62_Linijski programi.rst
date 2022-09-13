@@ -228,30 +228,61 @@
 
 Карел треба да убаци у рупу лоптицу која се налази западно од њега. Која је то рупа? Састави програм!
 
-.. blockly-karel:: karel_z5
-  :flyouttoolbox:
-  :categories: KarelCommands
-  
-  {
-      setup: function() {
-           var world = new World(5, 5);
-           world.setRobotStartAvenue(3);
-           world.setRobotStartStreet(3);
-           world.setRobotStartDirection("N");
-           world.putHole(4, 3);
-		   world.putBall(3, 1);
-		   world.putBall(1, 3);
-		   world.putBall(5, 3);
-           var robot = new Robot();
+.. comment
+
+    .. blockly-karel:: karel_z5
+      :flyouttoolbox:
+      :categories: KarelCommands
+      
+      {
+          setup: function() {
+               var world = new World(5, 5);
+               world.setRobotStartAvenue(3);
+               world.setRobotStartStreet(3);
+               world.setRobotStartDirection("N");
+               world.putHole(4, 3);
+               world.putBall(3, 1);
+               world.putBall(1, 3);
+               world.putBall(5, 3);
+               var robot = new Robot();
+              
+               return {world: world, robot: robot};
+          },
           
-           return {world: world, robot: robot};
-      },
-	  
+            isSuccess: function(robot, world) {
+               for (var i = 1; i <= world.getAvenues(); i++)
+                  for (var j = 1; j <= world.getStreets(); j++)
+                     if (!(world.getBalls(i, j) == 2 || world.getBalls(1, 3) == 0))
+                        return false;
+              return true;
+          }
+       }
+       
+
+.. blockly-karel:: karel_z5
+    :flyouttoolbox:
+    :categories: KarelCommands
+  
+    {
+        setup: function() {
+            var world = new World(5, 5);
+            world.setRobotStartAvenue(3);
+            world.setRobotStartStreet(3);
+            world.setRobotStartDirection("N");
+            world.putHole(4, 3);
+            world.putBall(3, 1);
+            world.putBall(1, 3);
+            world.putBall(5, 3);
+            var robot = new Robot();
+            
+            return {world: world, robot: robot};
+        },
+
         isSuccess: function(robot, world) {
-           for (var i = 1; i <= world.getAvenues(); i++)
-              for (var j = 1; j <= world.getStreets(); j++)
-                 if (!(world.getBalls(i, j) == 2 || world.getBalls(1, 3) == 0))
-                    return false;
-          return true;
-      }
-   }
+            return world.getBalls(1, 3) == 0 &&
+                world.getBalls(3, 1) == 1 &&
+                world.getBalls(5, 3) == 1 &&
+                world.getBalls(4, 3) == 0 &&
+                robot.getBalls() == 0;
+        }
+    }
