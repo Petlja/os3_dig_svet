@@ -111,6 +111,10 @@
 	:answer_b: (1, 3)
 	:answer_c: (5, 4)
 	:answer_d: (4, 5)
+	:feedback_a: Нетачно
+  	:feedback_b: Тачно
+   	:feedback_c: Нетачно
+   	:feedback_d: Нетачно
 	:correct: b
 
 	На ком се пољу налази лоптица?
