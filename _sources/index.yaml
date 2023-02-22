@@ -2,31 +2,6 @@ courseId: os3_dig_svet
 lang: sr-Cyrl
 title: Дигитални свет за трећи разред
 description:
-  willLearn: # ovo treba prilagoditi
-    - како се уноси текст у рачунар
-    - како се именује, чува и поново отвара текстуална датотека
-    - како се додаје текст на слику
-    - како се именује, чува и поново отвара графичка датотека
-    - како се претражује интернет
-    - који су примери дигитализације у свакодневном животу 
-    - шта је дигитални углед и како се он изграђује
-    - шта су ПЕГИ ознаке и чему служе
-    - шта је дигитално насиље и како да реагујеш
-    - како се решавају алгоритамски проблеми у визуелном програмском језику
-  requirements: # ovo treba pogledati da li je to to
-    - Персонални рачунар са оперативним системом <i>Windows</i> и приступом интернету
-    - Инсталиран <i>Microsoft Word</i> на персоналном рачунару
-
-  toc: # ovo može da ostane prazno
-
-  externalLinks: # ovo treba prilagoditi 
-    - text: Sphinx Docs
-      href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
-    - text: Petljadoc
-      href: https://github.com/Petlja/PetljaDoc/blob/master/README.md
-    - text: Runestone Interactive
-      href: https://github.com/RunestoneInteractive/overview
-
   longDescription: |
     Овај курс је намењен ученицима трећег разреда основне школе за предмет Дигитални свет. 
     У оквиру курса детаљно су обрађене наставне теме предвиђене програмом наставе и учења за овај предмет. 
@@ -38,7 +13,32 @@ description:
     <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
     <br />Овај курс Фондација Петља објавила je под лиценцом <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">Creative Commons Autorstvo 4.0 Međunarodna Licenca (CC BY 4.0)</a>.
     </p>  
+  
   shortDescription: Дигитални свет за трећи разред
+  willLearn: # ovo treba prilagoditi
+    - како се уноси текст у рачунар
+    - како се именује, чува и поново отвара текстуална датотека
+    - како се додаје текст на слику
+    - како се именује, чува и поново отвара графичка датотека
+    - како се претражује интернет
+    - који су примери дигитализације у свакодневном животу 
+    - шта је дигитални углед и како се он изграђује
+    - шта су ПЕГИ ознаке и чему служе
+    - шта је дигитално насиље и како да реагујеш
+    - како се решавају алгоритамски проблеми у визуелном програмском језику
+
+  requirements: # ovo treba pogledati da li je to to
+    - Персонални рачунар са оперативним системом <i>Windows</i> и приступом интернету
+    - Инсталиран <i>Microsoft Word</i> на персоналном рачунару
+
+  toc: 
+  externalLinks: # ovo treba prilagoditi 
+    - text: Sphinx Docs
+      href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+    - text: Petljadoc
+      href: https://github.com/Petlja/PetljaDoc/blob/master/README.md
+    - text: Runestone Interactive
+      href: https://github.com/RunestoneInteractive/overview
 
 
 lessons:
