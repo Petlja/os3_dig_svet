@@ -112,7 +112,7 @@
 	:answer_c: (5, 4)
 	:answer_d: (4, 5)
 	:feedback_a: Нетачно
-  	:feedback_b: Тачно
+  	:feedback_b: Тачно!
    	:feedback_c: Нетачно
    	:feedback_d: Нетачно
 	:correct: b
