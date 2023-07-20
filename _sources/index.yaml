@@ -31,7 +31,8 @@ description:
     - Персонални рачунар са оперативним системом <i>Windows</i> и приступом интернету
     - Инсталиран <i>Microsoft Word</i> на персоналном рачунару
 
-  toc: 
+  toc: #ovo moze da bude prazno
+
   externalLinks: # ovo treba prilagoditi 
     - text: Sphinx Docs
       href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html

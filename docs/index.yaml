@@ -55,6 +55,7 @@ lessons:
   - description: ''
     file: Uvod.html
     guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
+    normalized_title: Добродошао у дигитални свет
     src: Uvod.rst
     title: Добродошао у дигитални свет
     type: reading
@@ -68,90 +69,105 @@ lessons:
   - description: ''
     file: 11_Pokretanje programa.html
     guid: 1d9d0716-4023-45a4-964b-7fa4adbfac3c
+    normalized_title: Покретање програма
     src: 11_Pokretanje programa.rst
     title: Покретање програма
     type: reading
   - description: ''
     file: 12_Prvi koraci.html
     guid: 40bc28ca-d94e-4e70-a939-95385c8b79d0
+    normalized_title: Први кораци
     src: 12_Prvi koraci.rst
     title: Први кораци
     type: reading
   - description: ''
     file: 13_Brisanje teksta.html
     guid: 7e0e057d-8d83-4656-9c08-5da7e88f240a
+    normalized_title: Брисање текста
     src: 13_Brisanje teksta.rst
     title: Брисање текста
     type: reading
   - description: ''
     file: 14_Tastatura i pismo.html
     guid: 0bfb2424-edcf-4a37-b679-e9f91d316f3e
+    normalized_title: Тастатура и писмо
     src: 14_Tastatura i pismo.rst
     title: Тастатура и писмо
     type: reading
   - description: ''
     file: 15_Unos teksta.html
     guid: df040747-b443-4060-b323-324293c595fb
+    normalized_title: Унос текста
     src: 15_Unos teksta.rst
     title: Унос текста
     type: reading
   - description: ''
     file: 16_Virtuelna tastatura.html
     guid: 50bd236b-8755-45bf-ba79-06e123956de1
+    normalized_title: Виртуелна тастатура
     src: 16_Virtuelna tastatura.rst
     title: Виртуелна тастатура
     type: reading
   - description: ''
     file: 17_Snimanje dokumenta.html
     guid: 2b559c6f-39cf-4b16-8a46-6ff99f1d2528
+    normalized_title: Снимање (чување) документа
     src: 17_Snimanje dokumenta.rst
     title: Снимање (чување) документа
     type: reading
   - description: ''
     file: 18_Otvaranje i zatvaranje dokumenta.html
     guid: 7854ff03-a921-4d89-afe6-e7b4d58f50ed
+    normalized_title: Отварање и затварање документа
     src: 18_Otvaranje i zatvaranje dokumenta.rst
     title: Отварање и затварање документа
     type: reading
   - description: ''
     file: 19_Isticanje teksta.html
     guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
+    normalized_title: Истицање текста
     src: 19_Isticanje teksta.rst
     title: Истицање текста
     type: reading
   - description: ''
     file: 19a_Font i boja.html
     guid: c4364172-87e9-4c1b-b47e-406e8c9ca2b7
+    normalized_title: Промена величине, облика и боје слова
     src: 19a_Font i boja.rst
     title: Промена величине, облика и боје слова
     type: reading
   - description: ''
     file: 110_Kopiranje i premestanje teksta.html
     guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
+    normalized_title: Копирање и премештање текста - увод
     src: 110_Kopiranje i premestanje teksta.rst
     title: Копирање и премештање текста - увод
     type: reading
   - description: ''
     file: 111_Kopiranje teksta.html
     guid: f969c055-8ad8-45b0-b3c1-b8ed4c8586d1
+    normalized_title: Копирање текста
     src: 111_Kopiranje teksta.rst
     title: Копирање текста
     type: reading
   - description: ''
     file: 112_Premestanje teksta.html
     guid: d139c33e-83eb-4fc1-b567-bec424b3f952
+    normalized_title: Премештање текста
     src: 112_Premestanje teksta.rst
     title: Премештање текста
     type: reading
   - description: ''
     file: 113_Vezbe.html
     guid: 127d2e15-db1c-41ed-9354-d843436a386e
+    normalized_title: Вежбе
     src: 113_Vezbe.rst
     title: Вежбе
     type: reading
   - description: ''
     file: 114_Kviz.html
     guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
+    normalized_title: Квиз
     src: 114_Kviz.rst
     title: Квиз
     type: quiz
@@ -165,24 +181,28 @@ lessons:
   - description: ''
     file: 21_Slika i tekst_uvod.html
     guid: cc8e3f51-4a11-461e-8711-f0da956fddd6
+    normalized_title: Слика и текст - увод
     src: 21_Slika i tekst_uvod.rst
     title: Слика и текст - увод
     type: reading
   - description: ''
     file: 22_Dodavanje teksta na sliku.html
     guid: c3c97471-2f73-4fb6-8115-1a5e42c76eb6
+    normalized_title: Додавање текста на слику
     src: 22_Dodavanje teksta na sliku.rst
     title: Додавање текста на слику
     type: reading
   - description: ''
     file: 23_Vezbe.html
     guid: 95569b75-5613-4e7d-8754-b1e7c64c8e06
+    normalized_title: Вежбе
     src: 23_Vezbe.rst
     title: Вежбе
     type: reading
   - description: ''
     file: 24_Kviz.html
     guid: 01bbd2ee-8451-4780-a276-6a1cf0f1febf
+    normalized_title: Квиз
     src: 24_Kviz.rst
     title: Квиз
     type: quiz
@@ -196,18 +216,21 @@ lessons:
   - description: ''
     file: 31_Pregledac_i_pretrazivac.html
     guid: b6e1bdb1-6693-4b67-8b8b-bb04367c3af1
+    normalized_title: Прегледач и претраживач
     src: 31_Pregledac_i_pretrazivac.rst
     title: Прегледач и претраживач
     type: reading
   - description: ''
     file: 32_Pretrazivanje.html
     guid: a803cd09-a794-4f9e-aeb2-7d787c40f903
+    normalized_title: Како претраживати
     src: 32_Pretrazivanje.rst
     title: Како претраживати
     type: reading
   - description: ''
     file: 33_Eticko_koriscenje.html
     guid: 0704e496-d062-44ed-92b7-fbd1e1b3d574
+    normalized_title: Није све што пронађеш твоје
     src: 33_Eticko_koriscenje.rst
     title: Није све што пронађеш твоје
     type: reading
@@ -221,12 +244,14 @@ lessons:
   - description: ''
     file: 41_Primeri digitalizacije.html
     guid: 6643a44a-b454-49ba-a582-d709dc648522
+    normalized_title: Дигитализација и вештачка интелигенција
     src: 41_Primeri digitalizacije.rst
     title: Дигитализација и вештачка интелигенција
     type: reading
   - description: ''
     file: 42_Zadatak.html
     guid: 8cc0c6d2-70c5-4a54-800d-9b52671c360a
+    normalized_title: Задатак
     src: 42_Zadatak.rst
     title: Задатак
     type: reading
@@ -240,6 +265,7 @@ lessons:
   - description: ''
     file: 52_Uskladjenost sa uzrastom.html
     guid: 93ce462d-dcb3-4fae-80ae-92f991e30cad
+    normalized_title: Усклађеност дигиталних садржаја са узрастом корисника
     src: 52_Uskladjenost sa uzrastom.rst
     title: Усклађеност дигиталних садржаја са узрастом корисника
     type: reading
@@ -253,54 +279,63 @@ lessons:
   - description: ''
     file: 60_Uvod.html
     guid: 6779aed4-ece5-435b-af9c-6e256e74e64e
+    normalized_title: Алгоритам, да се подсетимо
     src: 60_Uvod.rst
     title: Алгоритам, да се подсетимо...
     type: reading
   - description: ''
     file: 61_O Karelu.html
     guid: 310d86f1-2348-46c3-8f4d-122a967a09b1
+    normalized_title: О Карелу
     src: 61_O Karelu.rst
     title: О Карелу
     type: reading
   - description: ''
     file: 62_Linijski programi.html
     guid: 836d3d30-041e-443b-a209-9b57aadff45d
+    normalized_title: Линијски програми
     src: 62_Linijski programi.rst
     title: Линијски програми
     type: reading
   - description: ''
     file: 63_Brojacke petlje.html
     guid: 94579f01-ee20-4ced-874c-9181754411ee
+    normalized_title: Бројачке петље
     src: 63_Brojacke petlje.rst
     title: Бројачке петље
     type: reading
   - description: ''
     file: 64_Uslovne petlje.html
     guid: 9ef6a846-82d0-4407-b541-5a5dbf55c3e8
+    normalized_title: Условне петље
     src: 64_Uslovne petlje.rst
     title: Условне петље
     type: reading
   - description: ''
     file: 65_Aritmeticke i logicke operacije.html
     guid: 648332a5-2b89-457d-b0d7-1f135e2be81b
+    normalized_title: Аритметичке и логичке операције
     src: 65_Aritmeticke i logicke operacije.rst
     title: Аритметичке и логичке операције
     type: reading
   - description: ''
     file: 66_Grananje u programu.html
     guid: 75a3dd8e-165a-4e73-a422-1d75ca61a11a
+    normalized_title: Гранање у програму
     src: 66_Grananje u programu.rst
     title: Гранање у програму
     type: reading
   - description: ''
     file: 67_Razni zadaci.html
     guid: 2dead7dd-af98-4aa5-ab92-4d696838ad16
+    normalized_title: Разни задаци
     src: 67_Razni zadaci.rst
     title: Разни задаци
     type: reading
   - description: ''
     file: 68_Programiranje fizickih uredjaja.html
     guid: 01258ceb-a96d-4ced-af00-d903a73bf7ca
+    normalized_title: Програмирање физичких уређаја
     src: 68_Programiranje fizickih uredjaja.rst
     title: Програмирање физичких уређаја
     type: reading
