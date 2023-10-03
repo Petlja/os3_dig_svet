@@ -2,7 +2,7 @@
 
 Ovaj repozitorijum posvećen je kursu za Digitalni svet za treći razred
 
-Kurs je na Petljom portalu dotupan ovde: [uskoro](https://petlja.org/)
+Kurs je na Petljom portalu dotupan [ovde](https://petlja.org/).
 
 Kurs možete itegrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/os3_dig_svet/releases
 
