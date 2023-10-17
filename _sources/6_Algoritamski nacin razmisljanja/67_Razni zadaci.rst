@@ -340,7 +340,7 @@
             },
 			
             isSuccess: function(robot, world) {
-              return robot.getLastMessage() == 63
+              return robot.getLastMessage() == 69
             },
   }
  
