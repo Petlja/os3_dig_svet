@@ -26,10 +26,10 @@
 		   world.addNSWall(2, 1, 5)
 		   world.addNSWall(3, 1, 5)
            world.setRobotStartAvenue(3);
-           world.setRobotStartStreet(2);
-           world.setRobotStartDirection("W");
+           world.setRobotStartStreet(1);
+           world.setRobotStartDirection("N");
            world.putBall(3, 5);
-		   world.putBall(3, 1);
+		   world.putBall(3, 4);
            var robot = new Robot();
            return {world: world, robot: robot};
       },
@@ -57,8 +57,8 @@
            var world = new World(5, 5);
            world.setRobotStartAvenue(1);
            world.setRobotStartStreet(1);
-           world.setRobotStartDirection("E");
-           world.putBall(4, 3);
+           world.setRobotStartDirection("N");
+           world.putBall(1, 5);
 		   world.putHole(5, 5);
            var robot = new Robot();
            return {world: world, robot: robot};
@@ -76,7 +76,7 @@
 Задатак 21
 ----------
   
-**Карел треба да сакупи две лоптице. Да ли је кренуо на добру страну? Изабери краћи пут!**
+**Карел треба да узме лоптицу. Изабери краћи пут! Да ли је кренуо на добру страну?**
 
 .. blockly-karel:: karel_rz3
   :categories: KarelCommands, Loops, KarelLoops, Branching
@@ -91,7 +91,6 @@
            world.setRobotStartAvenue(3);
            world.setRobotStartStreet(1);
            world.setRobotStartDirection("W");
-           world.putBall(5, 1);
 		   world.putBall(5, 5);
            var robot = new Robot();
            
@@ -99,7 +98,7 @@
       },
 	  
       isSuccess: function(robot, world) {
-           return robot.getBalls() == 2;
+           return robot.getBalls() == 1;
       }
    }
       
@@ -120,7 +119,7 @@
            world.setRobotStartAvenue(1);
            world.setRobotStartStreet(1);
            world.setRobotStartDirection("E");
-           world.putBalls(3, 1, 6);
+           world.putBalls(2, 1, 4);
 		   world.addEWWall(1, 1, 5)
            var robot = new Robot();
            return {world: world, robot: robot};
@@ -129,7 +128,7 @@
       isSuccess: function(robot, world) {
         return robot.getAvenue() == 1 && 
 		robot.getStreet() == 1 &&
-        robot.getBalls() == 6;
+        robot.getBalls() == 4;
 		}
    }
    
@@ -137,42 +136,9 @@
 Задатак 23
 ----------
   
-**Помози Карелу да сакупи све лоптице и врати се на поље (1, 1).**
+**Карел треба да сакупи лоптице и убаци их у рупу која се налази на пољу (1,1)**. 
 
-|
-   
-.. blockly-karel:: karel_rz5
-  :categories: KarelCommands, Loops, KarelLoops, Branching
-  
-  {
-      setup: function() {
-           var world = new World(5, 5);
-           world.setRobotStartAvenue(1);
-           world.setRobotStartStreet(1);
-           world.setRobotStartDirection("N");
-           world.putBalls(2, 1, 3);
-		   world.putBalls(1, 2, 3);
-		   world.putBalls(2, 2, 3);
-           var robot = new Robot();
-		   
-           return {world: world, robot: robot};
-      },
-	  
-      isSuccess: function(robot, world) {
-	   return robot.getAvenue() == 1 && 
-		robot.getStreet() == 1 &&
-        robot.getBalls() == 9;
-		}
-           
-   }
-   
-**Помоћ**: Уочи делове програма који се понављају!
-
-Задатак 24
-----------
-  
-**Задатак је сличан претходном. Карел треба да сакупи лоптице и убаци их у рупу која се налази на пољу (1,1)**. 
-Ако уочиш делове програма који се понављају, употреби петљу!**
+Ако уочиш делове програма који се понављају, употреби петљу!
 
 |
    
@@ -203,10 +169,10 @@
       }           
    }
 
-Задатак 25
+Задатак 24
 ----------
  
-**Карел треба да сакупи свих 14 лоптица.**
+**Карел треба да сакупи свих 12 лоптица.**
 
 |
 
@@ -220,8 +186,8 @@
            world.setRobotStartStreet(1);
            world.setRobotStartDirection("N");
 		   world.putBalls(2, 2, 3);
-		   world.putBalls(3, 2, 4);
-		   world.putBalls(4, 2, 2);
+		   world.putBalls(3, 2, 3);
+		   world.putBalls(4, 2, 3);
 		   world.putBalls(5, 2, 3);
            var robot = new Robot();
  
@@ -238,21 +204,13 @@
    }
 
 **Помоћ**: Скрати састављање програма тако што ћеш користити петљу. 
-На гомилама се налази различит број лопти. Да ли ће боље решење бити да користиш бројачку 
-или условну петљу?
-
-Карел прво треба да направи корак напред, па да скрене десно. Наредну групу корака треба да понови 
-неколико пута: све док постоје лопте на пољу, узимај их, а затим направи корак напред како би прешао на следеће 
-поље. И опет… све док постоје лопте на пољу, узимај их, а затим пређи на следеће поље… и опет… до када, 
-колико пута? Можеш да приметиш која се група радњи понавља неколико пута. Када уочиш које су, стави их 
-у одговарајућу петљу. 
 
 |
 
-Задатак 26
+Задатак 25
 ---------- 
  
-**Карел је наишао на цикцак зид. У сваком ћошку (углу) налази се лопта. Помози му да их све сакупи!**
+**Карел је наишао на цикцак зид. Помози Карелу да узме лопту!**
 
 | 
 
@@ -265,11 +223,12 @@
            world.setRobotStartAvenue(1);
            world.setRobotStartStreet(1);
            world.setRobotStartDirection("E");
+           world.putBall(6, 6)
 		   for (var i = 1; i <= world.getAvenues()-1; i++)
 		       world.addEWWall(i+1, i, 1)
 		   for (var i = 1; i <= world.getAvenues()-1; i++){
 		       world.addNSWall(i, i, 1)
-		       world.putBall(i+1, i+1)
+    
 		  }
            var robot = new Robot();
            return {world: world, robot: robot};
@@ -288,10 +247,10 @@
 
 |
 
-Задатак 27
+Задатак 26
 ----------
 
-**Карел се тренутно налази код рупе у коју треба да убаци три лопте. Помози му да то уради!**
+**Карел се тренутно налази код рупе у коју треба да убаци две лопте. Помози му да то уради!**
  
 Како би увежбао примену бројачких петљи, условних петљи и гранања у програму, покушај овај задатак 
 да решиш на више различитих начина! 
@@ -308,7 +267,6 @@
            world.setRobotStartStreet(1);
            world.setRobotStartDirection("E");
            world.putBall(5, 1);
-		   world.putBall(5, 5);
 		   world.putBall(1, 5);
 		   world.putHoles(1, 1, 3);
            var robot = new Robot();
@@ -327,7 +285,7 @@
 
 |
 
-Задатак 28
+Задатак 27
 ----------
 
 **Ова лоптица се баш сакрила! Помози Карелу да стигне до ње и узме је!**
@@ -363,10 +321,10 @@
 треба да скрене лево. Колико пута треба да понови овај поступак? Када стигне на последње поље, 
 треба да узме лопту и задатак ће бити решен!  
 
-Задатак 29
+Задатак 28
 ----------
 
-**Састави блокове за решавање следећег задатка: Од збира бројева 138 и 423 одузми производ бројева 36 и 4.**
+**Састави блокове за решавање следећег задатка: Драгана је од Марка добила 23 сличице, а од Весне 2 пута више него од Марка. Колико сличица има Драгана?**
 
 .. blockly-karel:: karel_rz11   
   :categories: KarelSays, Arithmetic, Logic
@@ -382,7 +340,7 @@
             },
 			
             isSuccess: function(robot, world) {
-              return robot.getLastMessage() == 417
+              return robot.getLastMessage() == 63
             },
   }
  
