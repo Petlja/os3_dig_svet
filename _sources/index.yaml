@@ -71,50 +71,34 @@ lessons:
       - type: reading
         title: Тастатура и писмо
         file: 14_Tastatura i pismo.rst
-        guid: 0bfb2424-edcf-4a37-b679-e9f91d316f3e       
+        guid: 0bfb2424-edcf-4a37-b679-e9f91d316f3e   
       - type: reading
         title: Унос текста
         file: 15_Unos teksta.rst
         guid: df040747-b443-4060-b323-324293c595fb
       - type: reading
-        title: Виртуелна тастатура
-        file: 16_Virtuelna tastatura.rst
-        guid: 50bd236b-8755-45bf-ba79-06e123956de1
+        title: Селектовање текста
+        file: 16_Selektovanje teksta.rst
+        guid: 09528854-d7dc-4286-9565-b1c4e05e51aa    
       - type: reading
         title: Снимање (чување) документа 
         file: 17_Snimanje dokumenta.rst
         guid: 2b559c6f-39cf-4b16-8a46-6ff99f1d2528
       - type: reading
+        title: Виртуелна тастатура
+        file: 18_Virtuelna tastatura.rst
+        guid: 50bd236b-8755-45bf-ba79-06e123956de1
+      - type: reading
         title: Отварање и затварање документа 
-        file: 18_Otvaranje i zatvaranje dokumenta.rst
+        file: 19_Otvaranje i zatvaranje dokumenta.rst
         guid: 7854ff03-a921-4d89-afe6-e7b4d58f50ed
       - type: reading
-        title: Истицање текста
-        file: 19_Isticanje teksta.rst
-        guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
-      - type: reading
-        title: Промена величине, облика и боје слова
-        file: 19a_Font i boja.rst
-        guid: c4364172-87e9-4c1b-b47e-406e8c9ca2b7
-      - type: reading
-        title: Копирање и премештање текста - увод 
-        file: 110_Kopiranje i premestanje teksta.rst
-        guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
-      - type: reading
-        title: Копирање текста
-        file: 111_Kopiranje teksta.rst
-        guid: f969c055-8ad8-45b0-b3c1-b8ed4c8586d1
-      - type: reading
-        title: Премештање текста
-        file: 112_Premestanje teksta.rst
-        guid: d139c33e-83eb-4fc1-b567-bec424b3f952
-      - type: reading
         title: Вежбе 
-        file: 113_Vezbe.rst
+        file: 115_Vezbe.rst
         guid: 127d2e15-db1c-41ed-9354-d843436a386e
-      - type: quiz
+      - type: reading
         title: Квиз 
-        file: 114_Kviz.rst
+        file: 116_Kviz.rst
         guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
   - title: 2. Слика и текст
     guid: 1d158702-f3df-4be1-96be-8c99139363c6
@@ -132,7 +116,7 @@ lessons:
         title: Вежбе 
         file: 23_Vezbe.rst
         guid: 95569b75-5613-4e7d-8754-b1e7c64c8e06  
-      - type: quiz
+      - type: reading
         title: Квиз
         file: 24_Kviz.rst
         guid: 01bbd2ee-8451-4780-a276-6a1cf0f1febf
@@ -152,10 +136,10 @@ lessons:
         title: Није све што пронађеш твоје
         file: 33_Eticko_koriscenje.rst
         guid: 0704e496-d062-44ed-92b7-fbd1e1b3d574
-#      - type: quiz
-#        title: Квиз
-#        file: 32k_Pitanja_o_pretrazi.rst
-#        guid: 214e681f-56b1-4503-bad5-c65c6e66a157
+      - type: reading
+        title: Квиз
+        file: 34_Kviz.rst
+        guid: 214e681f-56b1-4503-bad5-c65c6e66a157
   - title: 4. Дигитализација
     guid: fb317677-ff5d-47ab-9a6b-43e1bb5d8ef6
     folder: 4_Primeri digitalizacije
@@ -172,26 +156,26 @@ lessons:
     guid: 04a231c3-d772-46b0-b050-8053e99d6c1c
     folder: 5_Bezbedno koriscenje digitalnih uredjaja
     activities:
-#      - type: reading
-#        title: Дигитални углед
-#        file: 51_Digitalni ugled.rst 
-#        guid: fd04fb80-8af9-47b1-b93b-0600363cc01c
+ #     - type: reading
+ #       title: Дигитални углед
+ #       file: 51_Digitalni ugled.rst 
+ #       guid: fd04fb80-8af9-47b1-b93b-0600363cc01c
       - type: reading
         title: Усклађеност дигиталних садржаја са узрастом корисника
         file: 52_Uskladjenost sa uzrastom.rst 
         guid: 93ce462d-dcb3-4fae-80ae-92f991e30cad
-#      - type: reading
-#        title: Дигитално насиље
-#        file: 53_Digitalno nasilje.rst 
-#        guid: 882b8702-b58c-469c-bb76-1bd71b751fd6        
-#      - type: reading
-#        title: Примерена комуникација у дигиталном окружењу
-#        file: 54_Primerena komunikacija.rst 
-#        guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
-#      - type: reading
-#        title: Израда личног плана коришћења дигиталних уређаја
-#        file: 55_Izrada licnog plana.rst 
-#        guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
+ #     - type: reading
+ #       title: Дигитално насиље
+ #       file: 53_Digitalno nasilje.rst 
+ #       guid: 882b8702-b58c-469c-bb76-1bd71b751fd6        
+ #     - type: reading
+ #       title: Примерена комуникација у дигиталном окружењу
+ #       file: 54_Primerena komunikacija.rst 
+ #       guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
+ #     - type: reading
+ #       title: Израда личног плана коришћења дигиталних уређаја
+ #       file: 55_Izrada licnog plana.rst 
+ #       guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
   - title: 6. Алгоритамски начин размишљања
     guid: 86146f06-88c7-4b4c-be22-acc5d0350392
     folder: 6_Algoritamski nacin razmisljanja
