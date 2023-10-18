@@ -206,13 +206,6 @@ lessons:
     src: 33_Eticko_koriscenje.rst
     title: Није све што пронађеш твоје
     type: reading
-  - description: ''
-    file: 34_Kviz.html
-    guid: 214e681f-56b1-4503-bad5-c65c6e66a157
-    normalized_title: Квиз
-    src: 34_Kviz.rst
-    title: Квиз
-    type: reading
   archived-activities: []
   description: ''
   folder: 3_Sadrzaji
