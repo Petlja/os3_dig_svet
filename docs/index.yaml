@@ -102,11 +102,11 @@ lessons:
     title: Унос текста
     type: reading
   - description: ''
-    file: 16_Virtuelna tastatura.html
-    guid: 50bd236b-8755-45bf-ba79-06e123956de1
-    normalized_title: Виртуелна тастатура
-    src: 16_Virtuelna tastatura.rst
-    title: Виртуелна тастатура
+    file: 16_Selektovanje teksta.html
+    guid: 09528854-d7dc-4286-9565-b1c4e05e51aa
+    normalized_title: Селектовање текста
+    src: 16_Selektovanje teksta.rst
+    title: Селектовање текста
     type: reading
   - description: ''
     file: 17_Snimanje dokumenta.html
@@ -116,61 +116,33 @@ lessons:
     title: Снимање (чување) документа
     type: reading
   - description: ''
-    file: 18_Otvaranje i zatvaranje dokumenta.html
+    file: 18_Virtuelna tastatura.html
+    guid: 50bd236b-8755-45bf-ba79-06e123956de1
+    normalized_title: Виртуелна тастатура
+    src: 18_Virtuelna tastatura.rst
+    title: Виртуелна тастатура
+    type: reading
+  - description: ''
+    file: 19_Otvaranje i zatvaranje dokumenta.html
     guid: 7854ff03-a921-4d89-afe6-e7b4d58f50ed
     normalized_title: Отварање и затварање документа
-    src: 18_Otvaranje i zatvaranje dokumenta.rst
+    src: 19_Otvaranje i zatvaranje dokumenta.rst
     title: Отварање и затварање документа
     type: reading
   - description: ''
-    file: 19_Isticanje teksta.html
-    guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
-    normalized_title: Истицање текста
-    src: 19_Isticanje teksta.rst
-    title: Истицање текста
-    type: reading
-  - description: ''
-    file: 19a_Font i boja.html
-    guid: c4364172-87e9-4c1b-b47e-406e8c9ca2b7
-    normalized_title: Промена величине, облика и боје слова
-    src: 19a_Font i boja.rst
-    title: Промена величине, облика и боје слова
-    type: reading
-  - description: ''
-    file: 110_Kopiranje i premestanje teksta.html
-    guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
-    normalized_title: Копирање и премештање текста - увод
-    src: 110_Kopiranje i premestanje teksta.rst
-    title: Копирање и премештање текста - увод
-    type: reading
-  - description: ''
-    file: 111_Kopiranje teksta.html
-    guid: f969c055-8ad8-45b0-b3c1-b8ed4c8586d1
-    normalized_title: Копирање текста
-    src: 111_Kopiranje teksta.rst
-    title: Копирање текста
-    type: reading
-  - description: ''
-    file: 112_Premestanje teksta.html
-    guid: d139c33e-83eb-4fc1-b567-bec424b3f952
-    normalized_title: Премештање текста
-    src: 112_Premestanje teksta.rst
-    title: Премештање текста
-    type: reading
-  - description: ''
-    file: 113_Vezbe.html
+    file: 115_Vezbe.html
     guid: 127d2e15-db1c-41ed-9354-d843436a386e
     normalized_title: Вежбе
-    src: 113_Vezbe.rst
+    src: 115_Vezbe.rst
     title: Вежбе
     type: reading
   - description: ''
-    file: 114_Kviz.html
+    file: 116_Kviz.html
     guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
     normalized_title: Квиз
-    src: 114_Kviz.rst
+    src: 116_Kviz.rst
     title: Квиз
-    type: quiz
+    type: reading
   archived-activities: []
   description: ''
   folder: 1_Rad sa tekstom
@@ -205,7 +177,7 @@ lessons:
     normalized_title: Квиз
     src: 24_Kviz.rst
     title: Квиз
-    type: quiz
+    type: reading
   archived-activities: []
   description: ''
   folder: 2_Slika i tekst
@@ -233,6 +205,13 @@ lessons:
     normalized_title: Није све што пронађеш твоје
     src: 33_Eticko_koriscenje.rst
     title: Није све што пронађеш твоје
+    type: reading
+  - description: ''
+    file: 34_Kviz.html
+    guid: 214e681f-56b1-4503-bad5-c65c6e66a157
+    normalized_title: Квиз
+    src: 34_Kviz.rst
+    title: Квиз
     type: reading
   archived-activities: []
   description: ''

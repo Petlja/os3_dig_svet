@@ -2,6 +2,7 @@
 function WrappingBlicky(){
 var ScrollDebounce = {};
 var ScrollDebounceLog = {};
+var resetInterpreter = {};
 $(document).ready(function () {
   var errorText = {};
 
@@ -100,6 +101,25 @@ $(document).ready(function () {
         },
       ]
     },
+    'KarelStraightLineCommands' : {
+      "kind": "category",
+      "name": "Наредбе роботу",
+      "colour": 295,
+      "contents": [
+        {
+          "kind": "block",
+          "type": "move",
+        },
+        {
+          "kind": "block",
+          "type": "move_back",
+        },
+        {
+          "kind": "block",
+          "type": "pick_up"
+        },
+      ]
+    },
     'KarelBrain' :{
       "kind": "category",
       "name": "Питај робота",
@@ -130,12 +150,12 @@ $(document).ready(function () {
     'Values':{
       "kind": "category",
       "name": "Вредности",
-      "colour": 110,
+      "colour": 250,
       "contents": [    
         {
           "kind": "block",
           "type": "math_number",
-        },   
+        },    
       ]
     },
     'Branching':    {
@@ -168,6 +188,12 @@ $(document).ready(function () {
         },
       ]
     },
+    'Vars': {
+        "kind": "category",
+        "colour": 310,
+        "name": "Променљиве",
+        "custom": "VARIABLE" ,
+    },
     'Loops': {
       "kind" : "category",
       "name" : "Петље",
@@ -178,9 +204,13 @@ $(document).ready(function () {
           "type" : "controls_repeat"
         },
         {
+          "kind": "block",
+          "type": "controls_repeat_ext",
+        },
+        {
           "kind" : "block",
           "type" : "controls_whileUntil"
-        }
+        },
       ]
     },
     'KarelLoops':    {
@@ -197,7 +227,7 @@ $(document).ready(function () {
     'Logic': {
       "kind": "category",
       "name": "Логички оператори",
-      "colour": 240,
+      "colour": 220,
       "contents": [
         {
           "kind": "block",
@@ -216,7 +246,7 @@ $(document).ready(function () {
     'Arithmetic': {
       "kind": "category",
       "name": "Аритметикa",
-      "colour": 270,
+      "colour": 215,
       "contents": [
         {
           "kind": "block",
@@ -231,7 +261,7 @@ $(document).ready(function () {
     'KarelSays': {
       "kind": "category",
       "name": "Поруке роботу",
-      "colour": 290,
+      "colour": 245,
       "contents": [
         {
         "kind": "block",
@@ -239,8 +269,27 @@ $(document).ready(function () {
         },
       ]
     },
+    'AskUser':{
+      "kind": "category",
+      "name": "Помози роботу",
+      "colour": 290,
+      "contents": [
+        {
+          "kind": "block",
+          "type": "number_prompt",
+        }
+      ]
+    }
   }
 
+  const startBlocks = {
+    "variables": [
+      {
+        "name": "x",
+        "id": "x"
+      }
+    ]
+  };
 
   $('[data-component=blocklyKarel]').each(function (index) {
     var toolboxType = "";
@@ -277,14 +326,16 @@ $(document).ready(function () {
       toolbox.contents.push(categories[categoriesFilter[i]]);
     }
     var workspace = Blockly.inject(karelConfigDiv, { toolbox:  toolbox, trashcan: true});
+    Blockly.serialization.workspaces.load(startBlocks, workspace);
 
     var setup = config.setup();
     if(setup.hasOwnProperty('domXml')){
       var domXml = setup.domXml;
       Blockly.Xml.domToWorkspace(workspace,Blockly.Xml.textToDom(domXml))
     }
-    ScrollDebounce[workspace.id] = true
-   
+    ScrollDebounce[workspace.id] = true;
+    resetInterpreter[workspace.id] = false;
+
     var robot = setup.robot;
     var world = setup.world;
     var node = this.querySelector(".chat-window");
@@ -309,6 +360,11 @@ $(document).ready(function () {
         drawer.drawFrame(robot.clone());
       };
       interpreter.setProperty(globalObject, 'move_forward', interpreter.createNativeFunction(wrapper));
+      wrapper = function () {
+        robot.moveBack();
+        drawer.drawFrame(robot.clone());
+      };
+      interpreter.setProperty(globalObject, 'move_backward', interpreter.createNativeFunction(wrapper));
       wrapper = function () {
         robot.turnLeft();
         drawer.drawFrame(robot.clone());
@@ -381,7 +437,7 @@ $(document).ready(function () {
       drawer.start()
       function nextStep() {
         try {
-          if (myInterpreter.step()) {
+          if (myInterpreter.step() && !resetInterpreter[workspace.id]) {
             setTimeout(nextStep, 65);
           }
           else {
@@ -390,8 +446,11 @@ $(document).ready(function () {
             if (result) {
               showEndMessageSuccess();
             } else {
-              showEndMessageError($.i18n("msg_karel_incorrect"));
+              if(!resetInterpreter[workspace.id])
+                showEndMessageError($.i18n("msg_karel_incorrect"));
             }
+            if(resetInterpreter[workspace.id])
+              resetInterpreter[workspace.id] = false
           }
         }
         catch (err) {
@@ -416,6 +475,7 @@ $(document).ready(function () {
 
     karelCongrolosDiv.querySelector(".reset-button").addEventListener("click",function () {
       workspace.getAllBlocks().forEach( a => a.setHighlighted(!1));
+      resetInterpreter[workspace.id] = true;
       clearError();
       reset();
     });
