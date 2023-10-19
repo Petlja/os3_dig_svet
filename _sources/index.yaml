@@ -41,7 +41,6 @@ description:
     - text: Runestone Interactive
       href: https://github.com/RunestoneInteractive/overview
 
-
 lessons:
   - title: Увод
     guid: 357c4b51-d39d-48b4-9ff2-9a2d1837c7b1
@@ -51,7 +50,6 @@ lessons:
         title: Добродошао у дигитални свет
         file: Uvod.rst 
         guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
-
   - title: 1. Рад са текстом
     guid: 7c02ae23-fe80-4e70-9dc1-4fda6f7b2225
     folder: 1_Rad sa tekstom
@@ -100,6 +98,12 @@ lessons:
         title: Квиз 
         file: 116_Kviz.rst
         guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
+    archived-activities:
+      - guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
+      - guid: c4364172-87e9-4c1b-b47e-406e8c9ca2b7
+      - guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
+      - guid: f969c055-8ad8-45b0-b3c1-b8ed4c8586d1
+      - guid: d139c33e-83eb-4fc1-b567-bec424b3f952
   - title: 2. Слика и текст
     guid: 1d158702-f3df-4be1-96be-8c99139363c6
     folder: 2_Slika i tekst
@@ -164,18 +168,18 @@ lessons:
         title: Усклађеност дигиталних садржаја са узрастом корисника
         file: 52_Uskladjenost sa uzrastom.rst 
         guid: 93ce462d-dcb3-4fae-80ae-92f991e30cad
- #     - type: reading
- #       title: Дигитално насиље
- #       file: 53_Digitalno nasilje.rst 
- #       guid: 882b8702-b58c-469c-bb76-1bd71b751fd6        
- #     - type: reading
- #       title: Примерена комуникација у дигиталном окружењу
- #       file: 54_Primerena komunikacija.rst 
- #       guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
- #     - type: reading
- #       title: Израда личног плана коришћења дигиталних уређаја
- #       file: 55_Izrada licnog plana.rst 
- #       guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
+  #    - type: reading
+  #      title: Дигитално насиље
+  #      file: 53_Digitalno nasilje.rst 
+  #      guid: 882b8702-b58c-469c-bb76-1bd71b751fd6        
+  #    - type: reading
+  #      title: Примерена комуникација у дигиталном окружењу
+  #      file: 54_Primerena komunikacija.rst 
+  #      guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
+  #    - type: reading
+  #      title: Израда личног плана коришћења дигиталних уређаја
+  #      file: 55_Izrada licnog plana.rst 
+  #      guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
   - title: 6. Алгоритамски начин размишљања
     guid: 86146f06-88c7-4b4c-be22-acc5d0350392
     folder: 6_Algoritamski nacin razmisljanja

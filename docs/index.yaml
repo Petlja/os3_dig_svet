@@ -143,7 +143,12 @@ lessons:
     src: 116_Kviz.rst
     title: Квиз
     type: reading
-  archived-activities: []
+  archived-activities:
+  - guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
+  - guid: c4364172-87e9-4c1b-b47e-406e8c9ca2b7
+  - guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
+  - guid: f969c055-8ad8-45b0-b3c1-b8ed4c8586d1
+  - guid: d139c33e-83eb-4fc1-b567-bec424b3f952
   description: ''
   folder: 1_Rad sa tekstom
   guid: 7c02ae23-fe80-4e70-9dc1-4fda6f7b2225
