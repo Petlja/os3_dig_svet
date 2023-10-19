@@ -14,10 +14,10 @@
 
     .. mchoice:: Pitanje_32
         :multiple_answers:
-        :answer_a: Хром (*Chrome*)
+        :answer_a: Хром (Chrome)
         :answer_b: Бинг
-        :answer_c: Фајерфокс (*Firefox*)
-        :answer_d: Офис (*Office*)
+        :answer_c: Фајерфокс (Firefox)
+        :answer_d: Офис (Office)
         :correct: a, c
 
         Означи квадратиће испред назива веб-прегледача:
@@ -26,10 +26,10 @@
 
     .. mchoice:: Pitanje_33
         :multiple_answers:
-        :answer_a: Хром (*Chrome*)
+        :answer_a: Хром (Chrome)
         :answer_b: Бинг
-        :answer_c: Фајерфокс (*Firefox*)
-        :answer_d: Гугл (*Google*)
+        :answer_c: Фајерфокс (Firefox)
+        :answer_d: Гугл (Google)
         :correct: b, d
 
         Означи квадратиће испред назива веб-претраживача:
