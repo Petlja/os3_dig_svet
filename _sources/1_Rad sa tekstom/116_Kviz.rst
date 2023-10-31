@@ -1,9 +1,7 @@
 Квиз
 ====
 
-.. quizq::
-
-    .. mchoice:: Pitanje_11
+.. mchoice:: Pitanje_11
         :answer_a: File, па затим на Open.
         :answer_b: Home, па затим на Save.
         :answer_c: File, па затим на New.
@@ -11,18 +9,14 @@
 
         Када отвараш већ постојећи документ кликнућеш на:
 
-.. quizq::
-
-    .. mchoice:: Pitanje_12
+.. mchoice:: Pitanje_12
         :answer_a: Да
         :answer_b: Не 
         :correct: b
 		
         Сваки пут када снимаш документ треба да изабереш различито име.
 		
-.. quizq::
-
-    .. mchoice:: Pitanje_13
+.. mchoice:: Pitanje_13
 		:multiple_answers:
         :answer_a: Влада иде у трећи разред.Он је одличан ученик.
         :answer_b: Хвала ти, Иво! То је баш лепо од тебе!
@@ -32,9 +26,7 @@
 
         Означи правилно укуцане реченице:
 		
-.. quizq::
-
-    .. mchoice:: Pitanje_14
+.. mchoice:: Pitanje_14
 	    :multiple_answers:
         :answer_a: Притиснеш истовремено тастер Shift и слово које желиш да унесеш.
         :answer_b: Унесеш жељено слово, а затим притиснеш Enter.
@@ -45,9 +37,7 @@
         Означи начине на које можеш да уносиш велика слова у документ:
 	
 	
-.. quizq::
-
-    .. mchoice:: Pitanje_15
+.. mchoice:: Pitanje_15
         :answer_a: Ctrl
         :answer_b: Shift
         :answer_c: Space
@@ -68,9 +58,7 @@
 		- :^\s*виртуелна|virtuelna|виртуална|virtualna\s*$: Одговор је тачан.
 		  :x: Одговор није тачан.
 
-.. quizq::
-
-    .. mchoice:: Pitanje_17
+.. mchoice:: Pitanje_17
         :answer_a: коса линија која „блинка“.
         :answer_b: вертикална црвена линија.
         :answer_c: вертикална линија која „блинка“.
@@ -79,9 +67,7 @@
 
         Курсор показује место у документу на које ће бити постављен текст који укуцаш. Приказан је као:
 				
-.. quizq::
-
-    .. mchoice:: Pitanje_18
+.. mchoice:: Pitanje_18
         :answer_a: Ctrl + V
         :answer_b: Ctrl + R
         :answer_c: Ctrl + A
@@ -90,9 +76,7 @@
 
         Коју комбинацију тастера користиш када желиш да селектујеш све што је написано у документу?
 		
-.. quizq::
-
-    .. mchoice:: Pitanje_19
+.. mchoice:: Pitanje_19
         :answer_a: Del
         :answer_b: Alt
         :answer_c: Shft 

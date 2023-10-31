@@ -1,27 +1,21 @@
 Квиз
 ====
 
-.. quizq::
-
-    .. mchoice:: Pitanje_21
+.. mchoice:: Pitanje_21
         :answer_a: Да
         :answer_b: Не
         :correct: a
 
         Да ли у Бојанци постоји могућност да додаш текст на слику?
 
-.. quizq::
-
-    .. mchoice:: Pitanje_22
+.. mchoice:: Pitanje_22
         :answer_a: Opaque
         :answer_b: Transparent 
         :correct: b
 		
         Позадина текста који уносиш биће провидна ако кликнеш на:
 		
-.. quizq::
-
-    .. mchoice:: Pitanje_23
+.. mchoice:: Pitanje_23
         :answer_a: U
         :answer_b: I
         :answer_c: B
@@ -29,9 +23,7 @@
 
         Да би слова била укошена, кликнућеш на дугменце са ознаком:
 		
-.. quizq::
-
-    .. mchoice:: Pitanje_24
+.. mchoice:: Pitanje_24
 	    :multiple_answers:
         :answer_a: Изабереш боју позадине текста.
         :answer_b: Изабереш боју текста.
@@ -41,9 +33,7 @@
         Када уносиш текст, дугменце са ознаком *Color 1* служи да:
 	
 	
-.. quizq::
-
-    .. mchoice:: Pitanje_25
+.. mchoice:: Pitanje_25
         :answer_a: Да
         :answer_b: Не
         :correct: a
@@ -53,18 +43,14 @@
         Текст ћеш моћи да поставиш и промениш му боју и облик слова тек када кликнеш на место на папиру где треба да буде постављен текст.
 		
 
-.. quizq::
-
-    .. mchoice:: Pitanje_26
+.. mchoice:: Pitanje_26
         :answer_a: Да
         :answer_b: Не
         :correct: a
 
         Да ли на слику можеш да додаш бројеве?
 				
-.. quizq::
-
-    .. mchoice:: Pitanje_27
+.. mchoice:: Pitanje_27
         :answer_a: Да, што је прозор већи, и слова која укуцавам биће већа.
         :answer_b: Да, слова ће постати подебљана и већа.
         :answer_c: Не, величина слова остаће како је претходно подешена и може да се промени само ако селектујемо текст и изаберемо величину слова у оквиру са бројем.
