@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Условне петље</title>
+    <title>Квиз</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
@@ -351,258 +351,166 @@
     <div id="main-content">
     
   <section id="id1">
-<h1>Условне петље<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h1>
-<p>Кроз претходне примере објашњено је како се користе петље у програму. Уочиш наредбу (или групу наредби)
-која се понавља одређени број пута и ставиш у одговарајући блок. А шта да радиш ако видиш да се неке наредбе понављају, а не знаш унапред колико пута
-треба то да се понови?</p>
-<p>Вратимо се на пример с почетка - не знаш унапред број корака до продавнице или ти родитељи кажу да купиш све кифле
-које се налазе на полици?</p>
-<p>Упутство би могло да гласи „Иди право све до раскрснице“ или „Узимај кифле све док их има на полици“.</p>
-<p>У програму се за овакве проблеме користе <strong>условне петље</strong>. Оне у себи садрже услов и њихове наредбе се извршавају
-све док је тај <strong>услов испуњен</strong>.</p>
+<h1>Квиз<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h1>
 
-    <div class="note-wrapper infonote-type">
-        <div class="note-icon-holder"> </div>
-        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
-        <div class="course-content">
+    <div class="quiz-question">
+<a class="reference internal image-reference" href="../_images/pegi_12f.png"><img alt="../_images/pegi_12f.png" class="align-center" src="../_images/pegi_12f.png" style="width: 150px;" /></a>
+
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="false" data-hidelabels="false"  id="Pitanje_51">
+            <p>Q-22: ПЕГИ ознакe приказанe на слици значe да je:</p>
+
+            <li data-component="answer"  id="Pitanje_51_opt_a">игрица намењена за децу млађу од 12 година и да ћеш наићи на пауке.</li><li data-component="feedback" id="Pitanje_51_opt_a"></li>
             
-<p>Када није унапред познато колико пута наредба (или група наредби) треба да се понови, у програму се користе
-<strong>условне петље</strong>.</p>
+            <li data-component="answer" data-correct id="Pitanje_51_opt_b">игрица намењена за децу старију од 12 година и може да садржи слике које могу да буду узнемирујуће.</li><li data-component="feedback" id="Pitanje_51_opt_b"></li>
+            
+            <li data-component="answer"  id="Pitanje_51_opt_c">игрица има 12 различитих нивоа</li><li data-component="feedback" id="Pitanje_51_opt_c"></li>
+            
+            <li data-component="answer"  id="Pitanje_51_opt_d">игрицу може да игра 12 играча, а ликови су неки инсекти</li><li data-component="feedback" id="Pitanje_51_opt_d"></li>
+            
 
-    </div></div>
-<p><strong>Услов</strong> у оваквој петљи је неки израз чија вредност може бити <strong>тачно</strong> или <strong>нетачно</strong>.
-Наредбе које се у њој налазе извршаваће се све док услов има вредност тачно. Често је овај услов <strong>неки математички
-израз са поређењем (&gt;, &lt;, =)</strong>.</p>
-<p>У различитим примерима понудићемо ти различите групе блокова. За бројачку петљу смо до сада користили блок из групе
-<code class="docutils literal notranslate"><span class="pre">Петља</span></code> . У истој овој групи се налази и блок за условну петљу. Кликни на групу <code class="docutils literal notranslate"><span class="pre">Петље</span></code> и превуци блок <code class="docutils literal notranslate"><span class="pre">понављати</span> <span class="pre">док</span> <span class="pre">/</span> <span class="pre">изврши</span></code>
-у простор за слагање!</p>
-<section id="id2">
-<h2>Пример<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
-<p>Карел треба да сакупи све лоптице са гомиле!</p>
-
-<div  style="height: auto;display: flex;justify-content: center;">
-    <div class="course-box course-box-problem karel-blockly-wrapper">
-        <div class="karel-ui">
-            <div data-childcomponent="karel_p4" class="karel_section">
-                <div class="course-content">
-                    <div data-component="blocklyKarel" id="karel_p4" class="karel_section" >
-                        <div style="overflow: hidden;" class="karel_actions col-md-12">
-                            <section class="col-md-12">
-                                <article>
-                                    <textarea class="configArea" style="display:none"><!--x {
-    setup: function() {
-         var world = new World(5, 5);
-         world.setRobotStartAvenue(3);
-         world.setRobotStartStreet(1);
-         world.setRobotStartDirection("E");
-         world.putBalls(4, 1, 5);
-         var robot = new Robot();
-         return {world: world, robot: robot};
-    },
-
-    isSuccess: function(robot, world) {
-     return robot.getBalls() == 5
-    }
- } x--></textarea>
-                                </article>
-                            </section>
-                            <section class="col-md-12">
-                                <article>
-                                    <canvas class="world"
-                                        style="border-style: solid; border-width: 2px; border-color: inherit; "
-                                        width="300" height="300">
-                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
-                                            versions
-                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
-                                            HTML5.
-                                        </p>
-                                    </canvas>
-                                </article>
-                            </section>
-                        </div>
-                        <div>
-                            <div class="karel_actions col-md-12 mb-2">
-                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
-                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
-                                
-                            </div>
-                        </div>
-                        <section class="col-md-12">
-                            <div class="chat-window" style="display: none">
-                            </div>
-                        </section>
-                    </div>
-                </div>
+            </ul>
             </div>
-        </div>
-        <div class="blockly-ui">
-            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
-                data-categories='["KarelCommands", "KarelBrain", "Loops"]'></div>
-        </div>
+            
     </div>
-</div>
 
+    <div class="quiz-question">
 
-<p>Као што је био случај са блоком за бројачку петљу, ни овај (тако сам) не ради ништа. Треба Карелу да објаснимо две ствари:</p>
-<ul class="simple">
-<li><p>шта треба да ради</p></li>
-<li><p>до када треба то да ради</p></li>
-</ul>
-<p>Кликни сада на групу <code class="docutils literal notranslate"><span class="pre">Питај</span> <span class="pre">робота</span></code>. И са њом се први пут срећеш. Погледај који се блокови у њој налазе.</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">постоји</span> <span class="pre">лоптица</span></code> - проверава да ли на гомили има лоптица</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">робот</span> <span class="pre">може</span> <span class="pre">напред</span></code> - проверава да ли је робот наишао на зид</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">робот</span> <span class="pre">има</span> <span class="pre">лоптицу</span></code> - проверава ли робот има лоптицу код себе</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">колико</span> <span class="pre">лоптица</span> <span class="pre">има</span> <span class="pre">робот</span></code> - враћа број лоптица које има робот</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">колико</span> <span class="pre">лоптица</span> <span class="pre">има</span> <span class="pre">на</span> <span class="pre">пољу</span></code> - враћа број лоптица које се налазе на пољу</p></li>
-</ul>
-<p>Примети да <strong>прва три блока</strong> враћају одговоре типа „да“ или „не“, односно <code class="docutils literal notranslate"><span class="pre">тачно</span></code> или <code class="docutils literal notranslate"><span class="pre">нетачно</span></code>. Последња два враћају број који
-се користи за прављење неких других израза (који такође треба да врате тачно или нетачно).</p>
-<p>Претпоставимо да желиш да Карел узима лоптице све док их има на гомили. Како би то урадио?
-У блок поред <code class="docutils literal notranslate"><span class="pre">понављати</span> <span class="pre">док</span></code> превуци услов <code class="docutils literal notranslate"><span class="pre">постоји</span> <span class="pre">лоптица</span></code>, а у део <code class="docutils literal notranslate"><span class="pre">изврши</span></code> наредбу <code class="docutils literal notranslate"><span class="pre">узми</span></code>.
-Испред овако састављеног блока додај блок <code class="docutils literal notranslate"><span class="pre">корак</span> <span class="pre">напред</span></code>, покрени програм и прати шта се дешава.</p>
-</section>
-<section id="id3">
-<h2>Задатак 10<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h2>
-<p><strong>Карел треба да прави корак напред и узме лоптицу са поља све док не наиђе на зид! Сaстави блокове баш по овом упутству!</strong></p>
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="false" data-hidelabels="false"  id="p52">
+            <p>Q-23: Шта треба да урадиш ако наиђеш на неки непримерен садржај на интернету?</p>
 
-<div  style="height: auto;display: flex;justify-content: center;">
-    <div class="course-box course-box-problem karel-blockly-wrapper">
-        <div class="karel-ui">
-            <div data-childcomponent="karel_z10" class="karel_section">
-                <div class="course-content">
-                    <div data-component="blocklyKarel" id="karel_z10" class="karel_section" >
-                        <div style="overflow: hidden;" class="karel_actions col-md-12">
-                            <section class="col-md-12">
-                                <article>
-                                    <textarea class="configArea" style="display:none"><!--x {
-    setup: function() {
-         var world = new World(6, 6);
-         world.setRobotStartAvenue(1);
-         world.setRobotStartStreet(1);
-         world.setRobotStartDirection("E");
-                 for (var i = 2; i &lt;= world.getAvenues(); i++)
-         world.putBall(i, 1);
-         var robot = new Robot();
-         return {world: world, robot: robot};
-    },
+            <li data-component="answer"  id="p52_opt_a">Делиш га са својим пријатељима.</li><li data-component="feedback" id="p52_opt_a"></li>
+            
+            <li data-component="answer" data-correct id="p52_opt_b">Обавестиш родитеље, старатеље или наставника.</li><li data-component="feedback" id="p52_opt_b"></li>
+            
+            <li data-component="answer"  id="p52_opt_c">Игноришеш га и настављаш са прегледањем.</li><li data-component="feedback" id="p52_opt_c"></li>
+            
+            <li data-component="answer"  id="p52_opt_d">Додаш коментаре на тај садржај.</li><li data-component="feedback" id="p52_opt_d"></li>
+            
 
-    isSuccess: function(robot, world) {
-     return robot.getBalls() == 5
-    }
- } x--></textarea>
-                                </article>
-                            </section>
-                            <section class="col-md-12">
-                                <article>
-                                    <canvas class="world"
-                                        style="border-style: solid; border-width: 2px; border-color: inherit; "
-                                        width="300" height="300">
-                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
-                                            versions
-                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
-                                            HTML5.
-                                        </p>
-                                    </canvas>
-                                </article>
-                            </section>
-                        </div>
-                        <div>
-                            <div class="karel_actions col-md-12 mb-2">
-                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
-                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
-                                
-                            </div>
-                        </div>
-                        <section class="col-md-12">
-                            <div class="chat-window" style="display: none">
-                            </div>
-                        </section>
-                    </div>
-                </div>
+            </ul>
             </div>
-        </div>
-        <div class="blockly-ui">
-            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
-                data-categories='["KarelCommands", "KarelBrain", "Loops"]'></div>
-        </div>
+            
     </div>
-</div>
 
+    <div class="quiz-question">
 
-</section>
-<section id="id4">
-<h2>Задатак 11<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h2>
-<p><strong>Карел треба да сакупи све лоптице и убаци их у рупу!</strong></p>
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="false" data-hidelabels="false"  id="Pitanje_53">
+            <p>Q-24: Ако видиш да се другари неком ругају, шта ћеш да урадиш?</p>
 
-<div  style="height: auto;display: flex;justify-content: center;">
-    <div class="course-box course-box-problem karel-blockly-wrapper">
-        <div class="karel-ui">
-            <div data-childcomponent="karel_z11" class="karel_section">
-                <div class="course-content">
-                    <div data-component="blocklyKarel" id="karel_z11" class="karel_section" >
-                        <div style="overflow: hidden;" class="karel_actions col-md-12">
-                            <section class="col-md-12">
-                                <article>
-                                    <textarea class="configArea" style="display:none"><!--x {
-    setup: function() {
-         var world = new World(5, 5);
-         world.setRobotStartAvenue(3);
-         world.setRobotStartStreet(1);
-         world.setRobotStartDirection("S");
-         world.putBalls(1, 1, 5);
-                 world.putHoles(5, 1, 5);
-         var robot = new Robot();
-         return {world: world, robot: robot};
-    },
+            <li data-component="answer"  id="Pitanje_53_opt_a">Придружићу им се.</li><li data-component="feedback" id="Pitanje_53_opt_a"></li>
+            
+            <li data-component="answer"  id="Pitanje_53_opt_b">Не шале се на мој рачун, нећу да обраћам пажњу на то.</li><li data-component="feedback" id="Pitanje_53_opt_b"></li>
+            
+            <li data-component="answer" data-correct id="Pitanje_53_opt_c">Замолићу их да престану, а ако се то не деси, пријавићу учитељу или некој одраслој особи.</li><li data-component="feedback" id="Pitanje_53_opt_c"></li>
+            
 
-    isSuccess: function(robot, world) {
-     return (robot.getBalls() == 0 &&  world.getBalls(5, 1) == 0)
-    }
- } x--></textarea>
-                                </article>
-                            </section>
-                            <section class="col-md-12">
-                                <article>
-                                    <canvas class="world"
-                                        style="border-style: solid; border-width: 2px; border-color: inherit; "
-                                        width="300" height="300">
-                                        <p>Please try loading this page in HTML5 enabled web browsers. All the latest
-                                            versions
-                                            of famous browsers such as Internet explorer, Chrome, Firefox, Opera support
-                                            HTML5.
-                                        </p>
-                                    </canvas>
-                                </article>
-                            </section>
-                        </div>
-                        <div>
-                            <div class="karel_actions col-md-12 mb-2">
-                                <button class="btn btn-success run-button run-karel">Покрени програм</button>
-                                <button class="btn btn-default reset-button reset-karel">Врати на почетак</button>
-                                
-                            </div>
-                        </div>
-                        <section class="col-md-12">
-                            <div class="chat-window" style="display: none">
-                            </div>
-                        </section>
-                    </div>
-                </div>
+            </ul>
             </div>
-        </div>
-        <div class="blockly-ui">
-            <div id="blocklyKarelDiv" style="height: 550px;width: 640px;margin-top: 10px;"
-                data-categories='["KarelCommands", "KarelBrain", "Loops"]'></div>
-        </div>
+            
     </div>
-</div>
 
+    <div class="quiz-question">
 
-<p><strong>Помоћ</strong>: Карел треба да скрене десно, направи два корака, узима лоптице све док их има, окрене се полукружно, направи
-четири корака, оставља лоптице све док их има код себе.</p>
-<p>Да ли би решење које си саставио могло да одговара и за било који други број лоптица на гомили? У случају да си користио условне петље, одговор је да!</p>
-</section>
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="false" data-hidelabels="false"  id="Pitanje_54">
+            <p>Q-25: Да ли велики број лајкова увек значи и позитиван дигитални углед?</p>
+
+            <li data-component="answer" data-correct id="Pitanje_54_opt_a">Не.</li><li data-component="feedback" id="Pitanje_54_opt_a"></li>
+            
+            <li data-component="answer"  id="Pitanje_54_opt_b">Да.</li><li data-component="feedback" id="Pitanje_54_opt_b"></li>
+            
+
+            </ul>
+            </div>
+            
+    </div>
+
+    <div class="quiz-question">
+
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="true" data-hidelabels="false"  id="Pitanje_55">
+            <p>Q-26: Када комуницираш у дигиталном окружењу, пожељно је да:</p>
+
+            <li data-component="answer"  id="Pitanje_55_opt_a">шаљеш што више емотикона.</li><li data-component="feedback" id="Pitanje_55_opt_a"></li>
+            
+            <li data-component="answer" data-correct id="Pitanje_55_opt_b">пишеш јасне и конкретне поруке.</li><li data-component="feedback" id="Pitanje_55_opt_b"></li>
+            
+            <li data-component="answer"  id="Pitanje_55_opt_c">користиш скраћенице.</li><li data-component="feedback" id="Pitanje_55_opt_c"></li>
+            
+            <li data-component="answer" data-correct id="Pitanje_55_opt_d">водиш рачуна да не повредиш нечија осећања.</li><li data-component="feedback" id="Pitanje_55_opt_d"></li>
+            
+
+            </ul>
+            </div>
+            
+    </div>
+
+    <div class="quiz-question">
+
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="false" data-hidelabels="false"  id="Pitanje_56">
+            <p>Q-27: Број на ПЕГИ ознаци означава…</p>
+
+            <li data-component="answer" data-correct id="Pitanje_56_opt_a">да играње те игрице није препоручено за децу млађу од тог узраста.</li><li data-component="feedback" id="Pitanje_56_opt_a"></li>
+            
+            <li data-component="answer"  id="Pitanje_56_opt_b">да је игрица намењена за децу која су млађа од тог узраста.</li><li data-component="feedback" id="Pitanje_56_opt_b"></li>
+            
+            <li data-component="answer"  id="Pitanje_56_opt_c">број нивоа које има та игрица.</li><li data-component="feedback" id="Pitanje_56_opt_c"></li>
+            
+
+            </ul>
+            </div>
+            
+    </div>
+
+    <div class="quiz-question">
+
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="true" data-hidelabels="false"  id="Pitanje_57">
+            <p>Q-28: На твој дигитални углед утичу:</p>
+
+            <li data-component="answer" data-correct id="Pitanje_57_opt_a">слике и видео-записи које постављаш.</li><li data-component="feedback" id="Pitanje_57_opt_a"></li>
+            
+            <li data-component="answer" data-correct id="Pitanje_57_opt_b">коментари које остављаш на нечије снимке и записе.</li><li data-component="feedback" id="Pitanje_57_opt_b"></li>
+            
+            <li data-component="answer" data-correct id="Pitanje_57_opt_c">начин на који комуницираш путем порука или имејла.</li><li data-component="feedback" id="Pitanje_57_opt_c"></li>
+            
+
+            </ul>
+            </div>
+            
+    </div>
 </section>
 
 
@@ -610,7 +518,7 @@
     
     <div>
 <div class="lecture-prev-next-toggle">
-  <a  href="63_Brojacke%20petlje.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  <a  href="55_Izrada%20licnog%20plana.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
   
   <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
 </div>

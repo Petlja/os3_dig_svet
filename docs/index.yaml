@@ -143,12 +143,7 @@ lessons:
     src: 116_Kviz.rst
     title: Квиз
     type: reading
-  archived-activities:
-  - guid: b4d5fb91-dbb0-4b42-be13-7748fcef223c
-  - guid: c4364172-87e9-4c1b-b47e-406e8c9ca2b7
-  - guid: 38f011ef-0f02-4bc4-9c7d-6b28feb8c8bf
-  - guid: f969c055-8ad8-45b0-b3c1-b8ed4c8586d1
-  - guid: d139c33e-83eb-4fc1-b567-bec424b3f952
+  archived-activities: []
   description: ''
   folder: 1_Rad sa tekstom
   guid: 7c02ae23-fe80-4e70-9dc1-4fda6f7b2225
@@ -247,11 +242,46 @@ lessons:
   title: 4. Дигитализација
 - activities:
   - description: ''
+    file: 51_Digitalni ugled.html
+    guid: fd04fb80-8af9-47b1-b93b-0600363cc01c
+    normalized_title: Дигитални углед
+    src: 51_Digitalni ugled.rst
+    title: Дигитални углед
+    type: reading
+  - description: ''
     file: 52_Uskladjenost sa uzrastom.html
     guid: 93ce462d-dcb3-4fae-80ae-92f991e30cad
     normalized_title: Усклађеност дигиталних садржаја са узрастом корисника
     src: 52_Uskladjenost sa uzrastom.rst
     title: Усклађеност дигиталних садржаја са узрастом корисника
+    type: reading
+  - description: ''
+    file: 53_Digitalno nasilje.html
+    guid: 882b8702-b58c-469c-bb76-1bd71b751fd6
+    normalized_title: Дигитално насиље
+    src: 53_Digitalno nasilje.rst
+    title: Дигитално насиље
+    type: reading
+  - description: ''
+    file: 54_Primerena komunikacija.html
+    guid: 4bfa8b3f-ba69-4939-8a4d-e2f0480eaee7
+    normalized_title: Примерена комуникација у дигиталном окружењу
+    src: 54_Primerena komunikacija.rst
+    title: Примерена комуникација у дигиталном окружењу
+    type: reading
+  - description: ''
+    file: 55_Izrada licnog plana.html
+    guid: 4625a476-d5b3-4047-a83f-dfb46482aba8
+    normalized_title: Израда личног плана коришћења дигиталних уређаја
+    src: 55_Izrada licnog plana.rst
+    title: Израда личног плана коришћења дигиталних уређаја
+    type: reading
+  - description: ''
+    file: 56_Kviz.html
+    guid: ea9f423b-52d0-40d4-a0dd-827e0a214bc3
+    normalized_title: Квиз
+    src: 56_Kviz.rst
+    title: Квиз
     type: reading
   archived-activities: []
   description: ''
