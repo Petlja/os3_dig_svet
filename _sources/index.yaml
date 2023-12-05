@@ -98,8 +98,6 @@ lessons:
         title: Квиз 
         file: 116_Kviz.rst
         guid: 3313418f-8071-472f-99f1-d60cf394315a
-    archived-activities:
-      - guid: b4c2b4a9-4628-4052-bb9a-d6876d6ac712
   - title: 2. Слика и текст
     guid: 1d158702-f3df-4be1-96be-8c99139363c6
     folder: 2_Slika i tekst
@@ -120,8 +118,6 @@ lessons:
         title: Квиз
         file: 24_Kviz.rst
         guid: a009b186-065c-4ddf-8af1-49dca44ba9d1
-    archived-activities:
-      - guid: 01bbd2ee-8451-4780-a276-6a1cf0f1febf
   - title: 3. Садржаји на интернету
     guid: 1380350a-6914-48c7-bd8e-09f9efb071e9
     folder: 3_Sadrzaji
